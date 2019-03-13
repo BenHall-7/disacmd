@@ -16,32 +16,21 @@ namespace ACMD
             set { Scripts = new ACMDScript[value]; }
         }
         int UnkCount { get; set; }
-
+        
+        private static bool IsStaticDataInit { get; set; }
         public static Dictionary<uint, CmdDataCollection> CmdData { get; }
 
         public ACMDScript[] Scripts { get; set; }
 
         static ACMDFile()
         {
-            XmlDocument xml = new XmlDocument();
+            IsStaticDataInit = false;
             CmdData = new Dictionary<uint, CmdDataCollection>();
-
-            xml.Load("ACMD.xml");
-            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Command"))
-            {
-                uint crc = uint.Parse(xe.Attributes["CRC32"].Value.Substring(2), NumberStyles.HexNumber);
-                int size = int.Parse(xe.Attributes["Size"].Value);
-                CmdData.Add(crc, new CmdDataCollection(xe.ChildNodes, size));
-            }
-            //enums
-            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Enum"))
-            {
-
-            }
         }
 
         public ACMDFile(string filename)
         {
+            if (!IsStaticDataInit)
             using (ACMDReader reader = new ACMDReader(File.OpenRead(filename)))
             {
                 for (int i = 0; i < Magic.Length; i++)
@@ -61,6 +50,24 @@ namespace ACMD
                     Scripts[i] = new ACMDScript(crc32, reader);
                 }
             }
+        }
+
+        private void InitStatic()
+        {
+            XmlDocument xml = new XmlDocument();
+            xml.Load("ACMD.xml");
+            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Command"))
+            {
+                uint crc = uint.Parse(xe.Attributes["CRC32"].Value.Substring(2), NumberStyles.HexNumber);
+                int size = int.Parse(xe.Attributes["Size"].Value);
+                CmdData.Add(crc, new CmdDataCollection(xe.ChildNodes, size));
+            }
+            //TODO: enums
+            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Enum"))
+            {
+
+            }
+            IsStaticDataInit = true;
         }
     }
 }
