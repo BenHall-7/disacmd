@@ -52,7 +52,7 @@ namespace ACMD
             }
         }
 
-        private void InitStatic()
+        public void InitStatic()
         {
             XmlDocument xml = new XmlDocument();
             xml.Load("ACMD.xml");
