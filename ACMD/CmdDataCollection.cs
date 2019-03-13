@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Xml;
-using System.Text;
 
 namespace ACMD
 {
@@ -23,17 +21,12 @@ namespace ACMD
                 if (child.Name == "Name")
                 {
                     Name = child.InnerText;
-                    if (Name == "Float_Compare")
-                    {
-
-                    }
                 }
                 else if (child.Name == "Arg")
                 {
                     int index = int.Parse(child.Attributes["ID"].Value);
                     Args[index] = child;
                 }
-                Console.WriteLine(Name);
             }
         }
     }
