@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "disacmd", "disacmd\disacmd.csproj", "{EF7CE17E-CA90-48CE-91FB-2243DCC13BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACMD", "ACMD\ACMD.csproj", "{08E171D7-910F-48A0-B88C-8CBF069C24DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF7CE17E-CA90-48CE-91FB-2243DCC13BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7CE17E-CA90-48CE-91FB-2243DCC13BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7CE17E-CA90-48CE-91FB-2243DCC13BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7CE17E-CA90-48CE-91FB-2243DCC13BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E171D7-910F-48A0-B88C-8CBF069C24DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E171D7-910F-48A0-B88C-8CBF069C24DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E171D7-910F-48A0-B88C-8CBF069C24DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E171D7-910F-48A0-B88C-8CBF069C24DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DC03411-0867-4E44-BB03-E3C5D8B7BF96}
+	EndGlobalSection
+EndGlobal
