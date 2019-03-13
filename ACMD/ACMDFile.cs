@@ -25,6 +25,8 @@ namespace ACMD
         static ACMDFile()
         {
             XmlDocument xml = new XmlDocument();
+            CmdData = new Dictionary<uint, CmdDataCollection>();
+
             xml.Load("ACMD.xml");
             foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Command"))
             {
@@ -41,7 +43,7 @@ namespace ACMD
 
         public ACMDFile(string filename)
         {
-            using (BinaryReader reader = new BinaryReader(File.OpenRead(filename)))
+            using (ACMDReader reader = new ACMDReader(File.OpenRead(filename)))
             {
                 for (int i = 0; i < Magic.Length; i++)
                     if (reader.ReadByte() != Magic[i])
@@ -53,7 +55,11 @@ namespace ACMD
                 var tableOffset = reader.BaseStream.Position;
                 for (int i = 0; i < Scripts.Length; i++)
                 {
-                    //TODO: open the scripts :)
+                    reader.BaseStream.Position = tableOffset + 8 * i;
+                    uint crc32 = reader.ReadUInt32();
+                    uint offset = reader.ReadUInt32();
+                    reader.BaseStream.Position = offset;
+                    Scripts[i] = new ACMDScript(crc32, reader);
                 }
             }
         }
