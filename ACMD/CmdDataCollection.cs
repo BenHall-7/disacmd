@@ -5,13 +5,30 @@ using System.Text;
 
 namespace ACMD
 {
-    public class CmdDataCollection : Dictionary<DataCollectionKey, object>
+    public class CmdDataCollection
     {
-        public int CmdSize { get; set; }//required
+        public int CmdSize { get; }
+        public string Name { get; }
+        public XmlElement[] Args { get; }
 
-        public CmdDataCollection(XmlElement cmdNode) : base()
+        public CmdDataCollection(XmlNodeList childElements, int cmdSize)
         {
-            CmdSize = int.Parse(cmdNode.Attributes["Size"].Value);
+            CmdSize = cmdSize;
+            Args = new XmlElement[CmdSize];
+            
+            for (int i = 0; i < childElements.Count; i++)
+            {
+                XmlElement child = childElements[i] as XmlElement;
+                if (child.Name == "Name")
+                {
+                    Name = child.InnerText;
+                }
+                else if (child.Name == "Arg")
+                {
+                    int index = int.Parse(child.Attributes["ID"].Value);
+                    Args[index] = child;
+                }
+            }
         }
     }
 }

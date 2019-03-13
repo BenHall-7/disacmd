@@ -28,11 +28,15 @@ namespace ACMD
             xml.Load("ACMD.xml");
             foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Command"))
             {
-                CmdData.Add(
-                    uint.Parse(xe.Attributes["CRC32"].Value.Substring(2), NumberStyles.HexNumber),
-                    new CmdDataCollection(xe));
+                uint crc = uint.Parse(xe.Attributes["CRC32"].Value.Substring(2), NumberStyles.HexNumber);
+                int size = int.Parse(xe.Attributes["Size"].Value);
+                CmdData.Add(crc, new CmdDataCollection(xe.ChildNodes, size));
             }
             //enums
+            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Enum"))
+            {
+
+            }
         }
 
         public ACMDFile(string filename)

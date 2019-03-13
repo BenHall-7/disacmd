@@ -581,16 +581,32 @@
   <Command CRC32="0xc026eec4" Size="02">
     <Name>EXECUTE</Name>
   </Command>
-  <Command CRC32="0x34bcd3f7" Size="04" />
+  <Command CRC32="0x34bcd3f7" Size="04">
+    <Name>Float_Compare</Name>
+    <!--arg 0 needs an enum-->
+    <Arg ID="1" Type="COMPARE_FUNC"/>
+    <Arg ID="2" Type="float"/>
+  </Command>
   <Command CRC32="0x5961371c" Size="04" />
   <Command CRC32="0x2e66078a" Size="04" />
-  <Command CRC32="0x2da7e2b6" Size="04" />
+  <Command CRC32="0x2da7e2b6" Size="04">
+    <Name>Float_Var_Compare</Name>
+    <Arg ID="1" Type="COMPARE_FUNC"/>
+    <Arg ID="2" Type="float"/>
+  </Command>
   <Command CRC32="0x407a065d" Size="04" />
   <Command CRC32="0x377d36cb" Size="04" />
-  <Command CRC32="0x5e6c3483" Size="04" />
+  <Command CRC32="0x5e6c3483" Size="04">
+    <Name>Int_Compare</Name>
+    <!--arg 0 needs an enum-->
+    <Arg ID="1" Type="COMPARE_FUNC"/>
+  </Command>
   <Command CRC32="0x33b1d068" Size="04" />
   <Command CRC32="0x44b6e0fe" Size="04" />
-  <Command CRC32="0x477705c2" Size="04" />
+  <Command CRC32="0x477705c2" Size="04">
+    <Name>Int_Var_Compare</Name>
+    <Arg ID="1" Type="COMPARE_FUNC"/>
+  </Command>
   <Command CRC32="0x2aaae129" Size="04" />
   <Command CRC32="0x5dadd1bf" Size="04" />
   <Command CRC32="0xd97d2806" Size="04" />
@@ -599,13 +615,27 @@
   <Command CRC32="0x7fce1bcf" Size="04" />
   <Command CRC32="0xed4b60e1" Size="02" />
   <Command CRC32="0xe3212177" Size="01" />
-  <Command CRC32="0x895b9275" Size="02" />
-  <Command CRC32="0xc31df569" Size="03" />
-  <Command CRC32="0x47810508" Size="03" />
-  <Command CRC32="0x870cf021" Size="02" />
-  <Command CRC32="0xa5bd4f32" Size="02" />
-  <Command CRC32="0x38a3ec78" Size="02" />
-  <Command CRC32="0x0eb375e3" Size="02" />
+  <Command CRC32="0x895b9275" Size="02">
+    <Name>Else</Name>
+  </Command>
+  <Command CRC32="0xc31df569" Size="03">
+    <Name>Is_Not_Bool</Name>
+  </Command>
+  <Command CRC32="0x47810508" Size="03">
+    <Name>Is_Bool</Name>
+  </Command>
+  <Command CRC32="0x870cf021" Size="02">
+    <Name>False</Name>
+  </Command>
+  <Command CRC32="0xa5bd4f32" Size="02">
+    <Name>True</Name>
+  </Command>
+  <Command CRC32="0x38a3ec78" Size="02">
+    <Name>Goto</Name>
+  </Command>
+  <Command CRC32="0x0eb375e3" Size="02">
+    <Name>Loop</Name>
+  </Command>
   <Command CRC32="0x0f39ec70" Size="02">
     <Name>FIGHTER_CLIFF_CHECK</Name>
   </Command>
@@ -1660,16 +1690,17 @@
     <Label ID="4">CLIFF_CHECK_KIND_ON_DROP_BOTH_SIDES</Label>
   </Enum>
   <Enum Name="GROUND_CORRECT_KIND">
-    <Label ID="0">CORRECT_KIND_NONE</Label>
-    <Label ID="1">CORRECT_KIND_GROUND</Label>
-    <Label ID="2">CORRECT_KIND_GROUND_CLIFF_STOP</Label>
-    <Label ID="3">CORRECT_KIND_GROUND_OTTOTTO</Label>
-    <Label ID="4">CORRECT_KIND_CLIFF</Label>
-    <Label ID="5">CORRECT_KIND_AIR</Label>
-    <Label ID="6">CORRECT_KIND_AIR_PASSABLE_OFF</Label>
-    <Label ID="7">CORRECT_KIND_AIR_TRANS</Label>
-    <Label ID="8">CORRECT_KIND_KEEP</Label>
-    <Label ID="9">CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</Label>
-    <Label ID="10">CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</Label>
+    <Label ID="0">GROUND_CORRECT_KIND_NONE</Label>
+    <Label ID="1">GROUND_CORRECT_KIND_GROUND</Label>
+    <Label ID="2">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP</Label>
+    <Label ID="3">GROUND_CORRECT_KIND_GROUND_OTTOTTO</Label>
+    <Label ID="4">GROUND_CORRECT_KIND_CLIFF</Label>
+    <Label ID="5">GROUND_CORRECT_KIND_AIR</Label>
+    <Label ID="6">GROUND_CORRECT_KIND_AIR_PASSABLE_OFF</Label>
+    <Label ID="7">GROUND_CORRECT_KIND_AIR_TRANS</Label>
+    <Label ID="8">GROUND_CORRECT_KIND_KEEP</Label>
+    <Label ID="9">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</Label>
+    <Label ID="10">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</Label>
   </Enum>
+  <Enum Name="GENERATE_ARTICLE"/>
 </Data>

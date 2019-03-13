@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace ACMD
@@ -13,9 +14,16 @@ namespace ACMD
         {
             get
             {
-
+                string name = ACMDFile.CmdData[CRC32].Name;
+                if (!string.IsNullOrEmpty(name))
+                    return name;                    
                 return $"Unk_{CRC32.ToString("x8")}";
             }
+        }
+
+        internal ACMDCommand()
+        {
+
         }
     }
 }
