@@ -31,6 +31,7 @@ namespace ACMD
         public ACMDFile(string filename)
         {
             if (!IsStaticDataInit)
+                InitStatic();
             using (ACMDReader reader = new ACMDReader(File.OpenRead(filename)))
             {
                 for (int i = 0; i < Magic.Length; i++)
