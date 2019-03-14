@@ -202,9 +202,11 @@
   <command crc32="0x37ca2121" size="02" />
   <command crc32="0x83197b9a" size="03">
     <name>ATTACK_SET_NO_WEIGHT_REACTION</name>
+    <arg id="1" type="bool"/>
   </command>
   <command crc32="0x853cd75e" size="02">
     <name>ATTACK_SET_NO_WEIGHT_REACTION_ALL</name>
+    <arg id="0" type="bool"/>
   </command>
   <command crc32="0x34094bd6" size="03">
     <name>ATTACK_SET_NO_WEIGHT_REACTION_FRAME</name>
@@ -678,6 +680,7 @@
   </command>
   <command crc32="0x42acfe7d" size="02">
     <name>FRAME</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0xa5303662" size="01">
     <name>FRAME_CLR</name>
@@ -1656,6 +1659,7 @@
   </command>
   <command crc32="0x4b7b6e51" size="02">
     <name>WAIT</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0x5f4cf775" size="01">
     <name>WAIT_LOOP</name>

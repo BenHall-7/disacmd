@@ -37,7 +37,10 @@ namespace disacmd
                 var args = command.Args;
                 for (int i = 0; i < args.Length; i++)
                 {
-                    writer.Write(args[i]);
+                    if (args[i] is uint value)
+                        writer.Write(FormatInt(value));
+                    else
+                        writer.Write(args[i]);
                     if (i < args.Length - 1)
                         writer.Write(", ");
                 }
@@ -47,5 +50,12 @@ namespace disacmd
         }
 
         //make a generic method to "encapsulate" data into brackets, easiest way to pretty-print things
+
+        static string FormatInt(uint value)
+        {
+            if (value > 0x1000)
+                return $"0x{value.ToString("x")}";
+            return value.ToString();
+        }
     }
 }
