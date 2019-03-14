@@ -47,7 +47,7 @@
                     case "bool":
                         Args[i] = reader.ReadBoolean();
                         break;
-                    case "crc32":
+                    case "script":
                         {
                             uint hash = reader.ReadUInt32();
                             if (ACMDFile.ScriptHashes.TryGetValue(hash, out string name))
