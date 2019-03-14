@@ -15,10 +15,11 @@ namespace ACMD
             get { return Scripts.Length; }
             set { Scripts = new ACMDScript[value]; }
         }
-        int UnkCount { get; set; }
+        int CmdCount { get; set; }
         
         private static bool IsStaticDataInit { get; set; }
         public static Dictionary<uint, CmdDataCollection> CmdData { get; }
+        public static Dictionary<string, EnumDataCollection> EnumData { get; }
 
         public ACMDScript[] Scripts { get; set; }
 
@@ -26,6 +27,7 @@ namespace ACMD
         {
             IsStaticDataInit = false;
             CmdData = new Dictionary<uint, CmdDataCollection>();
+            EnumData = new Dictionary<string, EnumDataCollection>();
         }
 
         public ACMDFile(string filename)
@@ -39,7 +41,7 @@ namespace ACMD
                         throw new InvalidDataException("File contains invalid magic");
                 Unk4 = reader.ReadInt32();
                 ScriptCount = reader.ReadInt32();
-                UnkCount = reader.ReadInt32();
+                CmdCount = reader.ReadInt32();
 
                 var tableOffset = reader.BaseStream.Position;
                 for (int i = 0; i < Scripts.Length; i++)
@@ -63,10 +65,11 @@ namespace ACMD
                 int size = int.Parse(xe.Attributes["size"].Value);
                 CmdData.Add(crc, new CmdDataCollection(xe.ChildNodes, size));
             }
-            //TODO: enums
+            //TODO: handle enums better?
             foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("enum"))
             {
-
+                string name = xe.Attributes["name"].Value;
+                EnumData.Add(name, new EnumDataCollection(xe.ChildNodes));
             }
             IsStaticDataInit = true;
         }

@@ -1674,7 +1674,7 @@
   <command crc32="0x3341cbfe" size="01" />
   <command crc32="0x92a88908" size="02" />
   <command crc32="0x300a0a85" size="01" />
-  <enum Name="COMPARE_FUNC">
+  <enum name="COMPARE_FUNC">
     <label id="0">COMPARE_FUNC_EQUAL</label>
     <label id="1">COMPARE_FUNC_NEQUAL</label>
     <label id="2">COMPARE_FUNC_LEQUAL</label>
@@ -1682,14 +1682,14 @@
     <label id="4">COMPARE_FUNC_LESS</label>
     <label id="5">COMPARE_FUNC_GREATER</label>
   </enum>
-  <enum Name="CLIFF_CHECK_KIND">
+  <enum name="CLIFF_CHECK_KIND">
     <label id="0">CLIFF_CHECK_KIND_NONE</label>
     <label id="1">CLIFF_CHECK_KIND_ALWAYS</label>
     <label id="2">CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES</label>
     <label id="3">CLIFF_CHECK_KIND_ON_DROP</label>
     <label id="4">CLIFF_CHECK_KIND_ON_DROP_BOTH_SIDES</label>
   </enum>
-  <enum Name="GROUND_CORRECT_KIND">
+  <enum name="GROUND_CORRECT_KIND">
     <label id="0">GROUND_CORRECT_KIND_NONE</label>
     <label id="1">GROUND_CORRECT_KIND_GROUND</label>
     <label id="2">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP</label>
@@ -1702,5 +1702,4 @@
     <label id="9">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</label>
     <label id="10">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</label>
   </enum>
-  <enum Name="GENERATE_ARTICLE"/>
 </data>

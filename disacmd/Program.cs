@@ -1,5 +1,6 @@
 ﻿using ACMD;
 using System;
+using System.IO;
 
 namespace disacmd
 {
@@ -7,11 +8,44 @@ namespace disacmd
     {
         static void Main(string[] args)
         {
-#if DEBUG
-            var ACMDFile = new ACMDFile(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter\pikachu\script\animcmd\body\game.bin");
-            Console.WriteLine("Success!");
+            var ACMD = new ACMDFile(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter\cloud\script\animcmd\body\game.bin");
+            Console.WriteLine("load success!");
+            Decompile(ACMD);
+            Console.WriteLine("save success!");
             Console.ReadKey();
-#endif
         }
+
+        static void Decompile(ACMDFile acmd)
+        {
+            using (StreamWriter writer = new StreamWriter(File.Create("game.txt")))
+            {
+                foreach (var script in acmd.Scripts)
+                {
+                    DecompileScript(writer, script);
+                    writer.WriteLine();
+                }
+            }
+        }
+
+        static void DecompileScript(StreamWriter writer, ACMDScript script)
+        {
+            writer.WriteLine(script.CRC32.ToString("x8"));
+            writer.WriteLine("{");
+            foreach (var command in script.Commands)
+            {
+                writer.Write($"{command.Name}(");
+                var args = command.Args;
+                for (int i = 0; i < args.Length; i++)
+                {
+                    writer.Write(args[i]);
+                    if (i < args.Length - 1)
+                        writer.Write(", ");
+                }
+                writer.WriteLine(")");
+            }
+            writer.WriteLine("}");
+        }
+
+        //make a generic method to "encapsulate" data into brackets, easiest way to pretty-print things
     }
 }

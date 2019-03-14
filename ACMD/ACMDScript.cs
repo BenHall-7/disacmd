@@ -18,7 +18,7 @@ namespace ACMD
             {
                 cmd = new ACMDCommand(reader);
                 Commands.Add(cmd);
-                //return marks the end of the script
+                //RETURN marks the end of the script
                 if (cmd.CRC32 == 0x5766f889)
                     break;
             }

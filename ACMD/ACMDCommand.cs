@@ -32,6 +32,7 @@
                 string type = "int";
 
                 //TODO: Move args into a property so command arg types are easier to retrieve
+                //wellll maybe not
                 if (argData[i] != null)
                     type = argData[i].Attributes["Type"].Value;
 
@@ -44,9 +45,16 @@
                         Args[i] = reader.ReadSingle();
                         break;
                     default:
-                        //TODO: unimplemented
-                        Args[i] = reader.ReadUInt32();
-                        break;
+                        {
+                            uint argValue = reader.ReadUInt32();
+
+                            var data = ACMDFile.EnumData[type];
+                            if (data.Enums.TryGetValue(argValue, out var label))
+                                Args[i] = label.InnerText;
+                            else
+                                Args[i] = argValue;
+                            break;
+                        }
                 }
             }
         }

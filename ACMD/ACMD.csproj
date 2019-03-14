@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <None Update="ACMD.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
