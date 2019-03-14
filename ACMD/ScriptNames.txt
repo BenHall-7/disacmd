@@ -10,6 +10,7 @@ appealsl
 appealsr
 attack100
 attack100start
+attack100sub
 attack11
 attack11_set
 attack11s

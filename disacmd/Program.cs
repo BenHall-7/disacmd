@@ -60,12 +60,7 @@ namespace disacmd
                 var args = command.Args;
                 for (int i = 0; i < args.Length; i++)
                 {
-                    if (args[i] is uint ivalue)
-                        writer.Write(FormatInt(ivalue));
-                    else if (args[i] is float fvalue)
-                        writer.Write(fvalue.ToString("0.0"));
-                    else
-                        writer.Write(args[i]);
+                    writer.Write(FormatObject(args[i]));
                     if (i < args.Length - 1)
                         writer.Write(", ");
                 }
@@ -76,11 +71,17 @@ namespace disacmd
 
         //make a generic method to "encapsulate" data into brackets, easiest way to pretty-print things
 
-        static string FormatInt(uint value)
+        static string FormatObject(object obj)
         {
-            if (value > 0xffff)
-                return $"0x{value.ToString("x")}";
-            return value.ToString();
+            if (obj is uint ivalue)
+            {
+                if (ivalue > 0xffff)
+                    return $"0x{ivalue.ToString("x")}";
+                return ivalue.ToString();
+            }
+            if (obj is float fvalue)
+                return fvalue.ToString("0.0");
+            return obj.ToString();
         }
     }
 }
