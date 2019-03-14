@@ -1,6 +1,7 @@
 ﻿using ACMD;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 
 namespace disacmd
@@ -9,16 +10,37 @@ namespace disacmd
     {
         static void Main(string[] args)
         {
-            var ACMD = new ACMDFile(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter\cloud\script\animcmd\body\game.bin");
-            Console.WriteLine("load success!");
-            Decompile(ACMD);
-            Console.WriteLine("save success!");
+            Stopwatch timer = new Stopwatch();
+            timer.Start();
+            foreach (var dir in Directory.EnumerateDirectories(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter"))
+            {
+                string ft = dir.Substring(dir.LastIndexOf('\\') + 1);
+                var scriptdir = Path.Combine(dir, @"script\animcmd\body");
+                if (Directory.Exists(scriptdir))
+                {
+                    foreach (var file in Directory.EnumerateFiles(scriptdir))
+                    {
+                        string name = Path.GetFileNameWithoutExtension(file);
+                        if (file.EndsWith(".bin"))
+                        {
+                            ACMDFile acmd = new ACMDFile(file);
+
+                            if (!Directory.Exists($@"output\{ft}"))
+                                Directory.CreateDirectory($@"output\{ft}");
+
+                            Decompile(acmd, $@"output\{ft}\{name}.txt");
+                        }
+                    }
+                }
+            }
+            timer.Stop();
+            Console.WriteLine($"finished all in {timer.Elapsed.TotalSeconds} seconds");
             Console.ReadKey();
         }
 
-        static void Decompile(ACMDFile acmd)
+        static void Decompile(ACMDFile acmd, string outdir)
         {
-            using (StreamWriter writer = new StreamWriter(File.Create("game.txt")))
+            using (StreamWriter writer = new StreamWriter(File.Create(outdir)))
             {
                 foreach (var script in acmd.Scripts)
                 {
