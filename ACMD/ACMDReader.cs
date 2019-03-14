@@ -6,7 +6,12 @@ namespace ACMD
     public class ACMDReader : BinaryReader
     {
         public ACMDReader(Stream input) : base(input) { }
-        
+
+        public override bool ReadBoolean()
+        {
+            return base.ReadInt32() == 0 ? false : true;
+        }
+
         public override int ReadInt32()
         {
             byte[] bytes = base.ReadBytes(4);

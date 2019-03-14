@@ -29,11 +29,11 @@ namespace disacmd
 
         static void DecompileScript(StreamWriter writer, ACMDScript script)
         {
-            writer.WriteLine(script.CRC32.ToString("x8"));
+            writer.WriteLine($"0x{script.CRC32.ToString("x8")}");
             writer.WriteLine("{");
             foreach (var command in script.Commands)
             {
-                writer.Write($"{command.Name}(");
+                writer.Write($"    {command.Name}(");
                 var args = command.Args;
                 for (int i = 0; i < args.Length; i++)
                 {

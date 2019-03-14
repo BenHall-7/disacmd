@@ -584,28 +584,28 @@
   <command crc32="0x34bcd3f7" size="04">
     <name>Float_Compare</name>
     <!--arg 0 needs an enum-->
-    <Arg id="1" type="COMPARE_FUNC"/>
-    <Arg id="2" type="float"/>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="float"/>
   </command>
   <command crc32="0x5961371c" size="04" />
   <command crc32="0x2e66078a" size="04" />
   <command crc32="0x2da7e2b6" size="04">
     <name>Float_Var_Compare</name>
-    <Arg id="1" type="COMPARE_FUNC"/>
-    <Arg id="2" type="float"/>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="float"/>
   </command>
   <command crc32="0x407a065d" size="04" />
   <command crc32="0x377d36cb" size="04" />
   <command crc32="0x5e6c3483" size="04">
     <name>Int_Compare</name>
     <!--arg 0 needs an enum-->
-    <Arg id="1" type="COMPARE_FUNC"/>
+    <arg id="1" type="COMPARE_FUNC"/>
   </command>
   <command crc32="0x33b1d068" size="04" />
   <command crc32="0x44b6e0fe" size="04" />
   <command crc32="0x477705c2" size="04">
     <name>Int_Var_Compare</name>
-    <Arg id="1" type="COMPARE_FUNC"/>
+    <arg id="1" type="COMPARE_FUNC"/>
   </command>
   <command crc32="0x2aaae129" size="04" />
   <command crc32="0x5dadd1bf" size="04" />
@@ -638,6 +638,7 @@
   </command>
   <command crc32="0x0f39ec70" size="02">
     <name>FIGHTER_CLIFF_CHECK</name>
+    <arg id="0" type="CLIFF_CHECK_KIND"/>
   </command>
   <command crc32="0x3aaaf7d0" size="09">
     <name>FILL_SCREEN</name>

@@ -34,7 +34,7 @@
                 //TODO: Move args into a property so command arg types are easier to retrieve
                 //wellll maybe not
                 if (argData[i] != null)
-                    type = argData[i].Attributes["Type"].Value;
+                    type = argData[i].Attributes["type"].Value;
 
                 switch (type)
                 {
@@ -43,6 +43,9 @@
                         break;
                     case "float":
                         Args[i] = reader.ReadSingle();
+                        break;
+                    case "bool":
+                        Args[i] = reader.ReadBoolean();
                         break;
                     default:
                         {
