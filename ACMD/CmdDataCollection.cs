@@ -12,8 +12,11 @@ namespace ACMD
         public CmdDataCollection(XmlNodeList childElements, int cmdSize)
         {
             CmdSize = cmdSize;
-            Args = new XmlElement[CmdSize];
-            
+            if (CmdSize == 0)
+                Args = new XmlElement[CmdSize];//don't throw for blank commands
+            else
+                Args = new XmlElement[CmdSize - 1];
+
             for (int i = 0; i < childElements.Count; i++)
             {
                 XmlElement child = childElements[i] as XmlElement;
