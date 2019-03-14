@@ -78,7 +78,7 @@ namespace disacmd
 
         static string FormatInt(uint value)
         {
-            if (value > 0x1000)
+            if (value > 0xffff)
                 return $"0x{value.ToString("x")}";
             return value.ToString();
         }
