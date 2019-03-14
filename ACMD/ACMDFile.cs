@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Xml;
 
 namespace ACMD
@@ -10,24 +11,22 @@ namespace ACMD
         //0x10 byte header
         const string Magic = "ACMD";
         int Unk4 { get; set; }
-        int ScriptCount
-        {
-            get { return Scripts.Length; }
-            set { Scripts = new ACMDScript[value]; }
-        }
+        int ScriptCount { get; set; }
         int CmdCount { get; set; }
         
         private static bool IsStaticDataInit { get; set; }
         public static Dictionary<uint, CmdDataCollection> CmdData { get; }
         public static Dictionary<string, EnumDataCollection> EnumData { get; }
+        public static Dictionary<uint, string> ScriptHashes { get; }
 
-        public ACMDScript[] Scripts { get; set; }
+        public List<ACMDScript> Scripts { get; set; }
 
         static ACMDFile()
         {
             IsStaticDataInit = false;
             CmdData = new Dictionary<uint, CmdDataCollection>();
             EnumData = new Dictionary<string, EnumDataCollection>();
+            ScriptHashes = new Dictionary<uint, string>();
         }
 
         public ACMDFile(string filename)
@@ -43,14 +42,25 @@ namespace ACMD
                 ScriptCount = reader.ReadInt32();
                 CmdCount = reader.ReadInt32();
 
-                var tableOffset = reader.BaseStream.Position;
-                for (int i = 0; i < Scripts.Length; i++)
+                Scripts = new List<ACMDScript>(ScriptCount);
+
+                Dictionary<uint, long> hashOffsetPairs = new Dictionary<uint, long>();
+                for (int i = 0; i < ScriptCount; i++)
                 {
-                    reader.BaseStream.Position = tableOffset + 8 * i;
-                    uint crc32 = reader.ReadUInt32();
+                    uint crc = reader.ReadUInt32();
                     uint offset = reader.ReadUInt32();
-                    reader.BaseStream.Position = offset;
-                    Scripts[i] = new ACMDScript(crc32, reader);
+                    hashOffsetPairs.Add(crc, offset);
+                    Scripts.Add(new ACMDScript(crc));
+                }
+
+                //TODO: If the file is decompiled with a motion.mtable
+                //sort by order of those hashes instead of alphabetically
+                Scripts.Sort((x, y) => x.Name.CompareTo(y.Name));
+
+                for (int i = 0; i < ScriptCount; i++)
+                {
+                    reader.BaseStream.Position = hashOffsetPairs[Scripts[i].CRC32];
+                    Scripts[i].Read(reader);
                 }
             }
         }
@@ -70,6 +80,10 @@ namespace ACMD
             {
                 string name = xe.Attributes["name"].Value;
                 EnumData.Add(name, new EnumDataCollection(xe.ChildNodes));
+            }
+            foreach (var line in File.ReadAllLines("ScriptNames.txt"))
+            {
+                ScriptHashes.Add(CRC.CRC32(line), line);
             }
             IsStaticDataInit = true;
         }

@@ -1,5 +1,6 @@
 ﻿using ACMD;
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace disacmd
@@ -29,7 +30,7 @@ namespace disacmd
 
         static void DecompileScript(StreamWriter writer, ACMDScript script)
         {
-            writer.WriteLine($"0x{script.CRC32.ToString("x8")}");
+            writer.WriteLine(script.Name);
             writer.WriteLine("{");
             foreach (var command in script.Commands)
             {
@@ -37,8 +38,10 @@ namespace disacmd
                 var args = command.Args;
                 for (int i = 0; i < args.Length; i++)
                 {
-                    if (args[i] is uint value)
-                        writer.Write(FormatInt(value));
+                    if (args[i] is uint ivalue)
+                        writer.Write(FormatInt(ivalue));
+                    else if (args[i] is float fvalue)
+                        writer.Write(fvalue.ToString("0.0"));
                     else
                         writer.Write(args[i]);
                     if (i < args.Length - 1)

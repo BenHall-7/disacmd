@@ -228,6 +228,7 @@
   </command>
   <command crc32="0xfa1bc28a" size="02">
     <name>CALL</name>
+    <arg id="0" type="crc32"/>
   </command>
   <command crc32="0x4e761504" size="02">
     <name>CAMERA_SET_UPDATE_POS</name>
@@ -1077,6 +1078,7 @@
   </command>
   <command crc32="0x9126eba2" size="02">
     <name>JUMP</name>
+    <arg id="0" type="crc32"/>
   </command>
   <command crc32="0xb89f681c" size="03" />
   <command crc32="0x104f0834" size="17">

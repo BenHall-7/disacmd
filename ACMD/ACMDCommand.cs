@@ -16,7 +16,7 @@
                 string name = ACMDFile.CmdData[CRC32].Name;
                 if (!string.IsNullOrEmpty(name))
                     return name;                    
-                return $"Unk_{CRC32.ToString("x8")}";
+                return $"cmd_{CRC32.ToString("x8")}";
             }
         }
 
@@ -47,6 +47,15 @@
                     case "bool":
                         Args[i] = reader.ReadBoolean();
                         break;
+                    case "crc32":
+                        {
+                            uint hash = reader.ReadUInt32();
+                            if (ACMDFile.ScriptHashes.TryGetValue(hash, out string name))
+                                Args[i] = name;
+                            else
+                                Args[i] = hash;
+                            break;
+                        }
                     default:
                         {
                             uint argValue = reader.ReadUInt32();
