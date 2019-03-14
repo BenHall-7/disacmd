@@ -1,1706 +1,1706 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Data>
-  <Command CRC32="0x99cf7be6" Size="01">
-    <Name>NOP</Name>
-  </Command>
-  <Command CRC32="0x37784f8d" Size="00">
-    <Name>ADD_FLOAT</Name>
-  </Command>
-  <Command CRC32="0xa873499d" Size="03">
-    <Name>ADD_INT</Name>
-  </Command>
-  <Command CRC32="0x3cfb7580" Size="04">
-    <Name>ADD_POS</Name>
-  </Command>
-  <Command CRC32="0xf1fbefee" Size="03">
-    <Name>ADD_SPEED</Name>
-  </Command>
-  <Command CRC32="0x663de182" Size="03">
-    <Name>ADD_SPEED_NO_LIMIT</Name>
-  </Command>
-  <Command CRC32="0x6f4aaca8" Size="24">
-    <Name>AFTER_IMAGE2_ON</Name>
-  </Command>
-  <Command CRC32="0xe07cf8bb" Size="24">
-    <Name>AFTER_IMAGE2_ON_WORK</Name>
-  </Command>
-  <Command CRC32="0xd7f6cbcd" Size="27">
-    <Name>AFTER_IMAGE3_ON</Name>
-  </Command>
-  <Command CRC32="0x11097635" Size="27">
-    <Name>AFTER_IMAGE3_ON_ATTACH_WORK</Name>
-  </Command>
-  <Command CRC32="0x73e2040c" Size="28">
-    <Name>AFTER_IMAGE3_ON_ATTACH_WORK_arg27</Name>
-  </Command>
-  <Command CRC32="0xf707ecf8" Size="27">
-    <Name>AFTER_IMAGE3_ON_WORK</Name>
-  </Command>
-  <Command CRC32="0x2953bfde" Size="28">
-    <Name>AFTER_IMAGE3_ON_arg27</Name>
-  </Command>
-  <Command CRC32="0x6539137d" Size="02">
-    <Name>AFTER_IMAGE_OFF</Name>
-  </Command>
-  <Command CRC32="0x887b430a" Size="21">
-    <Name>AFTER_IMAGE_ON</Name>
-  </Command>
-  <Command CRC32="0x50118faf" Size="21">
-    <Name>AFTER_IMAGE_ON_WORK</Name>
-  </Command>
-  <Command CRC32="0x79380b43" Size="10">
-    <Name>AREA_WIND_2ND</Name>
-  </Command>
-  <Command CRC32="0xfe73acaa" Size="09">
-    <Name>AREA_WIND_2ND_RAD</Name>
-  </Command>
-  <Command CRC32="0x3c95cd87" Size="10">
-    <Name>AREA_WIND_2ND_RAD_arg9</Name>
-  </Command>
-  <Command CRC32="0x14c10d92" Size="11">
-    <Name>AREA_WIND_2ND_arg10</Name>
-  </Command>
-  <Command CRC32="0xd5d67f56" Size="02">
-    <Name>AREA_WIND_REMOVE</Name>
-  </Command>
-  <Command CRC32="0x7698bb42" Size="03">
-    <Name>ATK_CATEGORY</Name>
-  </Command>
-  <Command CRC32="0xff379eb6" Size="02">
-    <Name>ATK_CLR</Name>
-  </Command>
-  <Command CRC32="0x9245e1a8" Size="01">
-    <Name>ATK_CLR_ALL</Name>
-  </Command>
-  <Command CRC32="0x5c44f13a" Size="06">
-    <Name>ATK_HIT_ABS</Name>
-  </Command>
-  <Command CRC32="0xa3a28be3" Size="06">
-    <Name>ATK_HIT_ABS_VV</Name>
-  </Command>
-  <Command CRC32="0xd7645e49" Size="06">
-    <Name>ATK_HIT_ABS_WC</Name>
-  </Command>
-  <Command CRC32="0xbab9baa2" Size="06">
-    <Name>ATK_HIT_ABS_WV</Name>
-  </Command>
-  <Command CRC32="0xcdbe8a34" Size="06">
-    <Name>ATK_HIT_ABS_WW</Name>
-  </Command>
-  <Command CRC32="0xe634f701" Size="02">
-    <Name>ATK_KEEP_RUMBLE</Name>
-  </Command>
-  <Command CRC32="0xcc26b487" Size="03">
-    <Name>ATK_LERP</Name>
-  </Command>
-  <Command CRC32="0x7a128321" Size="02">
-    <Name>ATK_LERP_RATIO</Name>
-  </Command>
-  <Command CRC32="0x1afda8e6" Size="06">
-    <Name>ATK_NODE</Name>
-  </Command>
-  <Command CRC32="0xfc1c2985" Size="02">
-    <Name>ATK_NO_ATTACKER_LOG</Name>
-  </Command>
-  <Command CRC32="0x8b925a6c" Size="02">
-    <Name>ATK_NO_REACTION_SEARCH_WITCH_TIME</Name>
-  </Command>
-  <Command CRC32="0xdd526c98" Size="03">
-    <Name>ATK_OFFSET_FROM_NODE</Name>
-  </Command>
-  <Command CRC32="0xdfa4517a" Size="03">
-    <Name>ATK_POWER</Name>
-  </Command>
-  <Command CRC32="0x932d9a40" Size="03">
-    <Name>ATK_POWER_ADD</Name>
-  </Command>
-  <Command CRC32="0xc735c806" Size="02">
-    <Name>ATK_POWER_MUL</Name>
-  </Command>
-  <Command CRC32="0x6efb0db3" Size="02">
-    <Name>ATK_POWER_MUL_STATUS</Name>
-  </Command>
-  <Command CRC32="0xac811479" Size="03">
-    <Name>ATK_REFERENCE_NODE</Name>
-  </Command>
-  <Command CRC32="0xa1b6e607" Size="06">
-    <Name>ATK_RESERVE</Name>
-  </Command>
-  <Command CRC32="0x684264c9" Size="03">
-    <Name>ATK_SIZE</Name>
-  </Command>
-  <Command CRC32="0x7b1d9276" Size="02">
-    <Name>ATK_SLEEP</Name>
-  </Command>
-  <Command CRC32="0xb0777995" Size="03">
-    <Name>ATK_WHOLE</Name>
-  </Command>
-  <Command CRC32="0xb738eabd" Size="25">
-    <Name>ATTACK</Name>
-  </Command>
-  <Command CRC32="0xfaa85333" Size="18">
-    <Name>ATTACK_ABS</Name>
-  </Command>
-  <Command CRC32="0x321297b0" Size="24">
-    <Name>ATTACK_ABS_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0x2988d50f" Size="28">
-    <Name>ATTACK_CAPSULE</Name>
-  </Command>
-  <Command CRC32="0xed67d5da" Size="28">
-    <Name>ATTACK_CAPSULE_IGNORE_THROW</Name>
-  </Command>
-  <Command CRC32="0x14fcc7e4" Size="42">
-    <Name>ATTACK_FP</Name>
-  </Command>
-  <Command CRC32="0x7640aeeb" Size="42">
-    <Name>ATTACK_FP_ATKW</Name>
-  </Command>
-  <Command CRC32="0x7075dc5a" Size="44">
-    <Name>ATTACK_FP_CAPSULE</Name>
-  </Command>
-  <Command CRC32="0x633decc0" Size="44">
-    <Name>ATTACK_FP_CAPSULE_IGNORE_THROW</Name>
-  </Command>
-  <Command CRC32="0x3df66202" Size="50">
-    <Name>ATTACK_FP_CAPSULE_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0x97e2ceaa" Size="42">
-    <Name>ATTACK_FP_IGNORE_THROW</Name>
-  </Command>
-  <Command CRC32="0xbd04bdc3" Size="42">
-    <Name>ATTACK_FP_IND</Name>
-  </Command>
-  <Command CRC32="0xc93da32a" Size="42">
-    <Name>ATTACK_FP_REAC</Name>
-  </Command>
-  <Command CRC32="0x126ab61d" Size="48">
-    <Name>ATTACK_FP_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0xcc7cc705" Size="25">
-    <Name>ATTACK_IGNORE_THROW</Name>
-  </Command>
-  <Command CRC32="0xdbddc840" Size="25">
-    <Name>ATTACK_IND</Name>
-  </Command>
-  <Command CRC32="0x4e94c51b" Size="01">
-    <Name>ATTACK_SE</Name>
-  </Command>
-  <Command CRC32="0xaeae97ff" Size="03">
-    <Name>ATTACK_SET_ATTACK_LEVEL</Name>
-  </Command>
-  <Command CRC32="0x7d1058c3" Size="02">
-    <Name>ATTACK_SET_CHECK_BACK</Name>
-  </Command>
-  <Command CRC32="0x7f55aaa2" Size="02">
-    <Name>ATTACK_SET_CHECK_FRONT</Name>
-  </Command>
-  <Command CRC32="0xd41df827" Size="02">
-    <Name>ATTACK_SET_CHECK_FRONT_LR</Name>
-  </Command>
-  <Command CRC32="0xb09f03b2" Size="03" />
-  <Command CRC32="0x37ca2121" Size="02" />
-  <Command CRC32="0x83197b9a" Size="03">
-    <Name>ATTACK_SET_NO_WEIGHT_REACTION</Name>
-  </Command>
-  <Command CRC32="0x853cd75e" Size="02">
-    <Name>ATTACK_SET_NO_WEIGHT_REACTION_ALL</Name>
-  </Command>
-  <Command CRC32="0x34094bd6" Size="03">
-    <Name>ATTACK_SET_NO_WEIGHT_REACTION_FRAME</Name>
-  </Command>
-  <Command CRC32="0x6f52e135" Size="02">
-    <Name>ATTACK_SET_NO_WEIGHT_REACTION_FRAME_ALL</Name>
-  </Command>
-  <Command CRC32="0xf615b1d5" Size="01">
-    <Name>ATTACK_SE_2</Name>
-  </Command>
-  <Command CRC32="0x81128143" Size="01">
-    <Name>ATTACK_SE_3</Name>
-  </Command>
-  <Command CRC32="0x0932ee6f" Size="00">
-    <Name>ATTACK_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0xd5413340" Size="00">
-    <Name>BORN_ITEM</Name>
-  </Command>
-  <Command CRC32="0xfa1bc28a" Size="02">
-    <Name>CALL</Name>
-  </Command>
-  <Command CRC32="0x4e761504" Size="02">
-    <Name>CAMERA_SET_UPDATE_POS</Name>
-  </Command>
-  <Command CRC32="0x20db2106" Size="03">
-    <Name>CAM_OFFSET</Name>
-  </Command>
-  <Command CRC32="0x89ce242b" Size="05">
-    <Name>CAM_RECT</Name>
-  </Command>
-  <Command CRC32="0x5dcecd64" Size="01">
-    <Name>CAM_RESET</Name>
-  </Command>
-  <Command CRC32="0xebc717c8" Size="02">
-    <Name>CAM_ZOOM_IN</Name>
-  </Command>
-  <Command CRC32="0xf0ef4c5f" Size="12">
-    <Name>CAM_ZOOM_IN_FINAL</Name>
-  </Command>
-  <Command CRC32="0xe940dcc2" Size="06">
-    <Name>CAM_ZOOM_IN_arg5</Name>
-  </Command>
-  <Command CRC32="0x70498d78" Size="07">
-    <Name>CAM_ZOOM_IN_arg6</Name>
-  </Command>
-  <Command CRC32="0x86eb40dd" Size="01">
-    <Name>CAM_ZOOM_OUT</Name>
-  </Command>
-  <Command CRC32="0xc565ef20" Size="03">
-    <Name>CANCEL_FILL_SCREEN</Name>
-  </Command>
-  <Command CRC32="0x4e9d74b0" Size="00">
-    <Name>CASE</Name>
-  </Command>
-  <Command CRC32="0x323fb9d4" Size="11">
-    <Name>CATCH</Name>
-  </Command>
-  <Command CRC32="0xb0af39a6" Size="01">
-    <Name>CHANGE</Name>
-  </Command>
-  <Command CRC32="0x8eb98be7" Size="01">
-    <Name>CLEAR_SLOW_WHOLE</Name>
-  </Command>
-  <Command CRC32="0x08e67529" Size="02">
-    <Name>CLR_SPEED</Name>
-  </Command>
-  <Command CRC32="0x692bbcfa" Size="01">
-    <Name>CLR_SPEED_ALL</Name>
-  </Command>
-  <Command CRC32="0x5c3c583e" Size="01">
-    <Name>COL_NORMAL</Name>
-  </Command>
-  <Command CRC32="0xf3dd4acd" Size="02">
-    <Name>COL_PRI</Name>
-  </Command>
-  <Command CRC32="0xf45595a1" Size="02">
-    <Name>CORRECT</Name>
-  </Command>
-  <Command CRC32="0x950aefc5" Size="02">
-    <Name>CREATE_HAVE_ITEM</Name>
-  </Command>
-  <Command CRC32="0x2f08f54f" Size="02">
-    <Name>CTH_CLR</Name>
-  </Command>
-  <Command CRC32="0xf3a464ac" Size="01">
-    <Name>CTH_CLR_ALL</Name>
-  </Command>
-  <Command CRC32="0xacf3111a" Size="00">
-    <Name>CTH_SIZE</Name>
-  </Command>
-  <Command CRC32="0xca7748a5" Size="01">
-    <Name>DAMAGEFLY_SE</Name>
-  </Command>
-  <Command CRC32="0x55205f20" Size="02">
-    <Name>DAMAGEFLY_SE_arg1</Name>
-  </Command>
-  <Command CRC32="0xd741b7f5" Size="01">
-    <Name>DAMAGE_SE</Name>
-  </Command>
-  <Command CRC32="0xdc1bfec5" Size="00">
-    <Name>DEFAULT</Name>
-  </Command>
-  <Command CRC32="0x237c9486" Size="01">
-    <Name>DETACH</Name>
-  </Command>
-  <Command CRC32="0x96fda1f0" Size="01">
-    <Name>DISABLE_DEAD_DAMAGE_FLY_EFFECT</Name>
-  </Command>
-  <Command CRC32="0x887c2271" Size="01">
-    <Name>DISABLE_GOLD_EYE</Name>
-  </Command>
-  <Command CRC32="0x6a441545" Size="17">
-    <Name>DOWN_EFFECT</Name>
-  </Command>
-  <Command CRC32="0xee1baf5f" Size="19">
-    <Name>DOWN_EFFECT_FLIP</Name>
-  </Command>
-  <Command CRC32="0x7b105723" Size="00">
-    <Name>DROP_ATTACH_ITEM_GROUP</Name>
-  </Command>
-  <Command CRC32="0x7e30f0d5" Size="00">
-    <Name>DROP_ITEM</Name>
-  </Command>
-  <Command CRC32="0x3f6b0175" Size="01">
-    <Name>EAT_SE</Name>
-  </Command>
-  <Command CRC32="0x46985674" Size="17">
-    <Name>EFFECT</Name>
-  </Command>
-  <Command CRC32="0x868f5ac3" Size="18">
-    <Name>EFFECT_ALPHA</Name>
-  </Command>
-  <Command CRC32="0xd8d9a901" Size="18">
-    <Name>EFFECT_ATTR</Name>
-  </Command>
-  <Command CRC32="0x30392b40" Size="20">
-    <Name>EFFECT_COLOR</Name>
-  </Command>
-  <Command CRC32="0xe3c26db5" Size="20">
-    <Name>EFFECT_COLOR_WORK</Name>
-  </Command>
-  <Command CRC32="0xc81f667e" Size="05">
-    <Name>EFFECT_CONTINUAL</Name>
-  </Command>
-  <Command CRC32="0x6f2f2212" Size="02">
-    <Name>EFFECT_CONTINUAL_OFF</Name>
-  </Command>
-  <Command CRC32="0x29bc5960" Size="03">
-    <Name>EFFECT_DETACH_KIND</Name>
-  </Command>
-  <Command CRC32="0x9fcb5ad5" Size="03">
-    <Name>EFFECT_DETACH_KIND_WORK</Name>
-  </Command>
-  <Command CRC32="0x46596e40" Size="19">
-    <Name>EFFECT_FLIP</Name>
-  </Command>
-  <Command CRC32="0x46c4655c" Size="20">
-    <Name>EFFECT_FLIP_ALPHA</Name>
-  </Command>
-  <Command CRC32="0xf07214df" Size="22">
-    <Name>EFFECT_FLIP_COLOR</Name>
-  </Command>
-  <Command CRC32="0x089ebf6c" Size="11">
-    <Name>EFFECT_FLW_POS</Name>
-  </Command>
-  <Command CRC32="0x51bf42d5" Size="11">
-    <Name>EFFECT_FLW_POS_NO_STOP</Name>
-  </Command>
-  <Command CRC32="0xd98926b9" Size="11">
-    <Name>EFFECT_FLW_POS_STR</Name>
-  </Command>
-  <Command CRC32="0xd86f0143" Size="13">
-    <Name>EFFECT_FLW_POS_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0x524ef3f5" Size="11">
-    <Name>EFFECT_FLW_POS_UNSYNC_VIS</Name>
-  </Command>
-  <Command CRC32="0xd4fc6ac3" Size="11">
-    <Name>EFFECT_FLW_UNSYNC_VIS</Name>
-  </Command>
-  <Command CRC32="0xfc061097" Size="11">
-    <Name>EFFECT_FOLLOW</Name>
-  </Command>
-  <Command CRC32="0x54ba7357" Size="12">
-    <Name>EFFECT_FOLLOW_ALPHA</Name>
-  </Command>
-  <Command CRC32="0xe20c02d4" Size="14">
-    <Name>EFFECT_FOLLOW_COLOR</Name>
-  </Command>
-  <Command CRC32="0x7ef50766" Size="13">
-    <Name>EFFECT_FOLLOW_FLIP</Name>
-  </Command>
-  <Command CRC32="0x2ed684de" Size="14">
-    <Name>EFFECT_FOLLOW_FLIP_ALPHA</Name>
-  </Command>
-  <Command CRC32="0x9860f55d" Size="16">
-    <Name>EFFECT_FOLLOW_FLIP_COLOR</Name>
-  </Command>
-  <Command CRC32="0x072d2aad" Size="19">
-    <Name>EFFECT_FOLLOW_FLIP_RND</Name>
-  </Command>
-  <Command CRC32="0x9e3105f2" Size="14">
-    <Name>EFFECT_FOLLOW_FLIP_arg13</Name>
-  </Command>
-  <Command CRC32="0x00559051" Size="15">
-    <Name>EFFECT_FOLLOW_FLIP_arg14</Name>
-  </Command>
-  <Command CRC32="0xef4016ca" Size="18">
-    <Name>EFFECT_FOLLOW_LIGHT</Name>
-  </Command>
-  <Command CRC32="0x0edc8bfd" Size="11">
-    <Name>EFFECT_FOLLOW_NO_STOP</Name>
-  </Command>
-  <Command CRC32="0x61a23df6" Size="13">
-    <Name>EFFECT_FOLLOW_NO_STOP_FLIP</Name>
-  </Command>
-  <Command CRC32="0x99cc9af2" Size="11">
-    <Name>EFFECT_FOLLOW_NO_STOP_SLOW_ALL</Name>
-  </Command>
-  <Command CRC32="0xd5fc182b" Size="14">
-    <Name>EFFECT_FOLLOW_NO_STOP_WITH_HANDLE</Name>
-  </Command>
-  <Command CRC32="0xfa435729" Size="12">
-    <Name>EFFECT_FOLLOW_NO_STOP_arg11</Name>
-  </Command>
-  <Command CRC32="0x1cb9bee8" Size="17">
-    <Name>EFFECT_FOLLOW_RND</Name>
-  </Command>
-  <Command CRC32="0xf10fd85a" Size="17">
-    <Name>EFFECT_FOLLOW_RND_WORK</Name>
-  </Command>
-  <Command CRC32="0x59829b55" Size="11">
-    <Name>EFFECT_FOLLOW_STR</Name>
-  </Command>
-  <Command CRC32="0xed85ca70" Size="13">
-    <Name>EFFECT_FOLLOW_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0x4261788b" Size="12">
-    <Name>EFFECT_FOLLOW_SYNC_PARENT</Name>
-  </Command>
-  <Command CRC32="0xfc4be069" Size="11">
-    <Name>EFFECT_FOLLOW_UNSYNC_VIS_WHOLE</Name>
-  </Command>
-  <Command CRC32="0x1d9c1ece" Size="12">
-    <Name>EFFECT_FOLLOW_WITH_HANDLE</Name>
-  </Command>
-  <Command CRC32="0xb7458bb3" Size="11">
-    <Name>EFFECT_FOLLOW_WORK</Name>
-  </Command>
-  <Command CRC32="0x0a539357" Size="12">
-    <Name>EFFECT_FOLLOW_arg11</Name>
-  </Command>
-  <Command CRC32="0x935ac2ed" Size="13">
-    <Name>EFFECT_FOLLOW_arg12</Name>
-  </Command>
-  <Command CRC32="0x7c37df64" Size="09">
-    <Name>EFFECT_GLOBAL</Name>
-  </Command>
-  <Command CRC32="0xcf86d9cb" Size="09">
-    <Name>EFFECT_GLOBAL_FOLLOW</Name>
-  </Command>
-  <Command CRC32="0x3d753f5e" Size="24">
-    <Name>EFFECT_LIGHT</Name>
-  </Command>
-  <Command CRC32="0xd5f5735f" Size="03">
-    <Name>EFFECT_LIGHT_END</Name>
-  </Command>
-  <Command CRC32="0x5a3b874d" Size="03">
-    <Name>EFFECT_OFF</Name>
-  </Command>
-  <Command CRC32="0xcc635654" Size="00">
-    <Name>EFFECT_OFF_HANDLE</Name>
-  </Command>
-  <Command CRC32="0xe8f38ca3" Size="04">
-    <Name>EFFECT_OFF_KIND</Name>
-  </Command>
-  <Command CRC32="0x89d3ad87" Size="04">
-    <Name>EFFECT_OFF_KIND_WORK</Name>
-  </Command>
-  <Command CRC32="0x12abd222" Size="05">
-    <Name>EFFECT_OFF_KIND_arg4</Name>
-  </Command>
-  <Command CRC32="0x81f5f144" Size="01">
-    <Name>EFFECT_PAUSE</Name>
-  </Command>
-  <Command CRC32="0xccd48e8a" Size="02">
-    <Name>EFFECT_REMOVE_ATTR</Name>
-  </Command>
-  <Command CRC32="0x51fa432a" Size="03">
-    <Name>EFFECT_REMOVE_ATTR_arg2</Name>
-  </Command>
-  <Command CRC32="0x0ca3c450" Size="02">
-    <Name>EFFECT_REMOVE_COMMON</Name>
-  </Command>
-  <Command CRC32="0xc31abacd" Size="03">
-    <Name>EFFECT_REMOVE_LINE_CIRCLE</Name>
-  </Command>
-  <Command CRC32="0x36fa6671" Size="05">
-    <Name>EFFECT_REQ_LINE_CIRCLE</Name>
-  </Command>
-  <Command CRC32="0x13b7328c" Size="08">
-    <Name>EFFECT_REQ_LINE_CIRCLE_OFFSET</Name>
-  </Command>
-  <Command CRC32="0x3b31d521" Size="10" />
-  <Command CRC32="0xf4f38447" Size="01">
-    <Name>EFFECT_RESUME</Name>
-  </Command>
-  <Command CRC32="0xfa6ce96e" Size="17">
-    <Name>EFFECT_ROTW</Name>
-  </Command>
-  <Command CRC32="0x056a8146" Size="19">
-    <Name>EFFECT_STRENGTH</Name>
-  </Command>
-  <Command CRC32="0x0141bb6a" Size="02">
-    <Name>EFFECT_SYNC_SCALE</Name>
-  </Command>
-  <Command CRC32="0x1e42ee23" Size="18">
-    <Name>EFFECT_WITH_HANDLE</Name>
-  </Command>
-  <Command CRC32="0x8fe9e295" Size="17">
-    <Name>EFFECT_WORK</Name>
-  </Command>
-  <Command CRC32="0xe9396c35" Size="17">
-    <Name>EFFECT_WORK_PR</Name>
-  </Command>
-  <Command CRC32="0xbbad115e" Size="17">
-    <Name>EFFECT_WORK_R</Name>
-  </Command>
-  <Command CRC32="0x31051ff6" Size="18" />
-  <Command CRC32="0x4a0a135e" Size="00">
-    <Name>ELIF</Name>
-  </Command>
-  <Command CRC32="0x632eb83f" Size="00">
-    <Name>ELSE</Name>
-  </Command>
-  <Command CRC32="0x16945acc" Size="42" />
-  <Command CRC32="0x2440efe2" Size="16">
-    <Name>EM_EFFECT_CENTER</Name>
-  </Command>
-  <Command CRC32="0x332db456" Size="16">
-    <Name>EM_EFFECT_DAMAGE_CENTER</Name>
-  </Command>
-  <Command CRC32="0x8e3dbed5" Size="02">
-    <Name>EM_SEND_LINK_EVENT</Name>
-  </Command>
-  <Command CRC32="0x2c5de016" Size="02">
-    <Name>EM_STOP</Name>
-  </Command>
-  <Command CRC32="0x4882328e" Size="02">
-    <Name>ENABLE_AREA</Name>
-  </Command>
-  <Command CRC32="0x606717f5" Size="01">
-    <Name>ENABLE_CANCEL</Name>
-  </Command>
-  <Command CRC32="0x9ccfb728" Size="01">
-    <Name>ENABLE_DEAD_DAMAGE_FLY_EFFECT</Name>
-  </Command>
-  <Command CRC32="0xa160ab16" Size="02">
-    <Name>ENABLE_ENERGY</Name>
-  </Command>
-  <Command CRC32="0x965b713b" Size="00">
-    <Name>END</Name>
-  </Command>
-  <Command CRC32="0xe46d3adf" Size="00">
-    <Name>ENDIF</Name>
-  </Command>
-  <Command CRC32="0xd08cfe6e" Size="00">
-    <Name>ENDSWITCH</Name>
-  </Command>
-  <Command CRC32="0x03aa897d" Size="01">
-    <Name>END_TRACE</Name>
-  </Command>
-  <Command CRC32="0xc026eec4" Size="02">
-    <Name>EXECUTE</Name>
-  </Command>
-  <Command CRC32="0x34bcd3f7" Size="04">
-    <Name>Float_Compare</Name>
+<data>
+  <command crc32="0x99cf7be6" size="01">
+    <name>NOP</name>
+  </command>
+  <command crc32="0x37784f8d" size="00">
+    <name>ADD_FLOAT</name>
+  </command>
+  <command crc32="0xa873499d" size="03">
+    <name>ADD_INT</name>
+  </command>
+  <command crc32="0x3cfb7580" size="04">
+    <name>ADD_POS</name>
+  </command>
+  <command crc32="0xf1fbefee" size="03">
+    <name>ADD_SPEED</name>
+  </command>
+  <command crc32="0x663de182" size="03">
+    <name>ADD_SPEED_NO_LIMIT</name>
+  </command>
+  <command crc32="0x6f4aaca8" size="24">
+    <name>AFTER_IMAGE2_ON</name>
+  </command>
+  <command crc32="0xe07cf8bb" size="24">
+    <name>AFTER_IMAGE2_ON_WORK</name>
+  </command>
+  <command crc32="0xd7f6cbcd" size="27">
+    <name>AFTER_IMAGE3_ON</name>
+  </command>
+  <command crc32="0x11097635" size="27">
+    <name>AFTER_IMAGE3_ON_ATTACH_WORK</name>
+  </command>
+  <command crc32="0x73e2040c" size="28">
+    <name>AFTER_IMAGE3_ON_ATTACH_WORK_arg27</name>
+  </command>
+  <command crc32="0xf707ecf8" size="27">
+    <name>AFTER_IMAGE3_ON_WORK</name>
+  </command>
+  <command crc32="0x2953bfde" size="28">
+    <name>AFTER_IMAGE3_ON_arg27</name>
+  </command>
+  <command crc32="0x6539137d" size="02">
+    <name>AFTER_IMAGE_OFF</name>
+  </command>
+  <command crc32="0x887b430a" size="21">
+    <name>AFTER_IMAGE_ON</name>
+  </command>
+  <command crc32="0x50118faf" size="21">
+    <name>AFTER_IMAGE_ON_WORK</name>
+  </command>
+  <command crc32="0x79380b43" size="10">
+    <name>AREA_WIND_2ND</name>
+  </command>
+  <command crc32="0xfe73acaa" size="09">
+    <name>AREA_WIND_2ND_RAD</name>
+  </command>
+  <command crc32="0x3c95cd87" size="10">
+    <name>AREA_WIND_2ND_RAD_arg9</name>
+  </command>
+  <command crc32="0x14c10d92" size="11">
+    <name>AREA_WIND_2ND_arg10</name>
+  </command>
+  <command crc32="0xd5d67f56" size="02">
+    <name>AREA_WIND_REMOVE</name>
+  </command>
+  <command crc32="0x7698bb42" size="03">
+    <name>ATK_CATEGORY</name>
+  </command>
+  <command crc32="0xff379eb6" size="02">
+    <name>ATK_CLR</name>
+  </command>
+  <command crc32="0x9245e1a8" size="01">
+    <name>ATK_CLR_ALL</name>
+  </command>
+  <command crc32="0x5c44f13a" size="06">
+    <name>ATK_HIT_ABS</name>
+  </command>
+  <command crc32="0xa3a28be3" size="06">
+    <name>ATK_HIT_ABS_VV</name>
+  </command>
+  <command crc32="0xd7645e49" size="06">
+    <name>ATK_HIT_ABS_WC</name>
+  </command>
+  <command crc32="0xbab9baa2" size="06">
+    <name>ATK_HIT_ABS_WV</name>
+  </command>
+  <command crc32="0xcdbe8a34" size="06">
+    <name>ATK_HIT_ABS_WW</name>
+  </command>
+  <command crc32="0xe634f701" size="02">
+    <name>ATK_KEEP_RUMBLE</name>
+  </command>
+  <command crc32="0xcc26b487" size="03">
+    <name>ATK_LERP</name>
+  </command>
+  <command crc32="0x7a128321" size="02">
+    <name>ATK_LERP_RATIO</name>
+  </command>
+  <command crc32="0x1afda8e6" size="06">
+    <name>ATK_NODE</name>
+  </command>
+  <command crc32="0xfc1c2985" size="02">
+    <name>ATK_NO_ATTACKER_LOG</name>
+  </command>
+  <command crc32="0x8b925a6c" size="02">
+    <name>ATK_NO_REACTION_SEARCH_WITCH_TIME</name>
+  </command>
+  <command crc32="0xdd526c98" size="03">
+    <name>ATK_OFFSET_FROM_NODE</name>
+  </command>
+  <command crc32="0xdfa4517a" size="03">
+    <name>ATK_POWER</name>
+  </command>
+  <command crc32="0x932d9a40" size="03">
+    <name>ATK_POWER_ADD</name>
+  </command>
+  <command crc32="0xc735c806" size="02">
+    <name>ATK_POWER_MUL</name>
+  </command>
+  <command crc32="0x6efb0db3" size="02">
+    <name>ATK_POWER_MUL_STATUS</name>
+  </command>
+  <command crc32="0xac811479" size="03">
+    <name>ATK_REFERENCE_NODE</name>
+  </command>
+  <command crc32="0xa1b6e607" size="06">
+    <name>ATK_RESERVE</name>
+  </command>
+  <command crc32="0x684264c9" size="03">
+    <name>ATK_SIZE</name>
+  </command>
+  <command crc32="0x7b1d9276" size="02">
+    <name>ATK_SLEEP</name>
+  </command>
+  <command crc32="0xb0777995" size="03">
+    <name>ATK_WHOLE</name>
+  </command>
+  <command crc32="0xb738eabd" size="25">
+    <name>ATTACK</name>
+  </command>
+  <command crc32="0xfaa85333" size="18">
+    <name>ATTACK_ABS</name>
+  </command>
+  <command crc32="0x321297b0" size="24">
+    <name>ATTACK_ABS_STRENGTH</name>
+  </command>
+  <command crc32="0x2988d50f" size="28">
+    <name>ATTACK_CAPSULE</name>
+  </command>
+  <command crc32="0xed67d5da" size="28">
+    <name>ATTACK_CAPSULE_IGNORE_THROW</name>
+  </command>
+  <command crc32="0x14fcc7e4" size="42">
+    <name>ATTACK_FP</name>
+  </command>
+  <command crc32="0x7640aeeb" size="42">
+    <name>ATTACK_FP_ATKW</name>
+  </command>
+  <command crc32="0x7075dc5a" size="44">
+    <name>ATTACK_FP_CAPSULE</name>
+  </command>
+  <command crc32="0x633decc0" size="44">
+    <name>ATTACK_FP_CAPSULE_IGNORE_THROW</name>
+  </command>
+  <command crc32="0x3df66202" size="50">
+    <name>ATTACK_FP_CAPSULE_STRENGTH</name>
+  </command>
+  <command crc32="0x97e2ceaa" size="42">
+    <name>ATTACK_FP_IGNORE_THROW</name>
+  </command>
+  <command crc32="0xbd04bdc3" size="42">
+    <name>ATTACK_FP_IND</name>
+  </command>
+  <command crc32="0xc93da32a" size="42">
+    <name>ATTACK_FP_REAC</name>
+  </command>
+  <command crc32="0x126ab61d" size="48">
+    <name>ATTACK_FP_STRENGTH</name>
+  </command>
+  <command crc32="0xcc7cc705" size="25">
+    <name>ATTACK_IGNORE_THROW</name>
+  </command>
+  <command crc32="0xdbddc840" size="25">
+    <name>ATTACK_IND</name>
+  </command>
+  <command crc32="0x4e94c51b" size="01">
+    <name>ATTACK_SE</name>
+  </command>
+  <command crc32="0xaeae97ff" size="03">
+    <name>ATTACK_SET_ATTACK_LEVEL</name>
+  </command>
+  <command crc32="0x7d1058c3" size="02">
+    <name>ATTACK_SET_CHECK_BACK</name>
+  </command>
+  <command crc32="0x7f55aaa2" size="02">
+    <name>ATTACK_SET_CHECK_FRONT</name>
+  </command>
+  <command crc32="0xd41df827" size="02">
+    <name>ATTACK_SET_CHECK_FRONT_LR</name>
+  </command>
+  <command crc32="0xb09f03b2" size="03" />
+  <command crc32="0x37ca2121" size="02" />
+  <command crc32="0x83197b9a" size="03">
+    <name>ATTACK_SET_NO_WEIGHT_REACTION</name>
+  </command>
+  <command crc32="0x853cd75e" size="02">
+    <name>ATTACK_SET_NO_WEIGHT_REACTION_ALL</name>
+  </command>
+  <command crc32="0x34094bd6" size="03">
+    <name>ATTACK_SET_NO_WEIGHT_REACTION_FRAME</name>
+  </command>
+  <command crc32="0x6f52e135" size="02">
+    <name>ATTACK_SET_NO_WEIGHT_REACTION_FRAME_ALL</name>
+  </command>
+  <command crc32="0xf615b1d5" size="01">
+    <name>ATTACK_SE_2</name>
+  </command>
+  <command crc32="0x81128143" size="01">
+    <name>ATTACK_SE_3</name>
+  </command>
+  <command crc32="0x0932ee6f" size="00">
+    <name>ATTACK_STRENGTH</name>
+  </command>
+  <command crc32="0xd5413340" size="00">
+    <name>BORN_ITEM</name>
+  </command>
+  <command crc32="0xfa1bc28a" size="02">
+    <name>CALL</name>
+  </command>
+  <command crc32="0x4e761504" size="02">
+    <name>CAMERA_SET_UPDATE_POS</name>
+  </command>
+  <command crc32="0x20db2106" size="03">
+    <name>CAM_OFFSET</name>
+  </command>
+  <command crc32="0x89ce242b" size="05">
+    <name>CAM_RECT</name>
+  </command>
+  <command crc32="0x5dcecd64" size="01">
+    <name>CAM_RESET</name>
+  </command>
+  <command crc32="0xebc717c8" size="02">
+    <name>CAM_ZOOM_IN</name>
+  </command>
+  <command crc32="0xf0ef4c5f" size="12">
+    <name>CAM_ZOOM_IN_FINAL</name>
+  </command>
+  <command crc32="0xe940dcc2" size="06">
+    <name>CAM_ZOOM_IN_arg5</name>
+  </command>
+  <command crc32="0x70498d78" size="07">
+    <name>CAM_ZOOM_IN_arg6</name>
+  </command>
+  <command crc32="0x86eb40dd" size="01">
+    <name>CAM_ZOOM_OUT</name>
+  </command>
+  <command crc32="0xc565ef20" size="03">
+    <name>CANCEL_FILL_SCREEN</name>
+  </command>
+  <command crc32="0x4e9d74b0" size="00">
+    <name>CASE</name>
+  </command>
+  <command crc32="0x323fb9d4" size="11">
+    <name>CATCH</name>
+  </command>
+  <command crc32="0xb0af39a6" size="01">
+    <name>CHANGE</name>
+  </command>
+  <command crc32="0x8eb98be7" size="01">
+    <name>CLEAR_SLOW_WHOLE</name>
+  </command>
+  <command crc32="0x08e67529" size="02">
+    <name>CLR_SPEED</name>
+  </command>
+  <command crc32="0x692bbcfa" size="01">
+    <name>CLR_SPEED_ALL</name>
+  </command>
+  <command crc32="0x5c3c583e" size="01">
+    <name>COL_NORMAL</name>
+  </command>
+  <command crc32="0xf3dd4acd" size="02">
+    <name>COL_PRI</name>
+  </command>
+  <command crc32="0xf45595a1" size="02">
+    <name>CORRECT</name>
+  </command>
+  <command crc32="0x950aefc5" size="02">
+    <name>CREATE_HAVE_ITEM</name>
+  </command>
+  <command crc32="0x2f08f54f" size="02">
+    <name>CTH_CLR</name>
+  </command>
+  <command crc32="0xf3a464ac" size="01">
+    <name>CTH_CLR_ALL</name>
+  </command>
+  <command crc32="0xacf3111a" size="00">
+    <name>CTH_SIZE</name>
+  </command>
+  <command crc32="0xca7748a5" size="01">
+    <name>DAMAGEFLY_SE</name>
+  </command>
+  <command crc32="0x55205f20" size="02">
+    <name>DAMAGEFLY_SE_arg1</name>
+  </command>
+  <command crc32="0xd741b7f5" size="01">
+    <name>DAMAGE_SE</name>
+  </command>
+  <command crc32="0xdc1bfec5" size="00">
+    <name>DEFAULT</name>
+  </command>
+  <command crc32="0x237c9486" size="01">
+    <name>DETACH</name>
+  </command>
+  <command crc32="0x96fda1f0" size="01">
+    <name>DISABLE_DEAD_DAMAGE_FLY_EFFECT</name>
+  </command>
+  <command crc32="0x887c2271" size="01">
+    <name>DISABLE_GOLD_EYE</name>
+  </command>
+  <command crc32="0x6a441545" size="17">
+    <name>DOWN_EFFECT</name>
+  </command>
+  <command crc32="0xee1baf5f" size="19">
+    <name>DOWN_EFFECT_FLIP</name>
+  </command>
+  <command crc32="0x7b105723" size="00">
+    <name>DROP_ATTACH_ITEM_GROUP</name>
+  </command>
+  <command crc32="0x7e30f0d5" size="00">
+    <name>DROP_ITEM</name>
+  </command>
+  <command crc32="0x3f6b0175" size="01">
+    <name>EAT_SE</name>
+  </command>
+  <command crc32="0x46985674" size="17">
+    <name>EFFECT</name>
+  </command>
+  <command crc32="0x868f5ac3" size="18">
+    <name>EFFECT_ALPHA</name>
+  </command>
+  <command crc32="0xd8d9a901" size="18">
+    <name>EFFECT_ATTR</name>
+  </command>
+  <command crc32="0x30392b40" size="20">
+    <name>EFFECT_COLOR</name>
+  </command>
+  <command crc32="0xe3c26db5" size="20">
+    <name>EFFECT_COLOR_WORK</name>
+  </command>
+  <command crc32="0xc81f667e" size="05">
+    <name>EFFECT_CONTINUAL</name>
+  </command>
+  <command crc32="0x6f2f2212" size="02">
+    <name>EFFECT_CONTINUAL_OFF</name>
+  </command>
+  <command crc32="0x29bc5960" size="03">
+    <name>EFFECT_DETACH_KIND</name>
+  </command>
+  <command crc32="0x9fcb5ad5" size="03">
+    <name>EFFECT_DETACH_KIND_WORK</name>
+  </command>
+  <command crc32="0x46596e40" size="19">
+    <name>EFFECT_FLIP</name>
+  </command>
+  <command crc32="0x46c4655c" size="20">
+    <name>EFFECT_FLIP_ALPHA</name>
+  </command>
+  <command crc32="0xf07214df" size="22">
+    <name>EFFECT_FLIP_COLOR</name>
+  </command>
+  <command crc32="0x089ebf6c" size="11">
+    <name>EFFECT_FLW_POS</name>
+  </command>
+  <command crc32="0x51bf42d5" size="11">
+    <name>EFFECT_FLW_POS_NO_STOP</name>
+  </command>
+  <command crc32="0xd98926b9" size="11">
+    <name>EFFECT_FLW_POS_STR</name>
+  </command>
+  <command crc32="0xd86f0143" size="13">
+    <name>EFFECT_FLW_POS_STRENGTH</name>
+  </command>
+  <command crc32="0x524ef3f5" size="11">
+    <name>EFFECT_FLW_POS_UNSYNC_VIS</name>
+  </command>
+  <command crc32="0xd4fc6ac3" size="11">
+    <name>EFFECT_FLW_UNSYNC_VIS</name>
+  </command>
+  <command crc32="0xfc061097" size="11">
+    <name>EFFECT_FOLLOW</name>
+  </command>
+  <command crc32="0x54ba7357" size="12">
+    <name>EFFECT_FOLLOW_ALPHA</name>
+  </command>
+  <command crc32="0xe20c02d4" size="14">
+    <name>EFFECT_FOLLOW_COLOR</name>
+  </command>
+  <command crc32="0x7ef50766" size="13">
+    <name>EFFECT_FOLLOW_FLIP</name>
+  </command>
+  <command crc32="0x2ed684de" size="14">
+    <name>EFFECT_FOLLOW_FLIP_ALPHA</name>
+  </command>
+  <command crc32="0x9860f55d" size="16">
+    <name>EFFECT_FOLLOW_FLIP_COLOR</name>
+  </command>
+  <command crc32="0x072d2aad" size="19">
+    <name>EFFECT_FOLLOW_FLIP_RND</name>
+  </command>
+  <command crc32="0x9e3105f2" size="14">
+    <name>EFFECT_FOLLOW_FLIP_arg13</name>
+  </command>
+  <command crc32="0x00559051" size="15">
+    <name>EFFECT_FOLLOW_FLIP_arg14</name>
+  </command>
+  <command crc32="0xef4016ca" size="18">
+    <name>EFFECT_FOLLOW_LIGHT</name>
+  </command>
+  <command crc32="0x0edc8bfd" size="11">
+    <name>EFFECT_FOLLOW_NO_STOP</name>
+  </command>
+  <command crc32="0x61a23df6" size="13">
+    <name>EFFECT_FOLLOW_NO_STOP_FLIP</name>
+  </command>
+  <command crc32="0x99cc9af2" size="11">
+    <name>EFFECT_FOLLOW_NO_STOP_SLOW_ALL</name>
+  </command>
+  <command crc32="0xd5fc182b" size="14">
+    <name>EFFECT_FOLLOW_NO_STOP_WITH_HANDLE</name>
+  </command>
+  <command crc32="0xfa435729" size="12">
+    <name>EFFECT_FOLLOW_NO_STOP_arg11</name>
+  </command>
+  <command crc32="0x1cb9bee8" size="17">
+    <name>EFFECT_FOLLOW_RND</name>
+  </command>
+  <command crc32="0xf10fd85a" size="17">
+    <name>EFFECT_FOLLOW_RND_WORK</name>
+  </command>
+  <command crc32="0x59829b55" size="11">
+    <name>EFFECT_FOLLOW_STR</name>
+  </command>
+  <command crc32="0xed85ca70" size="13">
+    <name>EFFECT_FOLLOW_STRENGTH</name>
+  </command>
+  <command crc32="0x4261788b" size="12">
+    <name>EFFECT_FOLLOW_SYNC_PARENT</name>
+  </command>
+  <command crc32="0xfc4be069" size="11">
+    <name>EFFECT_FOLLOW_UNSYNC_VIS_WHOLE</name>
+  </command>
+  <command crc32="0x1d9c1ece" size="12">
+    <name>EFFECT_FOLLOW_WITH_HANDLE</name>
+  </command>
+  <command crc32="0xb7458bb3" size="11">
+    <name>EFFECT_FOLLOW_WORK</name>
+  </command>
+  <command crc32="0x0a539357" size="12">
+    <name>EFFECT_FOLLOW_arg11</name>
+  </command>
+  <command crc32="0x935ac2ed" size="13">
+    <name>EFFECT_FOLLOW_arg12</name>
+  </command>
+  <command crc32="0x7c37df64" size="09">
+    <name>EFFECT_GLOBAL</name>
+  </command>
+  <command crc32="0xcf86d9cb" size="09">
+    <name>EFFECT_GLOBAL_FOLLOW</name>
+  </command>
+  <command crc32="0x3d753f5e" size="24">
+    <name>EFFECT_LIGHT</name>
+  </command>
+  <command crc32="0xd5f5735f" size="03">
+    <name>EFFECT_LIGHT_END</name>
+  </command>
+  <command crc32="0x5a3b874d" size="03">
+    <name>EFFECT_OFF</name>
+  </command>
+  <command crc32="0xcc635654" size="00">
+    <name>EFFECT_OFF_HANDLE</name>
+  </command>
+  <command crc32="0xe8f38ca3" size="04">
+    <name>EFFECT_OFF_KIND</name>
+  </command>
+  <command crc32="0x89d3ad87" size="04">
+    <name>EFFECT_OFF_KIND_WORK</name>
+  </command>
+  <command crc32="0x12abd222" size="05">
+    <name>EFFECT_OFF_KIND_arg4</name>
+  </command>
+  <command crc32="0x81f5f144" size="01">
+    <name>EFFECT_PAUSE</name>
+  </command>
+  <command crc32="0xccd48e8a" size="02">
+    <name>EFFECT_REMOVE_ATTR</name>
+  </command>
+  <command crc32="0x51fa432a" size="03">
+    <name>EFFECT_REMOVE_ATTR_arg2</name>
+  </command>
+  <command crc32="0x0ca3c450" size="02">
+    <name>EFFECT_REMOVE_COMMON</name>
+  </command>
+  <command crc32="0xc31abacd" size="03">
+    <name>EFFECT_REMOVE_LINE_CIRCLE</name>
+  </command>
+  <command crc32="0x36fa6671" size="05">
+    <name>EFFECT_REQ_LINE_CIRCLE</name>
+  </command>
+  <command crc32="0x13b7328c" size="08">
+    <name>EFFECT_REQ_LINE_CIRCLE_OFFSET</name>
+  </command>
+  <command crc32="0x3b31d521" size="10" />
+  <command crc32="0xf4f38447" size="01">
+    <name>EFFECT_RESUME</name>
+  </command>
+  <command crc32="0xfa6ce96e" size="17">
+    <name>EFFECT_ROTW</name>
+  </command>
+  <command crc32="0x056a8146" size="19">
+    <name>EFFECT_STRENGTH</name>
+  </command>
+  <command crc32="0x0141bb6a" size="02">
+    <name>EFFECT_SYNC_SCALE</name>
+  </command>
+  <command crc32="0x1e42ee23" size="18">
+    <name>EFFECT_WITH_HANDLE</name>
+  </command>
+  <command crc32="0x8fe9e295" size="17">
+    <name>EFFECT_WORK</name>
+  </command>
+  <command crc32="0xe9396c35" size="17">
+    <name>EFFECT_WORK_PR</name>
+  </command>
+  <command crc32="0xbbad115e" size="17">
+    <name>EFFECT_WORK_R</name>
+  </command>
+  <command crc32="0x31051ff6" size="18" />
+  <command crc32="0x4a0a135e" size="00">
+    <name>ELIF</name>
+  </command>
+  <command crc32="0x632eb83f" size="00">
+    <name>ELSE</name>
+  </command>
+  <command crc32="0x16945acc" size="42" />
+  <command crc32="0x2440efe2" size="16">
+    <name>EM_EFFECT_CENTER</name>
+  </command>
+  <command crc32="0x332db456" size="16">
+    <name>EM_EFFECT_DAMAGE_CENTER</name>
+  </command>
+  <command crc32="0x8e3dbed5" size="02">
+    <name>EM_SEND_LINK_EVENT</name>
+  </command>
+  <command crc32="0x2c5de016" size="02">
+    <name>EM_STOP</name>
+  </command>
+  <command crc32="0x4882328e" size="02">
+    <name>ENABLE_AREA</name>
+  </command>
+  <command crc32="0x606717f5" size="01">
+    <name>ENABLE_CANCEL</name>
+  </command>
+  <command crc32="0x9ccfb728" size="01">
+    <name>ENABLE_DEAD_DAMAGE_FLY_EFFECT</name>
+  </command>
+  <command crc32="0xa160ab16" size="02">
+    <name>ENABLE_ENERGY</name>
+  </command>
+  <command crc32="0x965b713b" size="00">
+    <name>END</name>
+  </command>
+  <command crc32="0xe46d3adf" size="00">
+    <name>ENDIF</name>
+  </command>
+  <command crc32="0xd08cfe6e" size="00">
+    <name>ENDSWITCH</name>
+  </command>
+  <command crc32="0x03aa897d" size="01">
+    <name>END_TRACE</name>
+  </command>
+  <command crc32="0xc026eec4" size="02">
+    <name>EXECUTE</name>
+  </command>
+  <command crc32="0x34bcd3f7" size="04">
+    <name>Float_Compare</name>
     <!--arg 0 needs an enum-->
-    <Arg ID="1" Type="COMPARE_FUNC"/>
-    <Arg ID="2" Type="float"/>
-  </Command>
-  <Command CRC32="0x5961371c" Size="04" />
-  <Command CRC32="0x2e66078a" Size="04" />
-  <Command CRC32="0x2da7e2b6" Size="04">
-    <Name>Float_Var_Compare</Name>
-    <Arg ID="1" Type="COMPARE_FUNC"/>
-    <Arg ID="2" Type="float"/>
-  </Command>
-  <Command CRC32="0x407a065d" Size="04" />
-  <Command CRC32="0x377d36cb" Size="04" />
-  <Command CRC32="0x5e6c3483" Size="04">
-    <Name>Int_Compare</Name>
+    <Arg id="1" type="COMPARE_FUNC"/>
+    <Arg id="2" type="float"/>
+  </command>
+  <command crc32="0x5961371c" size="04" />
+  <command crc32="0x2e66078a" size="04" />
+  <command crc32="0x2da7e2b6" size="04">
+    <name>Float_Var_Compare</name>
+    <Arg id="1" type="COMPARE_FUNC"/>
+    <Arg id="2" type="float"/>
+  </command>
+  <command crc32="0x407a065d" size="04" />
+  <command crc32="0x377d36cb" size="04" />
+  <command crc32="0x5e6c3483" size="04">
+    <name>Int_Compare</name>
     <!--arg 0 needs an enum-->
-    <Arg ID="1" Type="COMPARE_FUNC"/>
-  </Command>
-  <Command CRC32="0x33b1d068" Size="04" />
-  <Command CRC32="0x44b6e0fe" Size="04" />
-  <Command CRC32="0x477705c2" Size="04">
-    <Name>Int_Var_Compare</Name>
-    <Arg ID="1" Type="COMPARE_FUNC"/>
-  </Command>
-  <Command CRC32="0x2aaae129" Size="04" />
-  <Command CRC32="0x5dadd1bf" Size="04" />
-  <Command CRC32="0xd97d2806" Size="04" />
-  <Command CRC32="0xa0fa2515" Size="04" />
-  <Command CRC32="0x5121d3c3" Size="04" />
-  <Command CRC32="0x7fce1bcf" Size="04" />
-  <Command CRC32="0xed4b60e1" Size="02" />
-  <Command CRC32="0xe3212177" Size="01" />
-  <Command CRC32="0x895b9275" Size="02">
-    <Name>Else</Name>
-  </Command>
-  <Command CRC32="0xc31df569" Size="03">
-    <Name>Is_Not_Bool</Name>
-  </Command>
-  <Command CRC32="0x47810508" Size="03">
-    <Name>Is_Bool</Name>
-  </Command>
-  <Command CRC32="0x870cf021" Size="02">
-    <Name>False</Name>
-  </Command>
-  <Command CRC32="0xa5bd4f32" Size="02">
-    <Name>True</Name>
-  </Command>
-  <Command CRC32="0x38a3ec78" Size="02">
-    <Name>Goto</Name>
-  </Command>
-  <Command CRC32="0x0eb375e3" Size="02">
-    <Name>Loop</Name>
-  </Command>
-  <Command CRC32="0x0f39ec70" Size="02">
-    <Name>FIGHTER_CLIFF_CHECK</Name>
-  </Command>
-  <Command CRC32="0x3aaaf7d0" Size="09">
-    <Name>FILL_SCREEN</Name>
-  </Command>
-  <Command CRC32="0xfe6b9f2f" Size="14">
-    <Name>FILL_SCREEN_arg13</Name>
-  </Command>
-  <Command CRC32="0x8e016ba0" Size="17">
-    <Name>FILL_SCREEN_arg16</Name>
-  </Command>
-  <Command CRC32="0x2e8abc2e" Size="07">
-    <Name>FILL_SCREEN_arg6</Name>
-  </Command>
-  <Command CRC32="0x598d8cb8" Size="08">
-    <Name>FILL_SCREEN_arg7</Name>
-  </Command>
-  <Command CRC32="0x589a9db3" Size="05">
-    <Name>FLASH</Name>
-  </Command>
-  <Command CRC32="0x52cf42e0" Size="06">
-    <Name>FLASH_FRM</Name>
-  </Command>
-  <Command CRC32="0x7522830d" Size="05">
-    <Name>FLASH_NO_STOP</Name>
-  </Command>
-  <Command CRC32="0xe46277b2" Size="01">
-    <Name>FLASH_OFF</Name>
-  </Command>
-  <Command CRC32="0xfff80bc2" Size="01">
-    <Name>FLIP_HAVE_ITEM</Name>
-  </Command>
-  <Command CRC32="0xc84b610e" Size="17">
-    <Name>FOOT_EFFECT</Name>
-  </Command>
-  <Command CRC32="0xb208689a" Size="19">
-    <Name>FOOT_EFFECT_FLIP</Name>
-  </Command>
-  <Command CRC32="0x42acfe7d" Size="02">
-    <Name>FRAME</Name>
-  </Command>
-  <Command CRC32="0xa5303662" Size="01">
-    <Name>FRAME_CLR</Name>
-  </Command>
-  <Command CRC32="0x675f9d03" Size="00">
-    <Name>FRAME_END</Name>
-  </Command>
-  <Command CRC32="0x2fd378c7" Size="00">
-    <Name>FRAME_IF</Name>
-  </Command>
-  <Command CRC32="0x49610d3f" Size="02">
-    <Name>FRAME_W</Name>
-  </Command>
-  <Command CRC32="0xf7b97ac1" Size="06" />
-  <Command CRC32="0xd8df1dcc" Size="06">
-    <Name>FT_ATK_HIT_ABS</Name>
-  </Command>
-  <Command CRC32="0xdf057b20" Size="18">
-    <Name>FT_ATTACK_ABS</Name>
-  </Command>
-  <Command CRC32="0x227b36a1" Size="03">
-    <Name>FT_ATTACK_ABS_CAMERA_QUAKE</Name>
-  </Command>
-  <Command CRC32="0xf6218798" Size="04" />
-  <Command CRC32="0x548f2d4c" Size="09">
-    <Name>FT_CATCH</Name>
-  </Command>
-  <Command CRC32="0x7b48fe1c" Size="12">
-    <Name>FT_CATCH_CAPSULE</Name>
-  </Command>
-  <Command CRC32="0xef787d43" Size="13">
-    <Name>FT_CATCH_CAPSULE_arg12</Name>
-  </Command>
-  <Command CRC32="0x46f15f52" Size="09">
-    <Name>FT_CATCH_SP</Name>
-  </Command>
-  <Command CRC32="0x1eaf840c" Size="10">
-    <Name>FT_CATCH_SP_arg9</Name>
-  </Command>
-  <Command CRC32="0x1b26c673" Size="11">
-    <Name>FT_CATCH_arg10</Name>
-  </Command>
-  <Command CRC32="0xe74d94ee" Size="02">
-    <Name>FT_CHANGE_KINE</Name>
-  </Command>
-  <Command CRC32="0xaa02262f" Size="02">
-    <Name>FT_CHANGE_KINE_AERIAL</Name>
-  </Command>
-  <Command CRC32="0x67e8e687" Size="01" />
-  <Command CRC32="0x7002e722" Size="02" />
-  <Command CRC32="0xd014d5a8" Size="04" />
-  <Command CRC32="0xd2b4d575" Size="03" />
-  <Command CRC32="0x2e9bd610" Size="03">
-    <Name>FT_MOTION_ANGLE</Name>
-  </Command>
-  <Command CRC32="0x7172a764" Size="02">
-    <Name>FT_MOTION_RATE</Name>
-  </Command>
-  <Command CRC32="0xcd0c1cc9" Size="02" />
-  <Command CRC32="0xe2e96674" Size="04" />
-  <Command CRC32="0x6a5db458" Size="01">
-    <Name>FT_START_ADJUST_MOTION_FRAME</Name>
-  </Command>
-  <Command CRC32="0xb2e91d0c" Size="02">
-    <Name>FT_START_ADJUST_MOTION_FRAME_arg1</Name>
-  </Command>
-  <Command CRC32="0x467a5ed5" Size="02" />
-  <Command CRC32="0x1b41048c" Size="10" />
-  <Command CRC32="0x23a9ac4b" Size="02">
-    <Name>GENERATE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x1d09e516" Size="02">
-    <Name>GENERATE_ARTICLE_ENABLE</Name>
-  </Command>
-  <Command CRC32="0xb459ab04" Size="03">
-    <Name>GENERATE_ARTICLE_ENABLE_arg2</Name>
-  </Command>
-  <Command CRC32="0xc35e9b92" Size="04">
-    <Name>GENERATE_ARTICLE_ENABLE_arg3</Name>
-  </Command>
-  <Command CRC32="0xbfcbe5ff" Size="03">
-    <Name>GENERATE_ARTICLE_LINK_PARENTS</Name>
-  </Command>
-  <Command CRC32="0x0a7bf1d4" Size="03">
-    <Name>GENERATE_ARTICLE_arg2</Name>
-  </Command>
-  <Command CRC32="0xc4af2746" Size="02">
-    <Name>GET_COMMON_SOUND_LABEL</Name>
-  </Command>
-  <Command CRC32="0x012c4a1b" Size="02">
-    <Name>GET_PITCH</Name>
-  </Command>
-  <Command CRC32="0xc7429968" Size="04">
-    <Name>GET_TRACE_TARGET_POSTURE_POS</Name>
-  </Command>
-  <Command CRC32="0x3d29000f" Size="05">
-    <Name>GET_TRACE_TARGET_POSTURE_POS_arg4</Name>
-  </Command>
-  <Command CRC32="0xfac3816a" Size="04">
-    <Name>GET_TRACE_TARGET_VEC</Name>
-  </Command>
-  <Command CRC32="0x585b1516" Size="05">
-    <Name>GET_TRACE_TARGET_VEC_arg4</Name>
-  </Command>
-  <Command CRC32="0xf7b8fd7e" Size="02">
-    <Name>GET_VOLUME</Name>
-  </Command>
-  <Command CRC32="0x14712da5" Size="02">
-    <Name>GROUND_COLLISION</Name>
-  </Command>
-  <Command CRC32="0x8b298d04" Size="03">
-    <Name>GROUND_SHAPE_FLAG</Name>
-  </Command>
-  <Command CRC32="0xcedc237e" Size="02">
-    <Name>HIT_ALL</Name>
-  </Command>
-  <Command CRC32="0xf13bfe8d" Size="03">
-    <Name>HIT_NODE</Name>
-  </Command>
-  <Command CRC32="0x640f63a0" Size="03">
-    <Name>HIT_STOP_MUL</Name>
-  </Command>
-  <Command CRC32="0xffdd0216" Size="00">
-    <Name>IF</Name>
-  </Command>
-  <Command CRC32="0xce8abaed" Size="02">
-    <Name>IGNORE_BOX2D_GROUND</Name>
-  </Command>
-  <Command CRC32="0xaecb846b" Size="02">
-    <Name>IGNORE_BOX2D_SHAPE</Name>
-  </Command>
-  <Command CRC32="0x8827f88c" Size="02">
-    <Name>INC_INT</Name>
-  </Command>
-  <Command CRC32="0x37852cd5" Size="01">
-    <Name>INFLICTION_OFF</Name>
-  </Command>
-  <Command CRC32="0xd85158e4" Size="01">
-    <Name>INIT_POS</Name>
-  </Command>
-  <Command CRC32="0xca9052eb" Size="04">
-    <Name>INIT_POS_arg3</Name>
-  </Command>
-  <Command CRC32="0xf0b8437f" Size="02">
-    <Name>INTERRUPT_BGM</Name>
-  </Command>
-  <Command CRC32="0x979d8828" Size="02">
-    <Name>IS_EXIST_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xa21bc6ea" Size="02">
-    <Name>IS_FLAG_WORK</Name>
-  </Command>
-  <Command CRC32="0x9a5c9c1d" Size="02">
-    <Name>IS_GENERATABLE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x372cca43" Size="00">
-    <Name>IS_PLAYING</Name>
-  </Command>
-  <Command CRC32="0xde961532" Size="00">
-    <Name>IS_PLAYING_STATUS</Name>
-  </Command>
-  <Command CRC32="0xcd0d7079" Size="02">
-    <Name>IS_RANDOM</Name>
-  </Command>
-  <Command CRC32="0x838b5229" Size="02">
-    <Name>ITEM_ACTION</Name>
-  </Command>
-  <Command CRC32="0xc3d1c317" Size="00">
-    <Name>ITEM_CONSTRAINT_NODE</Name>
-  </Command>
-  <Command CRC32="0xa8d82049" Size="03">
-    <Name>ITEM_EMPTY_SE</Name>
-  </Command>
-  <Command CRC32="0xf6d9dcf6" Size="03">
-    <Name>ITEM_SCALE_ANIM</Name>
-  </Command>
-  <Command CRC32="0xc7af54a0" Size="02">
-    <Name>IT_AI_DIR_FACTOR</Name>
-  </Command>
-  <Command CRC32="0x6e417c5c" Size="02">
-    <Name>IT_AI_DIR_ROT_MODE</Name>
-  </Command>
-  <Command CRC32="0xea4a168d" Size="02">
-    <Name>IT_AI_DISTANCE_FACTOR</Name>
-  </Command>
-  <Command CRC32="0xaa1acdaf" Size="11">
-    <Name>IT_AI_MOVE</Name>
-  </Command>
-  <Command CRC32="0x79caf3bb" Size="03">
-    <Name>IT_AI_MOVE_BRAKE</Name>
-  </Command>
-  <Command CRC32="0xace34e4c" Size="04">
-    <Name>IT_AI_MOVE_BRAKE_arg3</Name>
-  </Command>
-  <Command CRC32="0xb8725cdd" Size="01">
-    <Name>IT_AI_MOVE_PAUSE</Name>
-  </Command>
-  <Command CRC32="0x50fae2a8" Size="01">
-    <Name>IT_AI_MOVE_TARGET_DIR</Name>
-  </Command>
-  <Command CRC32="0xe1e1175a" Size="12">
-    <Name>IT_AI_MOVE_arg11</Name>
-  </Command>
-  <Command CRC32="0x78e846e0" Size="13">
-    <Name>IT_AI_MOVE_arg12</Name>
-  </Command>
-  <Command CRC32="0x0fef7676" Size="14">
-    <Name>IT_AI_MOVE_arg13</Name>
-  </Command>
-  <Command CRC32="0xe69f056c" Size="04">
-    <Name>IT_AI_ROT</Name>
-  </Command>
-  <Command CRC32="0x36f14b53" Size="05">
-    <Name>IT_AI_ROT_arg4</Name>
-  </Command>
-  <Command CRC32="0x41f67bc5" Size="06">
-    <Name>IT_AI_ROT_arg5</Name>
-  </Command>
-  <Command CRC32="0xd8ff2a7f" Size="07">
-    <Name>IT_AI_ROT_arg6</Name>
-  </Command>
-  <Command CRC32="0xc9faadfe" Size="02">
-    <Name>IT_AI_TYPE</Name>
-  </Command>
-  <Command CRC32="0xa08b9a5a" Size="03">
-    <Name>IT_AI_TYPE_arg2</Name>
-  </Command>
-  <Command CRC32="0xd78caacc" Size="04">
-    <Name>IT_AI_TYPE_arg3</Name>
-  </Command>
-  <Command CRC32="0x49e83f6f" Size="05">
-    <Name>IT_AI_TYPE_arg4</Name>
-  </Command>
-  <Command CRC32="0x3eef0ff9" Size="06">
-    <Name>IT_AI_TYPE_arg5</Name>
-  </Command>
-  <Command CRC32="0xa728e2c6" Size="02" />
-  <Command CRC32="0xafea0b23" Size="04">
-    <Name>IT_BASE_ROT</Name>
-  </Command>
-  <Command CRC32="0xd0344d95" Size="03">
-    <Name>IT_CAMERA_OFFSET</Name>
-  </Command>
-  <Command CRC32="0x5e25434e" Size="09">
-    <Name>IT_CREATE</Name>
-  </Command>
-  <Command CRC32="0xa6227e16" Size="08">
-    <Name>IT_CREATE_ANGLE</Name>
-  </Command>
-  <Command CRC32="0xc6c035c6" Size="08">
-    <Name>IT_CREATE_ANGLE_WITH_GRAVITY</Name>
-  </Command>
-  <Command CRC32="0xc03bf7d9" Size="02">
-    <Name>IT_DAMAGE</Name>
-  </Command>
-  <Command CRC32="0x9a8d6a8e" Size="02">
-    <Name>IT_ENABLE_AREA</Name>
-  </Command>
-  <Command CRC32="0xed72e95a" Size="03">
-    <Name>IT_FINAL_RIGHT</Name>
-  </Command>
-  <Command CRC32="0x7114f253" Size="09">
-    <Name>IT_GET_DIR</Name>
-  </Command>
-  <Command CRC32="0xb6c47c1b" Size="11">
-    <Name>IT_GET_DIR_arg10</Name>
-  </Command>
-  <Command CRC32="0xa3e0de1b" Size="10">
-    <Name>IT_GET_DIR_arg9</Name>
-  </Command>
-  <Command CRC32="0x7528a2bc" Size="05">
-    <Name>IT_GET_NODE_POS</Name>
-  </Command>
-  <Command CRC32="0x6ba1b159" Size="04">
-    <Name>IT_GET_NODE_POS_arg3</Name>
-  </Command>
-  <Command CRC32="0x6ccc7540" Size="08">
-    <Name>IT_GET_NODE_POS_arg7</Name>
-  </Command>
-  <Command CRC32="0xe8c8e371" Size="04">
-    <Name>IT_GET_NODE_ROT</Name>
-  </Command>
-  <Command CRC32="0xaae5133f" Size="05">
-    <Name>IT_GET_NODE_ROT_arg4</Name>
-  </Command>
-  <Command CRC32="0xf8b7b2b5" Size="06">
-    <Name>IT_HIT_ABSOLUTE</Name>
-  </Command>
-  <Command CRC32="0xa6bcc330" Size="05">
-    <Name>IT_IS_EXIST_GROUND_NO_CLIFF</Name>
-  </Command>
-  <Command CRC32="0x42fac19a" Size="02">
-    <Name>IT_IS_EXIST_PERCENT</Name>
-  </Command>
-  <Command CRC32="0x4a606461" Size="02">
-    <Name>IT_IS_RND_PERCENT</Name>
-  </Command>
-  <Command CRC32="0xaee75c14" Size="01">
-    <Name>IT_LOT_CREATE</Name>
-  </Command>
-  <Command CRC32="0xb570c933" Size="04">
-    <Name>IT_LOT_CREATE_arg3</Name>
-  </Command>
-  <Command CRC32="0x994cf8ff" Size="02">
-    <Name>IT_MOVE</Name>
-  </Command>
-  <Command CRC32="0x046b0422" Size="04">
-    <Name>IT_MOVE_CAMERA</Name>
-  </Command>
-  <Command CRC32="0xc76174f3" Size="02">
-    <Name>IT_MOVE_CAMERA_arg1</Name>
-  </Command>
-  <Command CRC32="0x0c89cf7b" Size="01" />
-  <Command CRC32="0xb973be85" Size="01">
-    <Name>IT_REMOVE</Name>
-  </Command>
-  <Command CRC32="0xcc5c3995" Size="01">
-    <Name>IT_REMOVE_TARGET_ITEM</Name>
-  </Command>
-  <Command CRC32="0xa4826100" Size="02">
-    <Name>IT_SCALE</Name>
-  </Command>
-  <Command CRC32="0xa75bdf91" Size="02">
-    <Name>IT_SCALE_ANIM</Name>
-  </Command>
-  <Command CRC32="0xb078c69a" Size="05">
-    <Name>IT_SCALE_ANIM_arg4</Name>
-  </Command>
-  <Command CRC32="0x65037812" Size="02">
-    <Name>IT_SEARCH</Name>
-  </Command>
-  <Command CRC32="0xe4824295" Size="03">
-    <Name>IT_SEARCH_arg2</Name>
-  </Command>
-  <Command CRC32="0x93857203" Size="04">
-    <Name>IT_SEARCH_arg3</Name>
-  </Command>
-  <Command CRC32="0x0de1e7a0" Size="05">
-    <Name>IT_SEARCH_arg4</Name>
-  </Command>
-  <Command CRC32="0xe0f4da21" Size="02">
-    <Name>IT_SET_COUNTER</Name>
-  </Command>
-  <Command CRC32="0x131e5816" Size="03">
-    <Name>IT_SET_COUNTER_arg2</Name>
-  </Command>
-  <Command CRC32="0x451797ff" Size="03">
-    <Name>IT_SET_ROT</Name>
-  </Command>
-  <Command CRC32="0x43760f0d" Size="04">
-    <Name>IT_SET_ROT_arg3</Name>
-  </Command>
-  <Command CRC32="0x3e6f2200" Size="02">
-    <Name>IT_SET_SE</Name>
-  </Command>
-  <Command CRC32="0x4290df6a" Size="03">
-    <Name>IT_SET_SE_arg2</Name>
-  </Command>
-  <Command CRC32="0xfb4ae8f4" Size="03">
-    <Name>IT_SET_TEAM_OWNER</Name>
-  </Command>
-  <Command CRC32="0x3880b83a" Size="04">
-    <Name>IT_SHOOT</Name>
-  </Command>
-  <Command CRC32="0x2663c7ba" Size="02">
-    <Name>IT_SLOPE_TYPE</Name>
-  </Command>
-  <Command CRC32="0x4375be5a" Size="03">
-    <Name>IT_SLOW</Name>
-  </Command>
-  <Command CRC32="0x95eaf9b0" Size="02">
-    <Name>IT_SLOW_WHOLE</Name>
-  </Command>
-  <Command CRC32="0x9accb9c8" Size="01">
-    <Name>IT_SLOW_WHOLE_CLR</Name>
-  </Command>
-  <Command CRC32="0x347bae45" Size="02">
-    <Name>IT_UNABLE_AREA</Name>
-  </Command>
-  <Command CRC32="0x4dfb84c9" Size="01">
-    <Name>IT_UNABLE_ENERGY_ALL</Name>
-  </Command>
-  <Command CRC32="0xc9f899a2" Size="02">
-    <Name>IT_UPDATE_TARGET</Name>
-  </Command>
-  <Command CRC32="0x56a2339e" Size="04">
-    <Name>IT_UPDATE_TARGET_arg3</Name>
-  </Command>
-  <Command CRC32="0x0e3842f2" Size="02">
-    <Name>IT_WAIT_LOST</Name>
-  </Command>
-  <Command CRC32="0x5a175a68" Size="08">
-    <Name>IT_WINDOW</Name>
-  </Command>
-  <Command CRC32="0x9126eba2" Size="02">
-    <Name>JUMP</Name>
-  </Command>
-  <Command CRC32="0xb89f681c" Size="03" />
-  <Command CRC32="0x104f0834" Size="17">
-    <Name>LANDING_EFFECT</Name>
-  </Command>
-  <Command CRC32="0x515f97ff" Size="19">
-    <Name>LANDING_EFFECT_FLIP</Name>
-  </Command>
-  <Command CRC32="0x9d7f5d71" Size="01">
-    <Name>LAST_EFFECT_CANCEL_BOSS_STOP</Name>
-  </Command>
-  <Command CRC32="0xbf72bdca" Size="02">
-    <Name>LAST_EFFECT_SET_ALPHA</Name>
-  </Command>
-  <Command CRC32="0x09c4cc49" Size="04">
-    <Name>LAST_EFFECT_SET_COLOR</Name>
-  </Command>
-  <Command CRC32="0xe6181a6b" Size="02">
-    <Name>LAST_EFFECT_SET_DISABLE_SYSTEM_SLOW</Name>
-  </Command>
-  <Command CRC32="0xe59fb667" Size="02">
-    <Name>LAST_EFFECT_SET_MAT_ANIM_RND</Name>
-  </Command>
-  <Command CRC32="0xe1d78bfb" Size="02">
-    <Name>LAST_EFFECT_SET_OFFSET_TO_CAMERA_FLAT</Name>
-  </Command>
-  <Command CRC32="0xfd1f7ecf" Size="02">
-    <Name>LAST_EFFECT_SET_RATE</Name>
-  </Command>
-  <Command CRC32="0x6e332637" Size="02">
-    <Name>LAST_EFFECT_SET_RATE_WORK</Name>
-  </Command>
-  <Command CRC32="0x83d4a124" Size="04">
-    <Name>LAST_EFFECT_SET_SCALE</Name>
-  </Command>
-  <Command CRC32="0xd9cc663f" Size="04">
-    <Name>LAST_EFFECT_SET_SCALE_W</Name>
-  </Command>
-  <Command CRC32="0x8f27d612" Size="04">
-    <Name>LAST_PARTICLE_SET_COLOR</Name>
-  </Command>
-  <Command CRC32="0xfe036c47" Size="15">
-    <Name>LIGHT_AXIS</Name>
-  </Command>
-  <Command CRC32="0x70fbed79" Size="05">
-    <Name>LIGHT_AXIS_FRM</Name>
-  </Command>
-  <Command CRC32="0x2558d7f3" Size="06">
-    <Name>LIGHT_COL_FRM</Name>
-  </Command>
-  <Command CRC32="0x967d4ea9" Size="01">
-    <Name>LIGHT_OFF</Name>
-  </Command>
-  <Command CRC32="0x89a772ac" Size="07">
-    <Name>LIGHT_SHINE</Name>
-  </Command>
-  <Command CRC32="0x448bbf07" Size="01" />
-  <Command CRC32="0x97caf05a" Size="00">
-    <Name>LOOP</Name>
-  </Command>
-  <Command CRC32="0x84730cc5" Size="02">
-    <Name>MATERIAL_ANIM_SET_FRAME</Name>
-  </Command>
-  <Command CRC32="0x3a52d8b7" Size="02">
-    <Name>MATERIAL_ANIM_SET_RATE</Name>
-  </Command>
-  <Command CRC32="0x5143dd2a" Size="01">
-    <Name>MII_ENABLE_RATE</Name>
-  </Command>
-  <Command CRC32="0xc7b586af" Size="04" />
-  <Command CRC32="0xffb519e1" Size="01">
-    <Name>MII_UNABLE_RATE</Name>
-  </Command>
-  <Command CRC32="0x401abfa0" Size="04">
-    <Name>MODIFY_RHOMBUS</Name>
-  </Command>
-  <Command CRC32="0xa3b1a56d" Size="02">
-    <Name>MODIFY_RHOMBUS_DOWN</Name>
-  </Command>
-  <Command CRC32="0x73415e57" Size="02">
-    <Name>MODIFY_RHOMBUS_UP</Name>
-  </Command>
-  <Command CRC32="0x35c3df13" Size="02">
-    <Name>MODIFY_RHOMBUS_WIDTH</Name>
-  </Command>
-  <Command CRC32="0x8c79d4d7" Size="00">
-    <Name>MOT_CHANGE</Name>
-  </Command>
-  <Command CRC32="0x425848c8" Size="03">
-    <Name>MOT_CHANGE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xaa8826a7" Size="03">
-    <Name>MOT_CHANGE_EXIST_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xae994daf" Size="02" />
-  <Command CRC32="0xa546845c" Size="02">
-    <Name>MOT_SET_RATE</Name>
-  </Command>
-  <Command CRC32="0x752e6714" Size="02">
-    <Name>MOT_SET_RATE_W</Name>
-  </Command>
-  <Command CRC32="0x2a25155d" Size="03">
-    <Name>NO_REACTION</Name>
-  </Command>
-  <Command CRC32="0x17232732" Size="02">
-    <Name>OFF_FLAG</Name>
-  </Command>
-  <Command CRC32="0x661b30da" Size="02">
-    <Name>ON_FLAG</Name>
-  </Command>
-  <Command CRC32="0x252f2052" Size="02">
-    <Name>PASSABLE_CHECK</Name>
-  </Command>
-  <Command CRC32="0x22e2e4c6" Size="02">
-    <Name>PH_2ND_BOTH</Name>
-  </Command>
-  <Command CRC32="0x58e8478d" Size="02">
-    <Name>PH_2ND_GRAVITY</Name>
-  </Command>
-  <Command CRC32="0x65590360" Size="01">
-    <Name>PH_RAGDOLL</Name>
-  </Command>
-  <Command CRC32="0x8a4021e4" Size="01">
-    <Name>PH_RAGDOLL_GRAVITY</Name>
-  </Command>
-  <Command CRC32="0xa82038a0" Size="01">
-    <Name>PH_SWING_OFF</Name>
-  </Command>
-  <Command CRC32="0x46560dff" Size="01">
-    <Name>PH_SWING_ON</Name>
-  </Command>
-  <Command CRC32="0xbbb819d9" Size="02">
-    <Name>PH_SWING_STOP</Name>
-  </Command>
-  <Command CRC32="0x140b3778" Size="01">
-    <Name>PH_SWING_WIND_OFF</Name>
-  </Command>
-  <Command CRC32="0x2d942090" Size="02">
-    <Name>PICKUP_ITEM</Name>
-  </Command>
-  <Command CRC32="0xe1e1ed52" Size="03">
-    <Name>PICKUP_ITEM_arg2</Name>
-  </Command>
-  <Command CRC32="0x96e6ddc4" Size="04">
-    <Name>PICKUP_ITEM_arg3</Name>
-  </Command>
-  <Command CRC32="0x08824867" Size="05">
-    <Name>PICKUP_ITEM_arg4</Name>
-  </Command>
-  <Command CRC32="0x3a1c50c4" Size="02">
-    <Name>PLAY_DAMAGESTOP</Name>
-  </Command>
-  <Command CRC32="0xf7016a91" Size="02">
-    <Name>PLAY_DOWN_SE</Name>
-  </Command>
-  <Command CRC32="0x7f0f890e" Size="03">
-    <Name>PLAY_FLY_VOICE</Name>
-  </Command>
-  <Command CRC32="0xe022fe8a" Size="02">
-    <Name>PLAY_LANDING_SE</Name>
-  </Command>
-  <Command CRC32="0x82a2f998" Size="01">
-    <Name>PLAY_LANDING_SE_REG</Name>
-  </Command>
-  <Command CRC32="0xe5751f0a" Size="02">
-    <Name>PLAY_SE</Name>
-  </Command>
-  <Command CRC32="0x3d2cfa86" Size="02">
-    <Name>PLAY_SEQUENCE</Name>
-  </Command>
-  <Command CRC32="0x40639c05" Size="02">
-    <Name>PLAY_SEQUENCE_DAMAGESTOP</Name>
-  </Command>
-  <Command CRC32="0x3a775d26" Size="02">
-    <Name>PLAY_SE_NO_3D</Name>
-  </Command>
-  <Command CRC32="0xb73ef69c" Size="02">
-    <Name>PLAY_SE_REMAIN</Name>
-  </Command>
-  <Command CRC32="0xfb98ee28" Size="02">
-    <Name>PLAY_STATUS</Name>
-  </Command>
-  <Command CRC32="0xcdbf3106" Size="02">
-    <Name>PLAY_STEP</Name>
-  </Command>
-  <Command CRC32="0x01a5a27c" Size="03">
-    <Name>PLAY_STEP_FLIPPABLE</Name>
-  </Command>
-  <Command CRC32="0x99044432" Size="00">
-    <Name>POOL</Name>
-  </Command>
-  <Command CRC32="0x5be12ad0" Size="02">
-    <Name>QUAKE</Name>
-  </Command>
-  <Command CRC32="0x65f38512" Size="02">
-    <Name>QUAKE_STOP</Name>
-  </Command>
-  <Command CRC32="0x0412fe17" Size="16">
-    <Name>REFLECTOR</Name>
-  </Command>
-  <Command CRC32="0xe06a5d00" Size="02">
-    <Name>REG_LANDING_SE</Name>
-  </Command>
-  <Command CRC32="0x501a7157" Size="02">
-    <Name>REMOVE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xc436bf6e" Size="02">
-    <Name>REMOVE_EXIST_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x41bf2502" Size="01">
-    <Name>REMOVE_ITEM</Name>
-  </Command>
-  <Command CRC32="0x5f6c80e6" Size="05">
-    <Name>RENEW_TRACE</Name>
-  </Command>
-  <Command CRC32="0xe2a24d87" Size="06">
-    <Name>RENEW_TRACE_arg5</Name>
-  </Command>
-  <Command CRC32="0x14da2640" Size="02">
-    <Name>RESUME_BGM</Name>
-  </Command>
-  <Command CRC32="0x3d155c42" Size="02">
-    <Name>RESUME_ENERGY</Name>
-  </Command>
-  <Command CRC32="0x5766f889" Size="01">
-    <Name>RETURN</Name>
-  </Command>
-  <Command CRC32="0x63623560" Size="01">
-    <Name>REVERSE_LR</Name>
-  </Command>
-  <Command CRC32="0x1a019b6b" Size="01">
-    <Name>REVERSE_ROT</Name>
-  </Command>
-  <Command CRC32="0xb3480157" Size="03" />
-  <Command CRC32="0xbe0c4a94" Size="04" />
-  <Command CRC32="0x2068df37" Size="05" />
-  <Command CRC32="0x406d24bc" Size="03">
-    <Name>RUMBLE</Name>
-  </Command>
-  <Command CRC32="0xf395cc2c" Size="03">
-    <Name>RUMBLE_STATUS</Name>
-  </Command>
-  <Command CRC32="0x42d70bb3" Size="02">
-    <Name>SA_SET</Name>
-  </Command>
-  <Command CRC32="0x56055ba2" Size="02">
-    <Name>SCH_CLR</Name>
-  </Command>
-  <Command CRC32="0x98203af6" Size="01">
-    <Name>SCH_CLR_ALL</Name>
-  </Command>
-  <Command CRC32="0x72318271" Size="00">
-    <Name>SCH_SIZE</Name>
-  </Command>
-  <Command CRC32="0x30ebc1ae" Size="01">
-    <Name>SCROLL_SLOW</Name>
-  </Command>
-  <Command CRC32="0x44081c21" Size="18">
-    <Name>SEARCH</Name>
-  </Command>
-  <Command CRC32="0xb39c1a7c" Size="01">
-    <Name>SEARCH_CLR_ALL</Name>
-  </Command>
-  <Command CRC32="0x5bbfe217" Size="01">
-    <Name>SET_AIR</Name>
-  </Command>
-  <Command CRC32="0x05b66d19" Size="02">
-    <Name>SET_ATTACK_HIT_STOP</Name>
-  </Command>
-  <Command CRC32="0xa5187bbc" Size="02">
-    <Name>SET_CURSOR</Name>
-  </Command>
-  <Command CRC32="0x1e3ab92a" Size="03">
-    <Name>SET_FLOAT</Name>
-  </Command>
-  <Command CRC32="0xf885cb9c" Size="03">
-    <Name>SET_FRAME_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xf38e805d" Size="03">
-    <Name>SET_INT</Name>
-  </Command>
-  <Command CRC32="0xd5e769c4" Size="02">
-    <Name>SET_LIGHT_CONE_BORDER</Name>
-  </Command>
-  <Command CRC32="0x21fda8df" Size="02">
-    <Name>SET_LIGHT_LENGTH</Name>
-  </Command>
-  <Command CRC32="0x1bfc5837" Size="02">
-    <Name>SET_LIGHT_RADIUS</Name>
-  </Command>
-  <Command CRC32="0x95794508" Size="03">
-    <Name>SET_LIMIT_SPEED_EX</Name>
-  </Command>
-  <Command CRC32="0xe0cf6ff1" Size="02">
-    <Name>SET_NAME_CURSOR</Name>
-  </Command>
-  <Command CRC32="0x395da2d1" Size="05">
-    <Name>SET_OFFSET_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xf0005966" Size="03">
-    <Name>SET_PITCH</Name>
-  </Command>
-  <Command CRC32="0x374a735e" Size="02">
-    <Name>SET_PITCH_STATUS</Name>
-  </Command>
-  <Command CRC32="0x19a86da9" Size="03">
-    <Name>SET_PITCH_STATUS_HANDLE</Name>
-  </Command>
-  <Command CRC32="0x687f9320" Size="03">
-    <Name>SET_PLAY_INHIVIT</Name>
-  </Command>
-  <Command CRC32="0x6706bc40" Size="01">
-    <Name>SET_POS</Name>
-  </Command>
-  <Command CRC32="0x7a34be78" Size="05">
-    <Name>SET_POS_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x1c843790" Size="04">
-    <Name>SET_POS_arg3</Name>
-  </Command>
-  <Command CRC32="0x2b62f859" Size="03">
-    <Name>SET_RATE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x26ed10f4" Size="03">
-    <Name>SET_RATE_ARTICLE_V</Name>
-  </Command>
-  <Command CRC32="0x51ea2062" Size="03">
-    <Name>SET_RATE_ARTICLE_W</Name>
-  </Command>
-  <Command CRC32="0x3b8d1838" Size="03">
-    <Name>SET_REVERB_STAGEBUS</Name>
-  </Command>
-  <Command CRC32="0xde950b48" Size="02">
-    <Name>SET_REVERB_STAGEBUS_DEFAULT</Name>
-  </Command>
-  <Command CRC32="0xfae6fd8d" Size="04">
-    <Name>SET_ROT</Name>
-  </Command>
-  <Command CRC32="0x46396a70" Size="05">
-    <Name>SET_ROT_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x3bd9c23b" Size="02">
-    <Name>SET_SCALE</Name>
-  </Command>
-  <Command CRC32="0x8965b9d6" Size="05">
-    <Name>SET_SEARCH_OPPONENT</Name>
-  </Command>
-  <Command CRC32="0x1511931f" Size="02">
-    <Name>SET_SHADOW</Name>
-  </Command>
-  <Command CRC32="0xd8b91949" Size="03">
-    <Name>SET_SPEED</Name>
-  </Command>
-  <Command CRC32="0x26e9c6be" Size="05">
-    <Name>SET_SPEED_EX</Name>
-  </Command>
-  <Command CRC32="0xd3d9401b" Size="03">
-    <Name>SET_SPEED_EX_arg2</Name>
-  </Command>
-  <Command CRC32="0xa4de708d" Size="04">
-    <Name>SET_SPEED_EX_arg3</Name>
-  </Command>
-  <Command CRC32="0x5fc8fa49" Size="02">
-    <Name>SET_TAKEOUT_SE</Name>
-  </Command>
-  <Command CRC32="0x5d5af322" Size="02">
-    <Name>SET_TAKEOUT_SE_STATUS</Name>
-  </Command>
-  <Command CRC32="0xd9fddcec" Size="03">
-    <Name>SET_VOLUME</Name>
-  </Command>
-  <Command CRC32="0x51a2ad03" Size="04">
-    <Name>SET_VOLUME_arg3</Name>
-  </Command>
-  <Command CRC32="0xf0df9a8b" Size="03">
-    <Name>SHIELD_OFF</Name>
-  </Command>
-  <Command CRC32="0xbb400cda" Size="04">
-    <Name>SHIELD_OFF_arg3</Name>
-  </Command>
-  <Command CRC32="0xd1b837c2" Size="04">
-    <Name>SHIELD_ON</Name>
-  </Command>
-  <Command CRC32="0xa4f1b325" Size="02">
-    <Name>SHOOT_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x326e0eb5" Size="03">
-    <Name>SHOOT_ARTICLE_arg2</Name>
-  </Command>
-  <Command CRC32="0xa2bab52a" Size="02">
-    <Name>SHOOT_EXIST_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xbfc0031f" Size="03">
-    <Name>SHOOT_EXIST_ARTICLE_arg2</Name>
-  </Command>
-  <Command CRC32="0x965e035a" Size="01">
-    <Name>SHOOT_ITEM_BULLET</Name>
-  </Command>
-  <Command CRC32="0x451486b7" Size="02">
-    <Name>SHOOT_ITEM_BULLET_ANGLE</Name>
-  </Command>
-  <Command CRC32="0x42998fb4" Size="02">
-    <Name>SHOOT_ITEM_BULLET_CHARGE</Name>
-  </Command>
-  <Command CRC32="0x745b20a7" Size="02">
-    <Name>SHOOT_ITEM_BULLET_CHARGE_W</Name>
-  </Command>
-  <Command CRC32="0xf2c328a7" Size="02">
-    <Name>SHOOT_ITEM_BULLET_arg1</Name>
-  </Command>
-  <Command CRC32="0xaf988735" Size="02">
-    <Name>SLOPE</Name>
-  </Command>
-  <Command CRC32="0x961521c4" Size="03">
-    <Name>SLOPE_INTP</Name>
-  </Command>
-  <Command CRC32="0x040fd56e" Size="04">
-    <Name>SLOPE_INTP_arg3</Name>
-  </Command>
-  <Command CRC32="0x74b61bac" Size="03">
-    <Name>SLOPE_TOE</Name>
-  </Command>
-  <Command CRC32="0x5dd6c56c" Size="02">
-    <Name>SLOPE_TOP_UNLIMIT</Name>
-  </Command>
-  <Command CRC32="0x37ed7029" Size="03">
-    <Name>SLOW_OPPONENT</Name>
-  </Command>
-  <Command CRC32="0x97370496" Size="03">
-    <Name>SLOW_WHOLE</Name>
-  </Command>
-  <Command CRC32="0xc52b4328" Size="08">
-    <Name>START_CHARGE</Name>
-  </Command>
-  <Command CRC32="0x7e977faa" Size="13">
-    <Name>START_CHARGE_arg12</Name>
-  </Command>
-  <Command CRC32="0x50b5dfbd" Size="09">
-    <Name>START_CHARGE_arg8</Name>
-  </Command>
-  <Command CRC32="0xee37008f" Size="01" />
-  <Command CRC32="0xcea1588e" Size="09">
-    <Name>START_TRACE</Name>
-  </Command>
-  <Command CRC32="0xaf41e94e" Size="03">
-    <Name>STATUS_CHANGE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xa30d3ca2" Size="03">
-    <Name>STATUS_CHANGE_EXIST_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0xac4919b5" Size="01">
-    <Name>STICK_LR</Name>
-  </Command>
-  <Command CRC32="0x9524baac" Size="01">
-    <Name>STICK_LR_UPDATE</Name>
-  </Command>
-  <Command CRC32="0x5b23a4de" Size="02">
-    <Name>STICK_LR_arg1</Name>
-  </Command>
-  <Command CRC32="0xafe548a4" Size="01">
-    <Name>STOP_CHARGE</Name>
-  </Command>
-  <Command CRC32="0x10c4d4c8" Size="01" />
-  <Command CRC32="0xf920748a" Size="02">
-    <Name>STOP_SE</Name>
-  </Command>
-  <Command CRC32="0x602dd264" Size="01">
-    <Name>STOP_SE_ALL</Name>
-  </Command>
-  <Command CRC32="0x666b608e" Size="02">
-    <Name>STOP_SE_ALL_arg1</Name>
-  </Command>
-  <Command CRC32="0xf4b1c95b" Size="01">
-    <Name>STOP_SE_STATUS</Name>
-  </Command>
-  <Command CRC32="0xa8ddac53" Size="03">
-    <Name>STOP_SE_arg2</Name>
-  </Command>
-  <Command CRC32="0x1cf1a390" Size="02">
-    <Name>STRANS_GROUP_ON</Name>
-  </Command>
-  <Command CRC32="0xf0bdc819" Size="02">
-    <Name>STRANS_OFF</Name>
-  </Command>
-  <Command CRC32="0xb3eaa5c2" Size="02">
-    <Name>STRANS_ON</Name>
-  </Command>
-  <Command CRC32="0x918f61cd" Size="03">
-    <Name>SUB_FLOAT_2</Name>
-  </Command>
-  <Command CRC32="0x6d8d18b7" Size="02">
-    <Name>SUSPEND_ENERGY</Name>
-  </Command>
-  <Command CRC32="0x9f118c9e" Size="00">
-    <Name>SWITCH</Name>
-  </Command>
-  <Command CRC32="0x032c73b5" Size="02">
-    <Name>SYNC_POS_NODE</Name>
-  </Command>
-  <Command CRC32="0x72982f32" Size="01">
-    <Name>TEST_GROUND</Name>
-  </Command>
-  <Command CRC32="0x307d6993" Size="03">
-    <Name>THROW_ITEM</Name>
-  </Command>
-  <Command CRC32="0x50730439" Size="06">
-    <Name>THROW_ITEM_OFFSET</Name>
-  </Command>
-  <Command CRC32="0x2f20b6c7" Size="04">
-    <Name>THROW_ITEM_OFFSET_MOTION</Name>
-  </Command>
-  <Command CRC32="0x6cd94c77" Size="05">
-    <Name>THROW_ITEM_OFFSET_arg4</Name>
-  </Command>
-  <Command CRC32="0xbfe18be1" Size="01">
-    <Name>THROW_ITEM_REFLET</Name>
-  </Command>
-  <Command CRC32="0x6e053790" Size="04">
-    <Name>THROW_ITEM_arg3</Name>
-  </Command>
-  <Command CRC32="0xf061a233" Size="05">
-    <Name>THROW_ITEM_arg4</Name>
-  </Command>
-  <Command CRC32="0x8f67803a" Size="01">
-    <Name>TURN_L</Name>
-  </Command>
-  <Command CRC32="0x7568bd59" Size="01">
-    <Name>TURN_R</Name>
-  </Command>
-  <Command CRC32="0xe674f645" Size="02">
-    <Name>UNABLE_AREA</Name>
-  </Command>
-  <Command CRC32="0x15670dcc" Size="02">
-    <Name>UNABLE_ENERGY</Name>
-  </Command>
-  <Command CRC32="0x4dd83eff" Size="01">
-    <Name>UPDATE_GROUND</Name>
-  </Command>
-  <Command CRC32="0x61f36803" Size="01">
-    <Name>UPDATE_ROT</Name>
-  </Command>
-  <Command CRC32="0x87c50592" Size="02">
-    <Name>USE_ITEM</Name>
-  </Command>
-  <Command CRC32="0x27213f09" Size="02">
-    <Name>VIS_ATTACH_ITEM</Name>
-  </Command>
-  <Command CRC32="0x315e8c48" Size="03">
-    <Name>VIS_ATTACH_ITEM_GROUP</Name>
-  </Command>
-  <Command CRC32="0x91cf842d" Size="02">
-    <Name>VIS_BACK_DEFAULT</Name>
-  </Command>
-  <Command CRC32="0x5bc50aa6" Size="03">
-    <Name>VIS_BACK_DEFAULT_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x8ff62e3d" Size="02">
-    <Name>VIS_HAVE_ITEM</Name>
-  </Command>
-  <Command CRC32="0x83a45688" Size="02">
-    <Name>VIS_RESET_DEFAULT</Name>
-  </Command>
-  <Command CRC32="0x96114cfc" Size="03">
-    <Name>VIS_SET</Name>
-  </Command>
-  <Command CRC32="0xf4940c87" Size="04">
-    <Name>VIS_SET_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x15f0023e" Size="03">
-    <Name>VIS_SET_DEFAULT</Name>
-  </Command>
-  <Command CRC32="0xcb59a07e" Size="02">
-    <Name>VIS_WHOLE</Name>
-  </Command>
-  <Command CRC32="0x0202c138" Size="03">
-    <Name>VIS_WHOLE_ARTICLE</Name>
-  </Command>
-  <Command CRC32="0x53f0d3e1" Size="04">
-    <Name>VIS_WHOLE_ARTICLE_arg3</Name>
-  </Command>
-  <Command CRC32="0x4b7b6e51" Size="02">
-    <Name>WAIT</Name>
-  </Command>
-  <Command CRC32="0x5f4cf775" Size="01">
-    <Name>WAIT_LOOP</Name>
-  </Command>
-  <Command CRC32="0x522dba37" Size="01">
-    <Name>WAIT_LOOP_CLR</Name>
-  </Command>
-  <Command CRC32="0xcd25726b" Size="01">
-    <Name>WAIT_LOOP_SYNC_MOT</Name>
-  </Command>
-  <Command CRC32="0x314839a7" Size="01">
-    <Name>WAIT_arg0</Name>
-  </Command>
-  <Command CRC32="0xf0d25bda" Size="02">
-    <Name>WHOLE_HIT</Name>
-  </Command>
-  <Command CRC32="0x3341cbfe" Size="01" />
-  <Command CRC32="0x92a88908" Size="02" />
-  <Command CRC32="0x300a0a85" Size="01" />
-  <Enum Name="COMPARE_FUNC">
-    <Label ID="0">COMPARE_FUNC_EQUAL</Label>
-    <Label ID="1">COMPARE_FUNC_NEQUAL</Label>
-    <Label ID="2">COMPARE_FUNC_LEQUAL</Label>
-    <Label ID="3">COMPARE_FUNC_GEQUAL</Label>
-    <Label ID="4">COMPARE_FUNC_LESS</Label>
-    <Label ID="5">COMPARE_FUNC_GREATER</Label>
-  </Enum>
-  <Enum Name="CLIFF_CHECK_KIND">
-    <Label ID="0">CLIFF_CHECK_KIND_NONE</Label>
-    <Label ID="1">CLIFF_CHECK_KIND_ALWAYS</Label>
-    <Label ID="2">CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES</Label>
-    <Label ID="3">CLIFF_CHECK_KIND_ON_DROP</Label>
-    <Label ID="4">CLIFF_CHECK_KIND_ON_DROP_BOTH_SIDES</Label>
-  </Enum>
-  <Enum Name="GROUND_CORRECT_KIND">
-    <Label ID="0">GROUND_CORRECT_KIND_NONE</Label>
-    <Label ID="1">GROUND_CORRECT_KIND_GROUND</Label>
-    <Label ID="2">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP</Label>
-    <Label ID="3">GROUND_CORRECT_KIND_GROUND_OTTOTTO</Label>
-    <Label ID="4">GROUND_CORRECT_KIND_CLIFF</Label>
-    <Label ID="5">GROUND_CORRECT_KIND_AIR</Label>
-    <Label ID="6">GROUND_CORRECT_KIND_AIR_PASSABLE_OFF</Label>
-    <Label ID="7">GROUND_CORRECT_KIND_AIR_TRANS</Label>
-    <Label ID="8">GROUND_CORRECT_KIND_KEEP</Label>
-    <Label ID="9">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</Label>
-    <Label ID="10">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</Label>
-  </Enum>
-  <Enum Name="GENERATE_ARTICLE"/>
-</Data>
+    <Arg id="1" type="COMPARE_FUNC"/>
+  </command>
+  <command crc32="0x33b1d068" size="04" />
+  <command crc32="0x44b6e0fe" size="04" />
+  <command crc32="0x477705c2" size="04">
+    <name>Int_Var_Compare</name>
+    <Arg id="1" type="COMPARE_FUNC"/>
+  </command>
+  <command crc32="0x2aaae129" size="04" />
+  <command crc32="0x5dadd1bf" size="04" />
+  <command crc32="0xd97d2806" size="04" />
+  <command crc32="0xa0fa2515" size="04" />
+  <command crc32="0x5121d3c3" size="04" />
+  <command crc32="0x7fce1bcf" size="04" />
+  <command crc32="0xed4b60e1" size="02" />
+  <command crc32="0xe3212177" size="01" />
+  <command crc32="0x895b9275" size="02">
+    <name>Else</name>
+  </command>
+  <command crc32="0xc31df569" size="03">
+    <name>Is_Not_Bool</name>
+  </command>
+  <command crc32="0x47810508" size="03">
+    <name>Is_Bool</name>
+  </command>
+  <command crc32="0x870cf021" size="02">
+    <name>False</name>
+  </command>
+  <command crc32="0xa5bd4f32" size="02">
+    <name>True</name>
+  </command>
+  <command crc32="0x38a3ec78" size="02">
+    <name>Goto</name>
+  </command>
+  <command crc32="0x0eb375e3" size="02">
+    <name>Loop</name>
+  </command>
+  <command crc32="0x0f39ec70" size="02">
+    <name>FIGHTER_CLIFF_CHECK</name>
+  </command>
+  <command crc32="0x3aaaf7d0" size="09">
+    <name>FILL_SCREEN</name>
+  </command>
+  <command crc32="0xfe6b9f2f" size="14">
+    <name>FILL_SCREEN_arg13</name>
+  </command>
+  <command crc32="0x8e016ba0" size="17">
+    <name>FILL_SCREEN_arg16</name>
+  </command>
+  <command crc32="0x2e8abc2e" size="07">
+    <name>FILL_SCREEN_arg6</name>
+  </command>
+  <command crc32="0x598d8cb8" size="08">
+    <name>FILL_SCREEN_arg7</name>
+  </command>
+  <command crc32="0x589a9db3" size="05">
+    <name>FLASH</name>
+  </command>
+  <command crc32="0x52cf42e0" size="06">
+    <name>FLASH_FRM</name>
+  </command>
+  <command crc32="0x7522830d" size="05">
+    <name>FLASH_NO_STOP</name>
+  </command>
+  <command crc32="0xe46277b2" size="01">
+    <name>FLASH_OFF</name>
+  </command>
+  <command crc32="0xfff80bc2" size="01">
+    <name>FLIP_HAVE_ITEM</name>
+  </command>
+  <command crc32="0xc84b610e" size="17">
+    <name>FOOT_EFFECT</name>
+  </command>
+  <command crc32="0xb208689a" size="19">
+    <name>FOOT_EFFECT_FLIP</name>
+  </command>
+  <command crc32="0x42acfe7d" size="02">
+    <name>FRAME</name>
+  </command>
+  <command crc32="0xa5303662" size="01">
+    <name>FRAME_CLR</name>
+  </command>
+  <command crc32="0x675f9d03" size="00">
+    <name>FRAME_END</name>
+  </command>
+  <command crc32="0x2fd378c7" size="00">
+    <name>FRAME_IF</name>
+  </command>
+  <command crc32="0x49610d3f" size="02">
+    <name>FRAME_W</name>
+  </command>
+  <command crc32="0xf7b97ac1" size="06" />
+  <command crc32="0xd8df1dcc" size="06">
+    <name>FT_ATK_HIT_ABS</name>
+  </command>
+  <command crc32="0xdf057b20" size="18">
+    <name>FT_ATTACK_ABS</name>
+  </command>
+  <command crc32="0x227b36a1" size="03">
+    <name>FT_ATTACK_ABS_CAMERA_QUAKE</name>
+  </command>
+  <command crc32="0xf6218798" size="04" />
+  <command crc32="0x548f2d4c" size="09">
+    <name>FT_CATCH</name>
+  </command>
+  <command crc32="0x7b48fe1c" size="12">
+    <name>FT_CATCH_CAPSULE</name>
+  </command>
+  <command crc32="0xef787d43" size="13">
+    <name>FT_CATCH_CAPSULE_arg12</name>
+  </command>
+  <command crc32="0x46f15f52" size="09">
+    <name>FT_CATCH_SP</name>
+  </command>
+  <command crc32="0x1eaf840c" size="10">
+    <name>FT_CATCH_SP_arg9</name>
+  </command>
+  <command crc32="0x1b26c673" size="11">
+    <name>FT_CATCH_arg10</name>
+  </command>
+  <command crc32="0xe74d94ee" size="02">
+    <name>FT_CHANGE_KINE</name>
+  </command>
+  <command crc32="0xaa02262f" size="02">
+    <name>FT_CHANGE_KINE_AERIAL</name>
+  </command>
+  <command crc32="0x67e8e687" size="01" />
+  <command crc32="0x7002e722" size="02" />
+  <command crc32="0xd014d5a8" size="04" />
+  <command crc32="0xd2b4d575" size="03" />
+  <command crc32="0x2e9bd610" size="03">
+    <name>FT_MOTION_ANGLE</name>
+  </command>
+  <command crc32="0x7172a764" size="02">
+    <name>FT_MOTION_RATE</name>
+  </command>
+  <command crc32="0xcd0c1cc9" size="02" />
+  <command crc32="0xe2e96674" size="04" />
+  <command crc32="0x6a5db458" size="01">
+    <name>FT_START_ADJUST_MOTION_FRAME</name>
+  </command>
+  <command crc32="0xb2e91d0c" size="02">
+    <name>FT_START_ADJUST_MOTION_FRAME_arg1</name>
+  </command>
+  <command crc32="0x467a5ed5" size="02" />
+  <command crc32="0x1b41048c" size="10" />
+  <command crc32="0x23a9ac4b" size="02">
+    <name>GENERATE_ARTICLE</name>
+  </command>
+  <command crc32="0x1d09e516" size="02">
+    <name>GENERATE_ARTICLE_ENABLE</name>
+  </command>
+  <command crc32="0xb459ab04" size="03">
+    <name>GENERATE_ARTICLE_ENABLE_arg2</name>
+  </command>
+  <command crc32="0xc35e9b92" size="04">
+    <name>GENERATE_ARTICLE_ENABLE_arg3</name>
+  </command>
+  <command crc32="0xbfcbe5ff" size="03">
+    <name>GENERATE_ARTICLE_LINK_PARENTS</name>
+  </command>
+  <command crc32="0x0a7bf1d4" size="03">
+    <name>GENERATE_ARTICLE_arg2</name>
+  </command>
+  <command crc32="0xc4af2746" size="02">
+    <name>GET_COMMON_SOUND_LABEL</name>
+  </command>
+  <command crc32="0x012c4a1b" size="02">
+    <name>GET_PITCH</name>
+  </command>
+  <command crc32="0xc7429968" size="04">
+    <name>GET_TRACE_TARGET_POSTURE_POS</name>
+  </command>
+  <command crc32="0x3d29000f" size="05">
+    <name>GET_TRACE_TARGET_POSTURE_POS_arg4</name>
+  </command>
+  <command crc32="0xfac3816a" size="04">
+    <name>GET_TRACE_TARGET_VEC</name>
+  </command>
+  <command crc32="0x585b1516" size="05">
+    <name>GET_TRACE_TARGET_VEC_arg4</name>
+  </command>
+  <command crc32="0xf7b8fd7e" size="02">
+    <name>GET_VOLUME</name>
+  </command>
+  <command crc32="0x14712da5" size="02">
+    <name>GROUND_COLLISION</name>
+  </command>
+  <command crc32="0x8b298d04" size="03">
+    <name>GROUND_SHAPE_FLAG</name>
+  </command>
+  <command crc32="0xcedc237e" size="02">
+    <name>HIT_ALL</name>
+  </command>
+  <command crc32="0xf13bfe8d" size="03">
+    <name>HIT_NODE</name>
+  </command>
+  <command crc32="0x640f63a0" size="03">
+    <name>HIT_STOP_MUL</name>
+  </command>
+  <command crc32="0xffdd0216" size="00">
+    <name>IF</name>
+  </command>
+  <command crc32="0xce8abaed" size="02">
+    <name>IGNORE_BOX2D_GROUND</name>
+  </command>
+  <command crc32="0xaecb846b" size="02">
+    <name>IGNORE_BOX2D_SHAPE</name>
+  </command>
+  <command crc32="0x8827f88c" size="02">
+    <name>INC_INT</name>
+  </command>
+  <command crc32="0x37852cd5" size="01">
+    <name>INFLICTION_OFF</name>
+  </command>
+  <command crc32="0xd85158e4" size="01">
+    <name>INIT_POS</name>
+  </command>
+  <command crc32="0xca9052eb" size="04">
+    <name>INIT_POS_arg3</name>
+  </command>
+  <command crc32="0xf0b8437f" size="02">
+    <name>INTERRUPT_BGM</name>
+  </command>
+  <command crc32="0x979d8828" size="02">
+    <name>IS_EXIST_ARTICLE</name>
+  </command>
+  <command crc32="0xa21bc6ea" size="02">
+    <name>IS_FLAG_WORK</name>
+  </command>
+  <command crc32="0x9a5c9c1d" size="02">
+    <name>IS_GENERATABLE_ARTICLE</name>
+  </command>
+  <command crc32="0x372cca43" size="00">
+    <name>IS_PLAYING</name>
+  </command>
+  <command crc32="0xde961532" size="00">
+    <name>IS_PLAYING_STATUS</name>
+  </command>
+  <command crc32="0xcd0d7079" size="02">
+    <name>IS_RANDOM</name>
+  </command>
+  <command crc32="0x838b5229" size="02">
+    <name>ITEM_ACTION</name>
+  </command>
+  <command crc32="0xc3d1c317" size="00">
+    <name>ITEM_CONSTRAINT_NODE</name>
+  </command>
+  <command crc32="0xa8d82049" size="03">
+    <name>ITEM_EMPTY_SE</name>
+  </command>
+  <command crc32="0xf6d9dcf6" size="03">
+    <name>ITEM_SCALE_ANIM</name>
+  </command>
+  <command crc32="0xc7af54a0" size="02">
+    <name>IT_AI_DIR_FACTOR</name>
+  </command>
+  <command crc32="0x6e417c5c" size="02">
+    <name>IT_AI_DIR_ROT_MODE</name>
+  </command>
+  <command crc32="0xea4a168d" size="02">
+    <name>IT_AI_DISTANCE_FACTOR</name>
+  </command>
+  <command crc32="0xaa1acdaf" size="11">
+    <name>IT_AI_MOVE</name>
+  </command>
+  <command crc32="0x79caf3bb" size="03">
+    <name>IT_AI_MOVE_BRAKE</name>
+  </command>
+  <command crc32="0xace34e4c" size="04">
+    <name>IT_AI_MOVE_BRAKE_arg3</name>
+  </command>
+  <command crc32="0xb8725cdd" size="01">
+    <name>IT_AI_MOVE_PAUSE</name>
+  </command>
+  <command crc32="0x50fae2a8" size="01">
+    <name>IT_AI_MOVE_TARGET_DIR</name>
+  </command>
+  <command crc32="0xe1e1175a" size="12">
+    <name>IT_AI_MOVE_arg11</name>
+  </command>
+  <command crc32="0x78e846e0" size="13">
+    <name>IT_AI_MOVE_arg12</name>
+  </command>
+  <command crc32="0x0fef7676" size="14">
+    <name>IT_AI_MOVE_arg13</name>
+  </command>
+  <command crc32="0xe69f056c" size="04">
+    <name>IT_AI_ROT</name>
+  </command>
+  <command crc32="0x36f14b53" size="05">
+    <name>IT_AI_ROT_arg4</name>
+  </command>
+  <command crc32="0x41f67bc5" size="06">
+    <name>IT_AI_ROT_arg5</name>
+  </command>
+  <command crc32="0xd8ff2a7f" size="07">
+    <name>IT_AI_ROT_arg6</name>
+  </command>
+  <command crc32="0xc9faadfe" size="02">
+    <name>IT_AI_TYPE</name>
+  </command>
+  <command crc32="0xa08b9a5a" size="03">
+    <name>IT_AI_TYPE_arg2</name>
+  </command>
+  <command crc32="0xd78caacc" size="04">
+    <name>IT_AI_TYPE_arg3</name>
+  </command>
+  <command crc32="0x49e83f6f" size="05">
+    <name>IT_AI_TYPE_arg4</name>
+  </command>
+  <command crc32="0x3eef0ff9" size="06">
+    <name>IT_AI_TYPE_arg5</name>
+  </command>
+  <command crc32="0xa728e2c6" size="02" />
+  <command crc32="0xafea0b23" size="04">
+    <name>IT_BASE_ROT</name>
+  </command>
+  <command crc32="0xd0344d95" size="03">
+    <name>IT_CAMERA_OFFSET</name>
+  </command>
+  <command crc32="0x5e25434e" size="09">
+    <name>IT_CREATE</name>
+  </command>
+  <command crc32="0xa6227e16" size="08">
+    <name>IT_CREATE_ANGLE</name>
+  </command>
+  <command crc32="0xc6c035c6" size="08">
+    <name>IT_CREATE_ANGLE_WITH_GRAVITY</name>
+  </command>
+  <command crc32="0xc03bf7d9" size="02">
+    <name>IT_DAMAGE</name>
+  </command>
+  <command crc32="0x9a8d6a8e" size="02">
+    <name>IT_ENABLE_AREA</name>
+  </command>
+  <command crc32="0xed72e95a" size="03">
+    <name>IT_FINAL_RIGHT</name>
+  </command>
+  <command crc32="0x7114f253" size="09">
+    <name>IT_GET_DIR</name>
+  </command>
+  <command crc32="0xb6c47c1b" size="11">
+    <name>IT_GET_DIR_arg10</name>
+  </command>
+  <command crc32="0xa3e0de1b" size="10">
+    <name>IT_GET_DIR_arg9</name>
+  </command>
+  <command crc32="0x7528a2bc" size="05">
+    <name>IT_GET_NODE_POS</name>
+  </command>
+  <command crc32="0x6ba1b159" size="04">
+    <name>IT_GET_NODE_POS_arg3</name>
+  </command>
+  <command crc32="0x6ccc7540" size="08">
+    <name>IT_GET_NODE_POS_arg7</name>
+  </command>
+  <command crc32="0xe8c8e371" size="04">
+    <name>IT_GET_NODE_ROT</name>
+  </command>
+  <command crc32="0xaae5133f" size="05">
+    <name>IT_GET_NODE_ROT_arg4</name>
+  </command>
+  <command crc32="0xf8b7b2b5" size="06">
+    <name>IT_HIT_ABSOLUTE</name>
+  </command>
+  <command crc32="0xa6bcc330" size="05">
+    <name>IT_IS_EXIST_GROUND_NO_CLIFF</name>
+  </command>
+  <command crc32="0x42fac19a" size="02">
+    <name>IT_IS_EXIST_PERCENT</name>
+  </command>
+  <command crc32="0x4a606461" size="02">
+    <name>IT_IS_RND_PERCENT</name>
+  </command>
+  <command crc32="0xaee75c14" size="01">
+    <name>IT_LOT_CREATE</name>
+  </command>
+  <command crc32="0xb570c933" size="04">
+    <name>IT_LOT_CREATE_arg3</name>
+  </command>
+  <command crc32="0x994cf8ff" size="02">
+    <name>IT_MOVE</name>
+  </command>
+  <command crc32="0x046b0422" size="04">
+    <name>IT_MOVE_CAMERA</name>
+  </command>
+  <command crc32="0xc76174f3" size="02">
+    <name>IT_MOVE_CAMERA_arg1</name>
+  </command>
+  <command crc32="0x0c89cf7b" size="01" />
+  <command crc32="0xb973be85" size="01">
+    <name>IT_REMOVE</name>
+  </command>
+  <command crc32="0xcc5c3995" size="01">
+    <name>IT_REMOVE_TARGET_ITEM</name>
+  </command>
+  <command crc32="0xa4826100" size="02">
+    <name>IT_SCALE</name>
+  </command>
+  <command crc32="0xa75bdf91" size="02">
+    <name>IT_SCALE_ANIM</name>
+  </command>
+  <command crc32="0xb078c69a" size="05">
+    <name>IT_SCALE_ANIM_arg4</name>
+  </command>
+  <command crc32="0x65037812" size="02">
+    <name>IT_SEARCH</name>
+  </command>
+  <command crc32="0xe4824295" size="03">
+    <name>IT_SEARCH_arg2</name>
+  </command>
+  <command crc32="0x93857203" size="04">
+    <name>IT_SEARCH_arg3</name>
+  </command>
+  <command crc32="0x0de1e7a0" size="05">
+    <name>IT_SEARCH_arg4</name>
+  </command>
+  <command crc32="0xe0f4da21" size="02">
+    <name>IT_SET_COUNTER</name>
+  </command>
+  <command crc32="0x131e5816" size="03">
+    <name>IT_SET_COUNTER_arg2</name>
+  </command>
+  <command crc32="0x451797ff" size="03">
+    <name>IT_SET_ROT</name>
+  </command>
+  <command crc32="0x43760f0d" size="04">
+    <name>IT_SET_ROT_arg3</name>
+  </command>
+  <command crc32="0x3e6f2200" size="02">
+    <name>IT_SET_SE</name>
+  </command>
+  <command crc32="0x4290df6a" size="03">
+    <name>IT_SET_SE_arg2</name>
+  </command>
+  <command crc32="0xfb4ae8f4" size="03">
+    <name>IT_SET_TEAM_OWNER</name>
+  </command>
+  <command crc32="0x3880b83a" size="04">
+    <name>IT_SHOOT</name>
+  </command>
+  <command crc32="0x2663c7ba" size="02">
+    <name>IT_SLOPE_TYPE</name>
+  </command>
+  <command crc32="0x4375be5a" size="03">
+    <name>IT_SLOW</name>
+  </command>
+  <command crc32="0x95eaf9b0" size="02">
+    <name>IT_SLOW_WHOLE</name>
+  </command>
+  <command crc32="0x9accb9c8" size="01">
+    <name>IT_SLOW_WHOLE_CLR</name>
+  </command>
+  <command crc32="0x347bae45" size="02">
+    <name>IT_UNABLE_AREA</name>
+  </command>
+  <command crc32="0x4dfb84c9" size="01">
+    <name>IT_UNABLE_ENERGY_ALL</name>
+  </command>
+  <command crc32="0xc9f899a2" size="02">
+    <name>IT_UPDATE_TARGET</name>
+  </command>
+  <command crc32="0x56a2339e" size="04">
+    <name>IT_UPDATE_TARGET_arg3</name>
+  </command>
+  <command crc32="0x0e3842f2" size="02">
+    <name>IT_WAIT_LOST</name>
+  </command>
+  <command crc32="0x5a175a68" size="08">
+    <name>IT_WINDOW</name>
+  </command>
+  <command crc32="0x9126eba2" size="02">
+    <name>JUMP</name>
+  </command>
+  <command crc32="0xb89f681c" size="03" />
+  <command crc32="0x104f0834" size="17">
+    <name>LANDING_EFFECT</name>
+  </command>
+  <command crc32="0x515f97ff" size="19">
+    <name>LANDING_EFFECT_FLIP</name>
+  </command>
+  <command crc32="0x9d7f5d71" size="01">
+    <name>LAST_EFFECT_CANCEL_BOSS_STOP</name>
+  </command>
+  <command crc32="0xbf72bdca" size="02">
+    <name>LAST_EFFECT_SET_ALPHA</name>
+  </command>
+  <command crc32="0x09c4cc49" size="04">
+    <name>LAST_EFFECT_SET_COLOR</name>
+  </command>
+  <command crc32="0xe6181a6b" size="02">
+    <name>LAST_EFFECT_SET_DISABLE_SYSTEM_SLOW</name>
+  </command>
+  <command crc32="0xe59fb667" size="02">
+    <name>LAST_EFFECT_SET_MAT_ANIM_RND</name>
+  </command>
+  <command crc32="0xe1d78bfb" size="02">
+    <name>LAST_EFFECT_SET_OFFSET_TO_CAMERA_FLAT</name>
+  </command>
+  <command crc32="0xfd1f7ecf" size="02">
+    <name>LAST_EFFECT_SET_RATE</name>
+  </command>
+  <command crc32="0x6e332637" size="02">
+    <name>LAST_EFFECT_SET_RATE_WORK</name>
+  </command>
+  <command crc32="0x83d4a124" size="04">
+    <name>LAST_EFFECT_SET_SCALE</name>
+  </command>
+  <command crc32="0xd9cc663f" size="04">
+    <name>LAST_EFFECT_SET_SCALE_W</name>
+  </command>
+  <command crc32="0x8f27d612" size="04">
+    <name>LAST_PARTICLE_SET_COLOR</name>
+  </command>
+  <command crc32="0xfe036c47" size="15">
+    <name>LIGHT_AXIS</name>
+  </command>
+  <command crc32="0x70fbed79" size="05">
+    <name>LIGHT_AXIS_FRM</name>
+  </command>
+  <command crc32="0x2558d7f3" size="06">
+    <name>LIGHT_COL_FRM</name>
+  </command>
+  <command crc32="0x967d4ea9" size="01">
+    <name>LIGHT_OFF</name>
+  </command>
+  <command crc32="0x89a772ac" size="07">
+    <name>LIGHT_SHINE</name>
+  </command>
+  <command crc32="0x448bbf07" size="01" />
+  <command crc32="0x97caf05a" size="00">
+    <name>LOOP</name>
+  </command>
+  <command crc32="0x84730cc5" size="02">
+    <name>MATERIAL_ANIM_SET_FRAME</name>
+  </command>
+  <command crc32="0x3a52d8b7" size="02">
+    <name>MATERIAL_ANIM_SET_RATE</name>
+  </command>
+  <command crc32="0x5143dd2a" size="01">
+    <name>MII_ENABLE_RATE</name>
+  </command>
+  <command crc32="0xc7b586af" size="04" />
+  <command crc32="0xffb519e1" size="01">
+    <name>MII_UNABLE_RATE</name>
+  </command>
+  <command crc32="0x401abfa0" size="04">
+    <name>MODIFY_RHOMBUS</name>
+  </command>
+  <command crc32="0xa3b1a56d" size="02">
+    <name>MODIFY_RHOMBUS_DOWN</name>
+  </command>
+  <command crc32="0x73415e57" size="02">
+    <name>MODIFY_RHOMBUS_UP</name>
+  </command>
+  <command crc32="0x35c3df13" size="02">
+    <name>MODIFY_RHOMBUS_WIDTH</name>
+  </command>
+  <command crc32="0x8c79d4d7" size="00">
+    <name>MOT_CHANGE</name>
+  </command>
+  <command crc32="0x425848c8" size="03">
+    <name>MOT_CHANGE_ARTICLE</name>
+  </command>
+  <command crc32="0xaa8826a7" size="03">
+    <name>MOT_CHANGE_EXIST_ARTICLE</name>
+  </command>
+  <command crc32="0xae994daf" size="02" />
+  <command crc32="0xa546845c" size="02">
+    <name>MOT_SET_RATE</name>
+  </command>
+  <command crc32="0x752e6714" size="02">
+    <name>MOT_SET_RATE_W</name>
+  </command>
+  <command crc32="0x2a25155d" size="03">
+    <name>NO_REACTION</name>
+  </command>
+  <command crc32="0x17232732" size="02">
+    <name>OFF_FLAG</name>
+  </command>
+  <command crc32="0x661b30da" size="02">
+    <name>ON_FLAG</name>
+  </command>
+  <command crc32="0x252f2052" size="02">
+    <name>PASSABLE_CHECK</name>
+  </command>
+  <command crc32="0x22e2e4c6" size="02">
+    <name>PH_2ND_BOTH</name>
+  </command>
+  <command crc32="0x58e8478d" size="02">
+    <name>PH_2ND_GRAVITY</name>
+  </command>
+  <command crc32="0x65590360" size="01">
+    <name>PH_RAGDOLL</name>
+  </command>
+  <command crc32="0x8a4021e4" size="01">
+    <name>PH_RAGDOLL_GRAVITY</name>
+  </command>
+  <command crc32="0xa82038a0" size="01">
+    <name>PH_SWING_OFF</name>
+  </command>
+  <command crc32="0x46560dff" size="01">
+    <name>PH_SWING_ON</name>
+  </command>
+  <command crc32="0xbbb819d9" size="02">
+    <name>PH_SWING_STOP</name>
+  </command>
+  <command crc32="0x140b3778" size="01">
+    <name>PH_SWING_WIND_OFF</name>
+  </command>
+  <command crc32="0x2d942090" size="02">
+    <name>PICKUP_ITEM</name>
+  </command>
+  <command crc32="0xe1e1ed52" size="03">
+    <name>PICKUP_ITEM_arg2</name>
+  </command>
+  <command crc32="0x96e6ddc4" size="04">
+    <name>PICKUP_ITEM_arg3</name>
+  </command>
+  <command crc32="0x08824867" size="05">
+    <name>PICKUP_ITEM_arg4</name>
+  </command>
+  <command crc32="0x3a1c50c4" size="02">
+    <name>PLAY_DAMAGESTOP</name>
+  </command>
+  <command crc32="0xf7016a91" size="02">
+    <name>PLAY_DOWN_SE</name>
+  </command>
+  <command crc32="0x7f0f890e" size="03">
+    <name>PLAY_FLY_VOICE</name>
+  </command>
+  <command crc32="0xe022fe8a" size="02">
+    <name>PLAY_LANDING_SE</name>
+  </command>
+  <command crc32="0x82a2f998" size="01">
+    <name>PLAY_LANDING_SE_REG</name>
+  </command>
+  <command crc32="0xe5751f0a" size="02">
+    <name>PLAY_SE</name>
+  </command>
+  <command crc32="0x3d2cfa86" size="02">
+    <name>PLAY_SEQUENCE</name>
+  </command>
+  <command crc32="0x40639c05" size="02">
+    <name>PLAY_SEQUENCE_DAMAGESTOP</name>
+  </command>
+  <command crc32="0x3a775d26" size="02">
+    <name>PLAY_SE_NO_3D</name>
+  </command>
+  <command crc32="0xb73ef69c" size="02">
+    <name>PLAY_SE_REMAIN</name>
+  </command>
+  <command crc32="0xfb98ee28" size="02">
+    <name>PLAY_STATUS</name>
+  </command>
+  <command crc32="0xcdbf3106" size="02">
+    <name>PLAY_STEP</name>
+  </command>
+  <command crc32="0x01a5a27c" size="03">
+    <name>PLAY_STEP_FLIPPABLE</name>
+  </command>
+  <command crc32="0x99044432" size="00">
+    <name>POOL</name>
+  </command>
+  <command crc32="0x5be12ad0" size="02">
+    <name>QUAKE</name>
+  </command>
+  <command crc32="0x65f38512" size="02">
+    <name>QUAKE_STOP</name>
+  </command>
+  <command crc32="0x0412fe17" size="16">
+    <name>REFLECTOR</name>
+  </command>
+  <command crc32="0xe06a5d00" size="02">
+    <name>REG_LANDING_SE</name>
+  </command>
+  <command crc32="0x501a7157" size="02">
+    <name>REMOVE_ARTICLE</name>
+  </command>
+  <command crc32="0xc436bf6e" size="02">
+    <name>REMOVE_EXIST_ARTICLE</name>
+  </command>
+  <command crc32="0x41bf2502" size="01">
+    <name>REMOVE_ITEM</name>
+  </command>
+  <command crc32="0x5f6c80e6" size="05">
+    <name>RENEW_TRACE</name>
+  </command>
+  <command crc32="0xe2a24d87" size="06">
+    <name>RENEW_TRACE_arg5</name>
+  </command>
+  <command crc32="0x14da2640" size="02">
+    <name>RESUME_BGM</name>
+  </command>
+  <command crc32="0x3d155c42" size="02">
+    <name>RESUME_ENERGY</name>
+  </command>
+  <command crc32="0x5766f889" size="01">
+    <name>RETURN</name>
+  </command>
+  <command crc32="0x63623560" size="01">
+    <name>REVERSE_LR</name>
+  </command>
+  <command crc32="0x1a019b6b" size="01">
+    <name>REVERSE_ROT</name>
+  </command>
+  <command crc32="0xb3480157" size="03" />
+  <command crc32="0xbe0c4a94" size="04" />
+  <command crc32="0x2068df37" size="05" />
+  <command crc32="0x406d24bc" size="03">
+    <name>RUMBLE</name>
+  </command>
+  <command crc32="0xf395cc2c" size="03">
+    <name>RUMBLE_STATUS</name>
+  </command>
+  <command crc32="0x42d70bb3" size="02">
+    <name>SA_SET</name>
+  </command>
+  <command crc32="0x56055ba2" size="02">
+    <name>SCH_CLR</name>
+  </command>
+  <command crc32="0x98203af6" size="01">
+    <name>SCH_CLR_ALL</name>
+  </command>
+  <command crc32="0x72318271" size="00">
+    <name>SCH_SIZE</name>
+  </command>
+  <command crc32="0x30ebc1ae" size="01">
+    <name>SCROLL_SLOW</name>
+  </command>
+  <command crc32="0x44081c21" size="18">
+    <name>SEARCH</name>
+  </command>
+  <command crc32="0xb39c1a7c" size="01">
+    <name>SEARCH_CLR_ALL</name>
+  </command>
+  <command crc32="0x5bbfe217" size="01">
+    <name>SET_AIR</name>
+  </command>
+  <command crc32="0x05b66d19" size="02">
+    <name>SET_ATTACK_HIT_STOP</name>
+  </command>
+  <command crc32="0xa5187bbc" size="02">
+    <name>SET_CURSOR</name>
+  </command>
+  <command crc32="0x1e3ab92a" size="03">
+    <name>SET_FLOAT</name>
+  </command>
+  <command crc32="0xf885cb9c" size="03">
+    <name>SET_FRAME_ARTICLE</name>
+  </command>
+  <command crc32="0xf38e805d" size="03">
+    <name>SET_INT</name>
+  </command>
+  <command crc32="0xd5e769c4" size="02">
+    <name>SET_LIGHT_CONE_BORDER</name>
+  </command>
+  <command crc32="0x21fda8df" size="02">
+    <name>SET_LIGHT_LENGTH</name>
+  </command>
+  <command crc32="0x1bfc5837" size="02">
+    <name>SET_LIGHT_RADIUS</name>
+  </command>
+  <command crc32="0x95794508" size="03">
+    <name>SET_LIMIT_SPEED_EX</name>
+  </command>
+  <command crc32="0xe0cf6ff1" size="02">
+    <name>SET_NAME_CURSOR</name>
+  </command>
+  <command crc32="0x395da2d1" size="05">
+    <name>SET_OFFSET_ARTICLE</name>
+  </command>
+  <command crc32="0xf0005966" size="03">
+    <name>SET_PITCH</name>
+  </command>
+  <command crc32="0x374a735e" size="02">
+    <name>SET_PITCH_STATUS</name>
+  </command>
+  <command crc32="0x19a86da9" size="03">
+    <name>SET_PITCH_STATUS_HANDLE</name>
+  </command>
+  <command crc32="0x687f9320" size="03">
+    <name>SET_PLAY_INHIVIT</name>
+  </command>
+  <command crc32="0x6706bc40" size="01">
+    <name>SET_POS</name>
+  </command>
+  <command crc32="0x7a34be78" size="05">
+    <name>SET_POS_ARTICLE</name>
+  </command>
+  <command crc32="0x1c843790" size="04">
+    <name>SET_POS_arg3</name>
+  </command>
+  <command crc32="0x2b62f859" size="03">
+    <name>SET_RATE_ARTICLE</name>
+  </command>
+  <command crc32="0x26ed10f4" size="03">
+    <name>SET_RATE_ARTICLE_V</name>
+  </command>
+  <command crc32="0x51ea2062" size="03">
+    <name>SET_RATE_ARTICLE_W</name>
+  </command>
+  <command crc32="0x3b8d1838" size="03">
+    <name>SET_REVERB_STAGEBUS</name>
+  </command>
+  <command crc32="0xde950b48" size="02">
+    <name>SET_REVERB_STAGEBUS_DEFAULT</name>
+  </command>
+  <command crc32="0xfae6fd8d" size="04">
+    <name>SET_ROT</name>
+  </command>
+  <command crc32="0x46396a70" size="05">
+    <name>SET_ROT_ARTICLE</name>
+  </command>
+  <command crc32="0x3bd9c23b" size="02">
+    <name>SET_SCALE</name>
+  </command>
+  <command crc32="0x8965b9d6" size="05">
+    <name>SET_SEARCH_OPPONENT</name>
+  </command>
+  <command crc32="0x1511931f" size="02">
+    <name>SET_SHADOW</name>
+  </command>
+  <command crc32="0xd8b91949" size="03">
+    <name>SET_SPEED</name>
+  </command>
+  <command crc32="0x26e9c6be" size="05">
+    <name>SET_SPEED_EX</name>
+  </command>
+  <command crc32="0xd3d9401b" size="03">
+    <name>SET_SPEED_EX_arg2</name>
+  </command>
+  <command crc32="0xa4de708d" size="04">
+    <name>SET_SPEED_EX_arg3</name>
+  </command>
+  <command crc32="0x5fc8fa49" size="02">
+    <name>SET_TAKEOUT_SE</name>
+  </command>
+  <command crc32="0x5d5af322" size="02">
+    <name>SET_TAKEOUT_SE_STATUS</name>
+  </command>
+  <command crc32="0xd9fddcec" size="03">
+    <name>SET_VOLUME</name>
+  </command>
+  <command crc32="0x51a2ad03" size="04">
+    <name>SET_VOLUME_arg3</name>
+  </command>
+  <command crc32="0xf0df9a8b" size="03">
+    <name>SHIELD_OFF</name>
+  </command>
+  <command crc32="0xbb400cda" size="04">
+    <name>SHIELD_OFF_arg3</name>
+  </command>
+  <command crc32="0xd1b837c2" size="04">
+    <name>SHIELD_ON</name>
+  </command>
+  <command crc32="0xa4f1b325" size="02">
+    <name>SHOOT_ARTICLE</name>
+  </command>
+  <command crc32="0x326e0eb5" size="03">
+    <name>SHOOT_ARTICLE_arg2</name>
+  </command>
+  <command crc32="0xa2bab52a" size="02">
+    <name>SHOOT_EXIST_ARTICLE</name>
+  </command>
+  <command crc32="0xbfc0031f" size="03">
+    <name>SHOOT_EXIST_ARTICLE_arg2</name>
+  </command>
+  <command crc32="0x965e035a" size="01">
+    <name>SHOOT_ITEM_BULLET</name>
+  </command>
+  <command crc32="0x451486b7" size="02">
+    <name>SHOOT_ITEM_BULLET_ANGLE</name>
+  </command>
+  <command crc32="0x42998fb4" size="02">
+    <name>SHOOT_ITEM_BULLET_CHARGE</name>
+  </command>
+  <command crc32="0x745b20a7" size="02">
+    <name>SHOOT_ITEM_BULLET_CHARGE_W</name>
+  </command>
+  <command crc32="0xf2c328a7" size="02">
+    <name>SHOOT_ITEM_BULLET_arg1</name>
+  </command>
+  <command crc32="0xaf988735" size="02">
+    <name>SLOPE</name>
+  </command>
+  <command crc32="0x961521c4" size="03">
+    <name>SLOPE_INTP</name>
+  </command>
+  <command crc32="0x040fd56e" size="04">
+    <name>SLOPE_INTP_arg3</name>
+  </command>
+  <command crc32="0x74b61bac" size="03">
+    <name>SLOPE_TOE</name>
+  </command>
+  <command crc32="0x5dd6c56c" size="02">
+    <name>SLOPE_TOP_UNLIMIT</name>
+  </command>
+  <command crc32="0x37ed7029" size="03">
+    <name>SLOW_OPPONENT</name>
+  </command>
+  <command crc32="0x97370496" size="03">
+    <name>SLOW_WHOLE</name>
+  </command>
+  <command crc32="0xc52b4328" size="08">
+    <name>START_CHARGE</name>
+  </command>
+  <command crc32="0x7e977faa" size="13">
+    <name>START_CHARGE_arg12</name>
+  </command>
+  <command crc32="0x50b5dfbd" size="09">
+    <name>START_CHARGE_arg8</name>
+  </command>
+  <command crc32="0xee37008f" size="01" />
+  <command crc32="0xcea1588e" size="09">
+    <name>START_TRACE</name>
+  </command>
+  <command crc32="0xaf41e94e" size="03">
+    <name>STATUS_CHANGE_ARTICLE</name>
+  </command>
+  <command crc32="0xa30d3ca2" size="03">
+    <name>STATUS_CHANGE_EXIST_ARTICLE</name>
+  </command>
+  <command crc32="0xac4919b5" size="01">
+    <name>STICK_LR</name>
+  </command>
+  <command crc32="0x9524baac" size="01">
+    <name>STICK_LR_UPDATE</name>
+  </command>
+  <command crc32="0x5b23a4de" size="02">
+    <name>STICK_LR_arg1</name>
+  </command>
+  <command crc32="0xafe548a4" size="01">
+    <name>STOP_CHARGE</name>
+  </command>
+  <command crc32="0x10c4d4c8" size="01" />
+  <command crc32="0xf920748a" size="02">
+    <name>STOP_SE</name>
+  </command>
+  <command crc32="0x602dd264" size="01">
+    <name>STOP_SE_ALL</name>
+  </command>
+  <command crc32="0x666b608e" size="02">
+    <name>STOP_SE_ALL_arg1</name>
+  </command>
+  <command crc32="0xf4b1c95b" size="01">
+    <name>STOP_SE_STATUS</name>
+  </command>
+  <command crc32="0xa8ddac53" size="03">
+    <name>STOP_SE_arg2</name>
+  </command>
+  <command crc32="0x1cf1a390" size="02">
+    <name>STRANS_GROUP_ON</name>
+  </command>
+  <command crc32="0xf0bdc819" size="02">
+    <name>STRANS_OFF</name>
+  </command>
+  <command crc32="0xb3eaa5c2" size="02">
+    <name>STRANS_ON</name>
+  </command>
+  <command crc32="0x918f61cd" size="03">
+    <name>SUB_FLOAT_2</name>
+  </command>
+  <command crc32="0x6d8d18b7" size="02">
+    <name>SUSPEND_ENERGY</name>
+  </command>
+  <command crc32="0x9f118c9e" size="00">
+    <name>SWITCH</name>
+  </command>
+  <command crc32="0x032c73b5" size="02">
+    <name>SYNC_POS_NODE</name>
+  </command>
+  <command crc32="0x72982f32" size="01">
+    <name>TEST_GROUND</name>
+  </command>
+  <command crc32="0x307d6993" size="03">
+    <name>THROW_ITEM</name>
+  </command>
+  <command crc32="0x50730439" size="06">
+    <name>THROW_ITEM_OFFSET</name>
+  </command>
+  <command crc32="0x2f20b6c7" size="04">
+    <name>THROW_ITEM_OFFSET_MOTION</name>
+  </command>
+  <command crc32="0x6cd94c77" size="05">
+    <name>THROW_ITEM_OFFSET_arg4</name>
+  </command>
+  <command crc32="0xbfe18be1" size="01">
+    <name>THROW_ITEM_REFLET</name>
+  </command>
+  <command crc32="0x6e053790" size="04">
+    <name>THROW_ITEM_arg3</name>
+  </command>
+  <command crc32="0xf061a233" size="05">
+    <name>THROW_ITEM_arg4</name>
+  </command>
+  <command crc32="0x8f67803a" size="01">
+    <name>TURN_L</name>
+  </command>
+  <command crc32="0x7568bd59" size="01">
+    <name>TURN_R</name>
+  </command>
+  <command crc32="0xe674f645" size="02">
+    <name>UNABLE_AREA</name>
+  </command>
+  <command crc32="0x15670dcc" size="02">
+    <name>UNABLE_ENERGY</name>
+  </command>
+  <command crc32="0x4dd83eff" size="01">
+    <name>UPDATE_GROUND</name>
+  </command>
+  <command crc32="0x61f36803" size="01">
+    <name>UPDATE_ROT</name>
+  </command>
+  <command crc32="0x87c50592" size="02">
+    <name>USE_ITEM</name>
+  </command>
+  <command crc32="0x27213f09" size="02">
+    <name>VIS_ATTACH_ITEM</name>
+  </command>
+  <command crc32="0x315e8c48" size="03">
+    <name>VIS_ATTACH_ITEM_GROUP</name>
+  </command>
+  <command crc32="0x91cf842d" size="02">
+    <name>VIS_BACK_DEFAULT</name>
+  </command>
+  <command crc32="0x5bc50aa6" size="03">
+    <name>VIS_BACK_DEFAULT_ARTICLE</name>
+  </command>
+  <command crc32="0x8ff62e3d" size="02">
+    <name>VIS_HAVE_ITEM</name>
+  </command>
+  <command crc32="0x83a45688" size="02">
+    <name>VIS_RESET_DEFAULT</name>
+  </command>
+  <command crc32="0x96114cfc" size="03">
+    <name>VIS_SET</name>
+  </command>
+  <command crc32="0xf4940c87" size="04">
+    <name>VIS_SET_ARTICLE</name>
+  </command>
+  <command crc32="0x15f0023e" size="03">
+    <name>VIS_SET_DEFAULT</name>
+  </command>
+  <command crc32="0xcb59a07e" size="02">
+    <name>VIS_WHOLE</name>
+  </command>
+  <command crc32="0x0202c138" size="03">
+    <name>VIS_WHOLE_ARTICLE</name>
+  </command>
+  <command crc32="0x53f0d3e1" size="04">
+    <name>VIS_WHOLE_ARTICLE_arg3</name>
+  </command>
+  <command crc32="0x4b7b6e51" size="02">
+    <name>WAIT</name>
+  </command>
+  <command crc32="0x5f4cf775" size="01">
+    <name>WAIT_LOOP</name>
+  </command>
+  <command crc32="0x522dba37" size="01">
+    <name>WAIT_LOOP_CLR</name>
+  </command>
+  <command crc32="0xcd25726b" size="01">
+    <name>WAIT_LOOP_SYNC_MOT</name>
+  </command>
+  <command crc32="0x314839a7" size="01">
+    <name>WAIT_arg0</name>
+  </command>
+  <command crc32="0xf0d25bda" size="02">
+    <name>WHOLE_HIT</name>
+  </command>
+  <command crc32="0x3341cbfe" size="01" />
+  <command crc32="0x92a88908" size="02" />
+  <command crc32="0x300a0a85" size="01" />
+  <enum> Name="COMPARE_FUNC">
+    <label id="0">COMPARE_FUNC_EQUAL</label>
+    <label id="1">COMPARE_FUNC_NEQUAL</label>
+    <label id="2">COMPARE_FUNC_LEQUAL</label>
+    <label id="3">COMPARE_FUNC_GEQUAL</label>
+    <label id="4">COMPARE_FUNC_LESS</label>
+    <label id="5">COMPARE_FUNC_GREATER</label>
+  </enum>>
+  <enum> Name="CLIFF_CHECK_KIND">
+    <label id="0">CLIFF_CHECK_KIND_NONE</label>
+    <label id="1">CLIFF_CHECK_KIND_ALWAYS</label>
+    <label id="2">CLIFF_CHECK_KIND_ALWAYS_BOTH_SIDES</label>
+    <label id="3">CLIFF_CHECK_KIND_ON_DROP</label>
+    <label id="4">CLIFF_CHECK_KIND_ON_DROP_BOTH_SIDES</label>
+  </enum>>
+  <enum> Name="GROUND_CORRECT_KIND">
+    <label id="0">GROUND_CORRECT_KIND_NONE</label>
+    <label id="1">GROUND_CORRECT_KIND_GROUND</label>
+    <label id="2">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP</label>
+    <label id="3">GROUND_CORRECT_KIND_GROUND_OTTOTTO</label>
+    <label id="4">GROUND_CORRECT_KIND_CLIFF</label>
+    <label id="5">GROUND_CORRECT_KIND_AIR</label>
+    <label id="6">GROUND_CORRECT_KIND_AIR_PASSABLE_OFF</label>
+    <label id="7">GROUND_CORRECT_KIND_AIR_TRANS</label>
+    <label id="8">GROUND_CORRECT_KIND_KEEP</label>
+    <label id="9">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</label>
+    <label id="10">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</label>
+  </enum>>
+  <enum Name="GENERATE_ARTICLE"/>
+</data>

@@ -18,13 +18,13 @@ namespace ACMD
             {
                 XmlElement child = childElements[i] as XmlElement;
                 if (child == null) continue;
-                if (child.Name == "Name")
+                if (child.Name == "name")
                 {
                     Name = child.InnerText;
                 }
-                else if (child.Name == "Arg")
+                else if (child.Name == "arg")
                 {
-                    int index = int.Parse(child.Attributes["ID"].Value);
+                    int index = int.Parse(child.Attributes["id"].Value);
                     Args[index] = child;
                 }
             }

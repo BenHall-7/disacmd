@@ -53,18 +53,18 @@ namespace ACMD
             }
         }
 
-        public void InitStatic()
+        public static void InitStatic()
         {
             XmlDocument xml = new XmlDocument();
             xml.Load("ACMD.xml");
-            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Command"))
+            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("command"))
             {
-                uint crc = uint.Parse(xe.Attributes["CRC32"].Value.Substring(2), NumberStyles.HexNumber);
-                int size = int.Parse(xe.Attributes["Size"].Value);
+                uint crc = uint.Parse(xe.Attributes["crc32"].Value.Substring(2), NumberStyles.HexNumber);
+                int size = int.Parse(xe.Attributes["size"].Value);
                 CmdData.Add(crc, new CmdDataCollection(xe.ChildNodes, size));
             }
             //TODO: enums
-            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("Enum"))
+            foreach (XmlElement xe in xml.DocumentElement.GetElementsByTagName("enum"))
             {
 
             }
