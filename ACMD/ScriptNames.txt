@@ -181,10 +181,12 @@ effect_batswing1
 effect_batswing3
 effect_batswingdash
 effect_catch
+effect_chargemax
 effect_clubswing1
 effect_clubswing3
 effect_clubswing4
 effect_clubswingdash
+effect_damage
 effect_equipmentabilityjustguardbomber
 effect_firebarswing1
 effect_firebarswing3
@@ -200,6 +202,8 @@ effect_lipstickswing1
 effect_lipstickswing3
 effect_lipstickswing4
 effect_lipstickswingdash
+effect_rebirth
+effect_screw
 effect_starrodswing1
 effect_starrodswing3
 effect_starrodswing4
