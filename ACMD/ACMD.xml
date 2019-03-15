@@ -335,6 +335,7 @@
   </command>
   <command crc32="0xf45595a1" size="02">
     <name>CORRECT</name>
+    <arg id="0" type="GROUND_CORRECT_KIND"/>
   </command>
   <command crc32="0x950aefc5" size="02">
     <name>CREATE_HAVE_ITEM</name>
