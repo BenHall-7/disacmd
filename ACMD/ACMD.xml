@@ -11,12 +11,19 @@
   </command>
   <command crc32="0x3cfb7580" size="04">
     <name>ADD_POS</name>
+    <arg id="0" type="float"/>
+    <arg id="1" type="float"/>
+    <arg id="2" type="float"/>
   </command>
   <command crc32="0xf1fbefee" size="03">
     <name>ADD_SPEED</name>
+    <arg id="0" type="float"/>
+    <arg id="1" type="float"/>
   </command>
   <command crc32="0x663de182" size="03">
     <name>ADD_SPEED_NO_LIMIT</name>
+    <arg id="0" type="float"/>
+    <arg id="1" type="float"/>
   </command>
   <command crc32="0x6f4aaca8" size="24">
     <name>AFTER_IMAGE2_ON</name>
@@ -98,6 +105,9 @@
   </command>
   <command crc32="0x1afda8e6" size="06">
     <name>ATK_NODE</name>
+    <arg id="2" type="float"/>
+    <arg id="3" type="float"/>
+    <arg id="4" type="float"/>
   </command>
   <command crc32="0xfc1c2985" size="02">
     <name>ATK_NO_ATTACKER_LOG</name>
@@ -137,6 +147,14 @@
   </command>
   <command crc32="0xb738eabd" size="25">
     <name>ATTACK</name>
+    <arg id="3" type="float"/>
+    <arg id="8" type="float"/>
+    <arg id="9" type="float"/>
+    <arg id="10" type="float"/>
+    <arg id="11" type="float"/>
+    <arg id="13" type="float"/>
+    <arg id="14" type="float"/>
+    <arg id="15" type="float"/>
   </command>
   <command crc32="0xfaa85333" size="18">
     <name>ATTACK_ABS</name>
@@ -146,18 +164,48 @@
   </command>
   <command crc32="0x2988d50f" size="28">
     <name>ATTACK_CAPSULE</name>
+    <arg id="3" type="float"/>
+    <arg id="8" type="float"/>
+    <arg id="9" type="float"/>
+    <arg id="10" type="float"/>
+    <arg id="11" type="float"/>
+    <arg id="13" type="float"/>
+    <arg id="14" type="float"/>
+    <arg id="15" type="float"/>
+    <arg id="24" type="float"/>
+    <arg id="25" type="float"/>
+    <arg id="26" type="float"/>
   </command>
   <command crc32="0xed67d5da" size="28">
     <name>ATTACK_CAPSULE_IGNORE_THROW</name>
   </command>
   <command crc32="0x14fcc7e4" size="42">
     <name>ATTACK_FP</name>
+    <arg id="3" type="float"/>
+    <arg id="8" type="float"/>
+    <arg id="9" type="float"/>
+    <arg id="10" type="float"/>
+    <arg id="11" type="float"/>
+    <arg id="13" type="float"/>
+    <arg id="14" type="float"/>
+    <arg id="15" type="float"/>
   </command>
   <command crc32="0x7640aeeb" size="42">
     <name>ATTACK_FP_ATKW</name>
   </command>
   <command crc32="0x7075dc5a" size="44">
     <name>ATTACK_FP_CAPSULE</name>
+    <arg id="3" type="float"/>
+    <arg id="8" type="float"/>
+    <arg id="9" type="float"/>
+    <arg id="10" type="float"/>
+    <arg id="11" type="float"/>
+    <arg id="13" type="float"/>
+    <arg id="14" type="float"/>
+    <arg id="15" type="float"/>
+    <arg id="40" type="float"/>
+    <arg id="41" type="float"/>
+    <arg id="42" type="float"/>
   </command>
   <command crc32="0x633decc0" size="44">
     <name>ATTACK_FP_CAPSULE_IGNORE_THROW</name>
@@ -250,6 +298,7 @@
   </command>
   <command crc32="0xe940dcc2" size="06">
     <name>CAM_ZOOM_IN_arg5</name>
+    <arg id="2" type="float"/>
   </command>
   <command crc32="0x70498d78" size="07">
     <name>CAM_ZOOM_IN_arg6</name>
@@ -701,6 +750,10 @@
   </command>
   <command crc32="0xdf057b20" size="18">
     <name>FT_ATTACK_ABS</name>
+    <arg id="2" type="float"/>
+    <arg id="8" type="float"/>
+    <arg id="9" type="float"/>
+    <arg id="10" type="float"/>
   </command>
   <command crc32="0x227b36a1" size="03">
     <name>FT_ATTACK_ABS_CAMERA_QUAKE</name>
@@ -739,6 +792,7 @@
   </command>
   <command crc32="0x7172a764" size="02">
     <name>FT_MOTION_RATE</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0xcd0c1cc9" size="02" />
   <command crc32="0xe2e96674" size="04" />
@@ -857,6 +911,7 @@
   </command>
   <command crc32="0xf6d9dcf6" size="03">
     <name>ITEM_SCALE_ANIM</name>
+    <arg id="1" type="float"/>
   </command>
   <command crc32="0xc7af54a0" size="02">
     <name>IT_AI_DIR_FACTOR</name>
@@ -1176,6 +1231,7 @@
   <command crc32="0xae994daf" size="02" />
   <command crc32="0xa546845c" size="02">
     <name>MOT_SET_RATE</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0x752e6714" size="02">
     <name>MOT_SET_RATE_W</name>
@@ -1586,6 +1642,8 @@
   </command>
   <command crc32="0x50730439" size="06">
     <name>THROW_ITEM_OFFSET</name>
+    <arg id="0" type="float"/>
+    <arg id="1" type="float"/>
   </command>
   <command crc32="0x2f20b6c7" size="04">
     <name>THROW_ITEM_OFFSET_MOTION</name>
