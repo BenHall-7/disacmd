@@ -16,6 +16,8 @@ namespace disacmd
             {
                 string ft = dir.Substring(dir.LastIndexOf('\\') + 1);
                 var scriptdir = Path.Combine(dir, @"script\animcmd\body");
+                if (ft == "common")
+                    scriptdir = Path.Combine(dir, @"script\animcmd");
                 if (Directory.Exists(scriptdir))
                 {
                     foreach (var file in Directory.EnumerateFiles(scriptdir))
