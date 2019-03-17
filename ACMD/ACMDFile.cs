@@ -19,7 +19,7 @@ namespace ACMD
         public static Dictionary<string, EnumDataCollection> EnumData { get; }
         public static Dictionary<uint, string> ScriptHashes { get; }
 
-        public List<ACMDScript> Scripts { get; set; }
+        public Dictionary<uint, ACMDScript> Scripts { get; set; }
 
         static ACMDFile()
         {
@@ -42,25 +42,17 @@ namespace ACMD
                 ScriptCount = reader.ReadInt32();
                 CmdCount = reader.ReadInt32();
 
-                Scripts = new List<ACMDScript>(ScriptCount);
-
-                Dictionary<uint, long> hashOffsetPairs = new Dictionary<uint, long>();
+                Scripts = new Dictionary<uint, ACMDScript>(ScriptCount);
+                
+                var tableOffset = reader.BaseStream.Position;
                 for (int i = 0; i < ScriptCount; i++)
                 {
+                    reader.BaseStream.Position = tableOffset + 8 * i;
                     uint crc = reader.ReadUInt32();
                     uint offset = reader.ReadUInt32();
-                    hashOffsetPairs.Add(crc, offset);
-                    Scripts.Add(new ACMDScript(crc));
-                }
 
-                //TODO: If the file is decompiled with a motion.mtable
-                //sort by order of those hashes instead of alphabetically
-                Scripts.Sort((x, y) => x.Name.CompareTo(y.Name));
-
-                for (int i = 0; i < ScriptCount; i++)
-                {
-                    reader.BaseStream.Position = hashOffsetPairs[Scripts[i].CRC32];
-                    Scripts[i].Read(reader);
+                    reader.BaseStream.Position = offset;
+                    Scripts.Add(crc, new ACMDScript(reader));
                 }
             }
         }
@@ -86,6 +78,13 @@ namespace ACMD
                 ScriptHashes.Add(CRC.CRC32(line), line);
             }
             IsStaticDataInit = true;
+        }
+
+        public static string GetScriptName(uint hash)
+        {
+            if (ScriptHashes.TryGetValue(hash, out string name))
+                return name;
+            return $"func_{hash.ToString("x8")}"; 
         }
     }
 }

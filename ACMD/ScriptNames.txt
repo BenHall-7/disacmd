@@ -53,6 +53,7 @@ attackhi3w
 attackhi4
 attackhi4_l_hand_n_set
 attackhi4_r_hand_n_set
+attackhi4hold
 attackhi4r
 attackhi4start
 attacklw3
@@ -60,6 +61,7 @@ attacklw3s
 attacklw3w
 attacklw4
 attacklw4_set
+attacklw4hold
 attacklw4start
 attacks3
 attacks32
@@ -79,6 +81,7 @@ attacks4
 attacks4_set
 attacks4hi
 attacks4hi_set
+attacks4hold
 attacks4lw
 attacks4lw_set
 attacks4s
@@ -130,6 +133,7 @@ closingear
 clubswing1
 clubswing3
 clubswing4
+clubswing4hold
 clubswingdash
 clungdiddy
 clungdiddydx
@@ -139,6 +143,7 @@ damageair2
 damageair3
 damageelec
 damagefall
+damageflycommon
 damageflyhi
 damageflylw
 damageflyn
@@ -178,6 +183,7 @@ downwaitu
 dragoonget
 dragoonride
 drillshootair
+drillshootupper
 effect_ashleydarkzone
 effect_aurahitdmg
 effect_aurahiteff
@@ -220,6 +226,7 @@ effect_finalendcommon
 effect_firebarswing1
 effect_firebarswing3
 effect_firebarswing4
+effect_firebarswing4hold
 effect_firebarswingdash
 effect_firehitdmg
 effect_firehiteff
@@ -315,6 +322,7 @@ fallb
 fallf
 fallspecial
 fflowershootair
+fflowershootupper
 final
 final2
 finala
@@ -436,6 +444,7 @@ finalwait
 firebarswing1
 firebarswing3
 firebarswing4
+firebarswing4hold
 firebarswingdash
 flythrow
 furafura
@@ -518,6 +527,8 @@ itemheavythrowhi4
 itemheavythrowlw
 itemheavythrowlw4
 itemheavywalk
+itemheavywalk1
+itemheavywalk2
 itemlighteat
 itemlightget
 itemlightthrowairb
@@ -579,12 +590,15 @@ landingheavy
 landinglight
 lgunshootair
 lgunshootairempty
+lgunshootupper
+lgunshootupperempty
 linkbowchargemax
 linkbowchargemax_c2
 linkbowchargemax_c3
 lipstickswing1
 lipstickswing3
 lipstickswing4
+lipstickswing4hold
 lipstickswingdash
 lose
 magicpotairend
@@ -620,6 +634,14 @@ scopeairrapid
 scopeairrapidempty
 scopeairstart
 scopeairstartempty
+scopeendupper
+scopeendupperempty
+scopefireupper
+scopefireupperempty
+scoperapidupper
+scoperapidupperempty
+scopestartupper
+scopestartupperempty
 screw
 screwair
 screwfall
@@ -766,10 +788,12 @@ specialairappear_c3
 specialairhi
 specialairhi_c2
 specialairhi_c3
+specialairhi_c4
 specialairhi_lb
 specialairhi1
 specialairhi1_c2
 specialairhi1_c3
+specialairhi1_c4
 specialairhi12
 specialairhi13
 specialairhi14
@@ -779,6 +803,7 @@ specialairhi1start
 specialairhi2
 specialairhi2_c2
 specialairhi2_c3
+specialairhi2_c4
 specialairhi2squat
 specialairhi2start
 specialairhi3
@@ -809,6 +834,7 @@ specialairhidetach_c3
 specialairhiend
 specialairhiend_c2
 specialairhiend_c3
+specialairhiend_c4
 specialairhifail
 specialairhifail_c2
 specialairhifail_c3
@@ -842,6 +868,7 @@ specialairhireflect
 specialairhistart
 specialairhistart_c2
 specialairhistart_c3
+specialairhistart_c4
 specialairhiturnl
 specialairhiturnl_c2
 specialairhiturnl_c3
@@ -857,6 +884,7 @@ specialairhiwait2_c3
 specialairlw
 specialairlw_c2
 specialairlw_c3
+specialairlw_c4
 specialairlw1
 specialairlw1end
 specialairlw1failure
@@ -928,13 +956,16 @@ specialairlwflyr_c3
 specialairlwheavy
 specialairlwheavy_c2
 specialairlwheavy_c3
+specialairlwheavy_c4
 specialairlwhit
 specialairlwhit_c2
 specialairlwhit_c3
+specialairlwhit_c4
 specialairlwhitturn
 specialairlwhold
 specialairlwhold_c2
 specialairlwhold_c3
+specialairlwhold_c4
 specialairlwkick
 specialairlwkick_c2
 specialairlwkick_c3
@@ -945,6 +976,7 @@ specialairlwlanding
 specialairlwlight
 specialairlwlight_c2
 specialairlwlight_c3
+specialairlwlight_c4
 specialairlwll
 specialairlwloop
 specialairlwloop_c2
@@ -977,6 +1009,7 @@ specialairlwsr_c3
 specialairlwstart
 specialairlwstart_c2
 specialairlwstart_c3
+specialairlwstart_c4
 specialairlwstartl
 specialairlwstartl_c2
 specialairlwstartl_c3
@@ -998,6 +1031,7 @@ specialairlwturn
 specialairn
 specialairn_c2
 specialairn_c3
+specialairn_c4
 specialairn_lb
 specialairn1
 specialairn1_c2
@@ -1039,6 +1073,7 @@ specialairnbuster_c3
 specialairncancel
 specialairncancel_c2
 specialairncancel_c3
+specialairncancel_c4
 specialairncharge
 specialairncharge_c2
 specialairncharge_c3
@@ -1117,11 +1152,13 @@ specialairnlarge_c3
 specialairnloop
 specialairnloop_c2
 specialairnloop_c3
+specialairnloop_c4
 specialairnloopf
 specialairnlooph
 specialairnmax
 specialairnmax_c2
 specialairnmax_c3
+specialairnmax_c4
 specialairnmaxdash
 specialairnmaxdash_c2
 specialairnmaxdash_c3
@@ -1168,6 +1205,7 @@ specialairnspit_c3
 specialairnstart
 specialairnstart_c2
 specialairnstart_c3
+specialairnstart_c4
 specialairnstartf
 specialairnstarth
 specialairnstartr
@@ -1297,6 +1335,7 @@ specialairsdwallend
 specialairsend
 specialairsend_c2
 specialairsend_c3
+specialairsend_c4
 specialairsendb
 specialairsendb_c2
 specialairsendb_c3
@@ -1325,6 +1364,7 @@ specialairsheading
 specialairshold
 specialairshold_c2
 specialairshold_c3
+specialairshold_c4
 specialairsjump
 specialairsjump_c2
 specialairsjump_c3
@@ -1362,9 +1402,13 @@ specialairsuwallend
 specialairswallclash
 specialairswallclash_c2
 specialairswallclash_c3
+specialairsweak
+specialairsweak_c2
+specialairsweak_c3
 specialhi
 specialhi_c2
 specialhi_c3
+specialhi_c4
 specialhi_lb
 specialhi1
 specialhi1_c2
@@ -1494,6 +1538,7 @@ specialhisquat_c3
 specialhistart
 specialhistart_c2
 specialhistart_c3
+specialhistart_c4
 specialhistartl
 specialhistartl_c2
 specialhistartl_c3
@@ -1508,6 +1553,7 @@ specialhithrow_c3
 speciallw
 speciallw_c2
 speciallw_c3
+speciallw_c4
 speciallw1
 speciallw1_c2
 speciallw1_c3
@@ -1560,6 +1606,7 @@ speciallwchargemax
 speciallwend
 speciallwend_c2
 speciallwend_c3
+speciallwend_c4
 speciallwendair
 speciallwendair_c2
 speciallwendair_c3
@@ -1590,13 +1637,16 @@ speciallwflyr_c3
 speciallwheavy
 speciallwheavy_c2
 speciallwheavy_c3
+speciallwheavy_c4
 speciallwhit
 speciallwhit_c2
 speciallwhit_c3
+speciallwhit_c4
 speciallwhitturn
 speciallwhold
 speciallwhold_c2
 speciallwhold_c3
+speciallwhold_c4
 speciallwholdmax
 speciallwholdmax_c2
 speciallwholdmax_c3
@@ -1624,10 +1674,12 @@ speciallwlandinglr_c3
 speciallwlight
 speciallwlight_c2
 speciallwlight_c3
+speciallwlight_c4
 speciallwll
 speciallwloop
 speciallwloop_c2
 speciallwloop_c3
+speciallwloop_c4
 speciallwlr
 speciallwlr_c2
 speciallwlr_c3
@@ -1665,6 +1717,7 @@ speciallwsr_c3
 speciallwstart
 speciallwstart_c2
 speciallwstart_c3
+speciallwstart_c4
 speciallwstartl
 speciallwstartl_c2
 speciallwstartl_c3
@@ -1697,6 +1750,7 @@ speciallwwallend
 specialn
 specialn_c2
 specialn_c3
+specialn_c4
 specialn_lb
 specialn1
 specialn1_c3
@@ -1743,6 +1797,7 @@ specialnbuster_c3
 specialncancel
 specialncancel_c2
 specialncancel_c3
+specialncancel_c4
 specialncharge
 specialncharge_c2
 specialncharge_c3
@@ -1852,11 +1907,13 @@ specialnlarge_c3
 specialnloop
 specialnloop_c2
 specialnloop_c3
+specialnloop_c4
 specialnloopf
 specialnlooph
 specialnmax
 specialnmax_c2
 specialnmax_c3
+specialnmax_c4
 specialnmaxdash
 specialnmaxdash_c2
 specialnmaxdash_c3
@@ -1914,6 +1971,7 @@ specialnspit_c3
 specialnstart
 specialnstart_c2
 specialnstart_c3
+specialnstart_c4
 specialnstartf
 specialnstarth
 specialnstartl
@@ -2079,6 +2137,7 @@ specialsdrive
 specialsend
 specialsend_c2
 specialsend_c3
+specialsend_c4
 specialsendb
 specialsendb_c2
 specialsendb_c3
@@ -2113,6 +2172,7 @@ specialshitend
 specialshold
 specialshold_c2
 specialshold_c3
+specialshold_c4
 specialsholdend
 specialsholdjump
 specialsholdmax
@@ -2134,6 +2194,7 @@ specialskicklanding_c3
 specialslanding
 specialslanding_c2
 specialslanding_c3
+specialslanding_c4
 specialsloop
 specialsloop_c2
 specialsloop_c3
@@ -2202,6 +2263,7 @@ specialswalk_c3
 specialswall
 specialswall_c2
 specialswall_c3
+specialswall_c4
 specialswall_set
 specialswallattackb
 specialswallattackb_set
@@ -2215,6 +2277,7 @@ specialswallclash_c3
 specialswallend
 specialswallend_c2
 specialswallend_c3
+specialswallend_c4
 specialswallend_set
 specialswalljump
 specialswalljump_set
@@ -2225,6 +2288,8 @@ specialswallr
 specialswallr_c2
 specialswallr_c3
 specialsweak
+specialsweak_c2
+specialsweak_c3
 specialswheelie
 specialswheelie_c2
 specialswheelie_c3
@@ -2245,9 +2310,11 @@ staminawait
 starrodswing1
 starrodswing3
 starrodswing4
+starrodswing4hold
 starrodswingdash
 startwandzanzo
 steeldivershootair
+steeldivershootupper
 stepfall
 stepjump
 steppose
@@ -2274,6 +2341,7 @@ swimupdamage
 swordswing1
 swordswing3
 swordswing4
+swordswing4hold
 swordswingdash
 throwb
 throwb_set

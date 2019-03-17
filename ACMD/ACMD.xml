@@ -684,7 +684,7 @@
     <name>True</name>
   </command>
   <command crc32="0x38a3ec78" size="02">
-    <name>Goto</name>
+    <name>End_Loop</name>
   </command>
   <command crc32="0x0eb375e3" size="02">
     <name>Loop</name>

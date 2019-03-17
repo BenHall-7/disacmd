@@ -3,15 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 
 namespace disacmd
 {
     class Program
     {
+        static Stopwatch timer { get; set; }
+
         static void Main(string[] args)
         {
-            Stopwatch timer = new Stopwatch();
+            timer = new Stopwatch();
             timer.Start();
+
             foreach (var dir in Directory.EnumerateDirectories(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter"))
             {
                 string ft = dir.Substring(dir.LastIndexOf('\\') + 1);
@@ -20,18 +24,29 @@ namespace disacmd
                     scriptdir = Path.Combine(dir, @"script\animcmd");
                 if (Directory.Exists(scriptdir))
                 {
-                    foreach (var file in Directory.EnumerateFiles(scriptdir))
+                    if (!Directory.Exists($@"output\{ft}"))
+                        Directory.CreateDirectory($@"output\{ft}");
+
+                    MTable mtable = null;
+                    var files = Directory.EnumerateFiles(scriptdir);
+                    List<string> acmdFiles = new List<string>(4);
+                    
+                    //check for motion.mtable; if exists, sort scripts by entry ID
+                    foreach (var file in files)
+                    {
+                        if (Path.GetFileName(file) == "motion.mtable")
+                            mtable = new MTable(file);
+                        else
+                            acmdFiles.Add(file);
+                    }
+
+                    //read acmd scripts
+                    foreach (var file in acmdFiles)
                     {
                         string name = Path.GetFileNameWithoutExtension(file);
-                        if (file.EndsWith(".bin"))
-                        {
-                            ACMDFile acmd = new ACMDFile(file);
+                        ACMDFile acmd = new ACMDFile(file);
 
-                            if (!Directory.Exists($@"output\{ft}"))
-                                Directory.CreateDirectory($@"output\{ft}");
-
-                            Decompile(acmd, $@"output\{ft}\{name}.txt");
-                        }
+                        Decompile(acmd, mtable, $@"output\{ft}\{name}.txt");
                     }
                 }
             }
@@ -40,22 +55,41 @@ namespace disacmd
             Console.ReadKey();
         }
 
-        static void Decompile(ACMDFile acmd, string outdir)
+        static void Decompile(ACMDFile acmd, MTable mtable, string outdir)
         {
             using (StreamWriter writer = new StreamWriter(File.Create(outdir)))
             {
-                foreach (var script in acmd.Scripts)
+                if (mtable != null)
                 {
-                    DecompileScript(writer, script);
-                    writer.WriteLine();
+                    //converting -1 hash index to uint makes it so
+                    //unlisted scripts move to the end of the file instead of beginning
+                    foreach (var script in acmd.Scripts.OrderBy(x => (uint)mtable.Hashes.IndexOf(x.Key)))
+                    {
+                        int index = mtable.Hashes.IndexOf(script.Key);
+                        writer.WriteLine($"# motion_kind: {(index >= 0 ? "0x" + index.ToString("x") : "n/a")}");
+                        writer.WriteLine(ACMDFile.GetScriptName(script.Key));
+                        writer.WriteLine("{");
+                        DecompileScript(writer, script.Value);
+                        writer.WriteLine("}");
+                        writer.WriteLine();
+                    }
+                }
+                else
+                {
+                    foreach (var script in acmd.Scripts.OrderBy(x => ACMDFile.GetScriptName(x.Key)))
+                    {
+                        writer.WriteLine(ACMDFile.GetScriptName(script.Key));
+                        writer.WriteLine("{");
+                        DecompileScript(writer, script.Value);
+                        writer.WriteLine("}");
+                        writer.WriteLine();
+                    }
                 }
             }
         }
 
         static void DecompileScript(StreamWriter writer, ACMDScript script)
         {
-            writer.WriteLine(script.Name);
-            writer.WriteLine("{");
             foreach (var command in script.Commands)
             {
                 writer.Write($"    {command.Name}(");
@@ -68,7 +102,6 @@ namespace disacmd
                 }
                 writer.WriteLine(")");
             }
-            writer.WriteLine("}");
         }
 
         //make a generic method to "encapsulate" data into brackets, easiest way to pretty-print things
@@ -84,6 +117,18 @@ namespace disacmd
             if (obj is float fvalue)
                 return fvalue.ToString("0.0");
             return obj.ToString();
+        }
+
+        static void SortScripts(ACMDFile file, MTable mTable)
+        {
+            if (mTable != null)
+            {
+
+            }
+            else
+            {
+
+            }
         }
     }
 }
