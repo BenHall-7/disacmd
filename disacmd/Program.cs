@@ -67,7 +67,7 @@ namespace disacmd
                     {
                         int index = mtable.Hashes.IndexOf(script.Key);
                         writer.WriteLine($"# motion_kind: {(index >= 0 ? "0x" + index.ToString("x") : "n/a")}");
-                        writer.WriteLine(ACMDFile.GetScriptName(script.Key));
+                        writer.WriteLine(ACMDFile.GetScriptNameDefault(script.Key));
                         writer.WriteLine("{");
                         DecompileScript(writer, script.Value);
                         writer.WriteLine("}");
@@ -76,9 +76,9 @@ namespace disacmd
                 }
                 else
                 {
-                    foreach (var script in acmd.Scripts.OrderBy(x => ACMDFile.GetScriptName(x.Key)))
+                    foreach (var script in acmd.Scripts.OrderBy(x => ACMDFile.GetScriptNameDefault(x.Key)))
                     {
-                        writer.WriteLine(ACMDFile.GetScriptName(script.Key));
+                        writer.WriteLine(ACMDFile.GetScriptNameDefault(script.Key));
                         writer.WriteLine("{");
                         DecompileScript(writer, script.Value);
                         writer.WriteLine("}");

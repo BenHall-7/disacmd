@@ -49,11 +49,7 @@
                         break;
                     case "script":
                         {
-                            uint hash = reader.ReadUInt32();
-                            if (ACMDFile.ScriptHashes.TryGetValue(hash, out string name))
-                                Args[i] = name;
-                            else
-                                Args[i] = hash;
+                            Args[i] = ACMDFile.GetScriptNameDefault(reader.ReadUInt32());
                             break;
                         }
                     default:

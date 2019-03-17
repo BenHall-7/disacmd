@@ -18,6 +18,7 @@ attack100
 attack100end
 attack100end_default
 attack100end_us_en
+attack100loop
 attack100start
 attack100sub
 attack100subl
@@ -78,7 +79,9 @@ attacks3slow
 attacks3start
 attacks3w
 attacks4
+attacks4_default
 attacks4_set
+attacks4_us_en
 attacks4hi
 attacks4hi_set
 attacks4hold
@@ -507,6 +510,9 @@ glideend
 glidelanding
 glidestart
 glidewing
+goldenhammerjump
+goldenhammermove
+goldenhammerwait
 guard
 guarddamage
 guardoff

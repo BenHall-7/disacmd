@@ -20,11 +20,5 @@ namespace ACMD
                     break;
             }
         }
-
-        public ACMDCommand this[int index]
-        {
-            get { return Commands[index]; }
-            set { Commands[index] = value; }
-        }
     }
 }

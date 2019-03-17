@@ -80,7 +80,7 @@ namespace ACMD
             IsStaticDataInit = true;
         }
 
-        public static string GetScriptName(uint hash)
+        public static string GetScriptNameDefault(uint hash)
         {
             if (ScriptHashes.TryGetValue(hash, out string name))
                 return name;
