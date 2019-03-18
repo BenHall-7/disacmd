@@ -1418,6 +1418,9 @@ specialairlwstartl_c3
 specialairlwstartlnoshield
 specialairlwstartlnoshield_c2
 specialairlwstartlnoshield_c3
+specialairlwstartmiss
+specialairlwstartmiss_c2
+specialairlwstartmiss_c3
 specialairlwstartr
 specialairlwstartr_c2
 specialairlwstartr_c3
@@ -1680,6 +1683,7 @@ specialairs1blank_c3
 specialairs1end
 specialairs1hold
 specialairs1start
+specialairs1weak
 specialairs2
 specialairs2_c2
 specialairs2_c3
@@ -1772,6 +1776,9 @@ specialairsdlanding
 specialairsdown
 specialairsdown_c2
 specialairsdown_c3
+specialairsdrive
+specialairsdrive_c2
+specialairsdrive_c3
 specialairsdwallend
 specialairsend
 specialairsend_c2
