@@ -29,7 +29,7 @@ namespace disacmd
 
                     MTable mtable = null;
                     var files = Directory.EnumerateFiles(scriptdir);
-                    List<string> acmdFiles = new List<string>(4);
+                    List<string> acmdFiles = new List<string>();
                     
                     //check for motion.mtable; if exists, sort scripts by entry ID
                     foreach (var file in files)
