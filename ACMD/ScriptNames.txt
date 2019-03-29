@@ -931,6 +931,7 @@ purinspecialairnstartr
 purinspecialairnturn
 purinspecialn
 purinspecialn2
+purinspecialnendl
 purinspecialnendr
 purinspecialnhold
 purinspecialnholdmax
@@ -1366,6 +1367,9 @@ specialairlwfailurer_c3
 specialairlwflip
 specialairlwflip_c2
 specialairlwflip_c3
+specialairlwflyl
+specialairlwflyl_c2
+specialairlwflyl_c3
 specialairlwflyr
 specialairlwflyr_c2
 specialairlwflyr_c3
@@ -1411,6 +1415,9 @@ specialairlwmax_c3
 specialairlwmiss
 specialairlwmiss_c2
 specialairlwmiss_c3
+specialairlwml
+specialairlwml_c2
+specialairlwml_c3
 specialairlwmr
 specialairlwmr_c2
 specialairlwmr_c3
@@ -2132,6 +2139,9 @@ speciallwfailurer_c3
 speciallwfall
 speciallwfall_c2
 speciallwfall_c3
+speciallwflyl
+speciallwflyl_c2
+speciallwflyl_c3
 speciallwflyr
 speciallwflyr_c2
 speciallwflyr_c3
@@ -2169,9 +2179,15 @@ speciallwl_c3
 speciallwlanding
 speciallwlanding_c2
 speciallwlanding_c3
+speciallwlandingflyl
+speciallwlandingflyl_c2
+speciallwlandingflyl_c3
 speciallwlandingflyr
 speciallwlandingflyr_c2
 speciallwlandingflyr_c3
+speciallwlandingll
+speciallwlandingll_c2
+speciallwlandingll_c3
 speciallwlandinglr
 speciallwlandinglr_c2
 speciallwlandinglr_c3
@@ -2195,6 +2211,9 @@ speciallwmax_c3
 speciallwmiss
 speciallwmiss_c2
 speciallwmiss_c3
+speciallwml
+speciallwml_c2
+speciallwml_c3
 speciallwmr
 speciallwmr_c2
 speciallwmr_c3
