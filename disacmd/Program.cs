@@ -16,6 +16,8 @@ namespace disacmd
             timer = new Stopwatch();
             timer.Start();
 
+            Dictionary<string, List<uint>> fighterUnks = new Dictionary<string, List<uint>>();
+
             foreach (var dir in Directory.EnumerateDirectories(@"C:\Users\Breakfast\Documents\GitHub\Sm4shExplorer\Sm4shFileExplorer\bin\Debug\extract\data\fighter"))
             {
                 string ft = dir.Substring(dir.LastIndexOf('\\') + 1);
@@ -41,17 +43,41 @@ namespace disacmd
                     }
 
                     //read acmd scripts
+                    List<uint> unks = new List<uint>();
                     foreach (var file in acmdFiles)
                     {
                         string name = Path.GetFileNameWithoutExtension(file);
                         ACMDFile acmd = new ACMDFile(file);
 
+                        foreach (var script in acmd.Scripts)
+                        {
+                            if (!ACMDFile.ScriptHashes.ContainsKey(script.Key) && !unks.Contains(script.Key))
+                            {
+                                unks.Add(script.Key);
+                            }
+                        }
+                        
                         Decompile(acmd, mtable, $@"output\{ft}\{name}.txt");
+                    }
+                    if (unks.Count > 0)
+                    {
+                        fighterUnks.Add(ft, unks);
                     }
                 }
             }
+
             timer.Stop();
             Console.WriteLine($"finished all in {timer.Elapsed.TotalSeconds} seconds");
+
+            using (StreamWriter writer = new StreamWriter(File.Create("unknowns.txt")))
+            {
+                foreach (var ft in fighterUnks)
+                {
+                    writer.WriteLine($"{ft.Key} ({ft.Value.Count})");
+                    foreach (var unk in ft.Value)
+                        writer.WriteLine($"    {unk.ToString("x8")}");
+                }
+            }
             Console.ReadKey();
         }
 
