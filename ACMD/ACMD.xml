@@ -745,7 +745,9 @@
   <command crc32="0x49610d3f" size="02">
     <name>FRAME_W</name>
   </command>
-  <command crc32="0xf7b97ac1" size="06" />
+  <command crc32="0xf7b97ac1" size="06">
+    <arg id="0" type="FIGHTER_BAYONETTA_SHOOTING_SLOT"/>
+  </command>
   <command crc32="0xd8df1dcc" size="06">
     <name>FT_ATK_HIT_ABS</name>
   </command>
@@ -796,15 +798,21 @@
     <arg id="0" type="float"/>
   </command>
   <command crc32="0xcd0c1cc9" size="02" />
-  <command crc32="0xe2e96674" size="04" />
+  <command crc32="0xe2e96674" size="04">
+    <arg id="1" type="float"/>
+    <arg id="2" type="float"/>
+  </command>
   <command crc32="0x6a5db458" size="01">
     <name>FT_START_ADJUST_MOTION_FRAME</name>
   </command>
   <command crc32="0xb2e91d0c" size="02">
     <name>FT_START_ADJUST_MOTION_FRAME_arg1</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0x467a5ed5" size="02" />
-  <command crc32="0x1b41048c" size="10" />
+  <command crc32="0x1b41048c" size="10">
+    <arg id="0" type="FIGHTER_BAYONETTA_SHOOTING_SLOT"/>
+  </command>  
   <command crc32="0x23a9ac4b" size="02">
     <name>GENERATE_ARTICLE</name>
   </command>
@@ -852,9 +860,11 @@
   </command>
   <command crc32="0xcedc237e" size="02">
     <name>HIT_ALL</name>
+    <arg id="0" type="HIT_STATUS_KIND"/>
   </command>
   <command crc32="0xf13bfe8d" size="03">
     <name>HIT_NODE</name>
+    <arg id="1" type="HIT_STATUS_KIND"/>
   </command>
   <command crc32="0x640f63a0" size="03">
     <name>HIT_STOP_MUL</name>
@@ -1239,6 +1249,8 @@
   </command>
   <command crc32="0x2a25155d" size="03">
     <name>NO_REACTION</name>
+    <arg id="0" type="DAMAGE_NO_REACTION_MODE"/>
+    <arg id="1" type="float"/>
   </command>
   <command crc32="0x17232732" size="02">
     <name>OFF_FLAG</name>
@@ -1736,6 +1748,7 @@
   </command>
   <command crc32="0xf0d25bda" size="02">
     <name>WHOLE_HIT</name>
+    <arg id="0" type="HIT_STATUS_KIND"/>
   </command>
   <command crc32="0x3341cbfe" size="01" />
   <command crc32="0x92a88908" size="02" />
@@ -1767,5 +1780,24 @@
     <label id="8">GROUND_CORRECT_KIND_KEEP</label>
     <label id="9">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_FRONT</label>
     <label id="10">GROUND_CORRECT_KIND_GROUND_CLIFF_STOP_ATTACK</label>
+  </enum>
+  <enum name="HIT_STATUS_KIND">
+    <label id="0">HIT_STATUS_NORMAL</label>
+    <label id="1">HIT_STATUS_INVINCIBLE</label>
+    <label id="2">HIT_STATUS_XLU</label>
+    <label id="3">HIT_STATUS_OFF</label>
+  </enum>
+  <enum name="DAMAGE_NO_REACTION_MODE">
+    <label id="0">DAMAGE_NO_REACTION_MODE_NORMAL</label>
+    <label id="1">DAMAGE_NO_REACTION_MODE_ALWAYS</label>
+    <label id="2">DAMAGE_NO_REACTION_MODE_REACTION_VALUE</label>
+    <label id="3">DAMAGE_NO_REACTION_MODE_DAMAGE_POWER</label>
+    <label id="4">DAMAGE_NO_REACTION_MODE_DAMAGE_POWER_COUNT</label>
+  </enum>
+  <enum name="FIGHTER_BAYONETTA_SHOOTING_SLOT">
+    <label id="0">FIGHTER_BAYONETTA_SHOOTING_SLOT_L_ARM</label>
+    <label id="1">FIGHTER_BAYONETTA_SHOOTING_SLOT_R_ARM</label>
+    <label id="2">FIGHTER_BAYONETTA_SHOOTING_SLOT_L_LEG</label>
+    <label id="3">FIGHTER_BAYONETTA_SHOOTING_SLOT_R_LEG</label>
   </enum>
 </data>
