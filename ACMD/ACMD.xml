@@ -129,6 +129,7 @@
   </command>
   <command crc32="0x6efb0db3" size="02">
     <name>ATK_POWER_MUL_STATUS</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0xac811479" size="03">
     <name>ATK_REFERENCE_NODE</name>
@@ -246,8 +247,12 @@
   <command crc32="0xd41df827" size="02">
     <name>ATTACK_SET_CHECK_FRONT_LR</name>
   </command>
-  <command crc32="0xb09f03b2" size="03" />
-  <command crc32="0x37ca2121" size="02" />
+  <command crc32="0xb09f03b2" size="03">
+    <name>ATTACK_SET_COMPOSITION_SPEED</name>
+  </command>
+  <command crc32="0x37ca2121" size="02">
+    <name>ATTACK_SET_DAMAGE_SHAKE_SCALE</name>
+  </command>
   <command crc32="0x83197b9a" size="03">
     <name>ATTACK_SET_NO_WEIGHT_REACTION</name>
     <arg id="1" type="bool"/>
@@ -587,7 +592,9 @@
   <command crc32="0xbbad115e" size="17">
     <name>EFFECT_WORK_R</name>
   </command>
-  <command crc32="0x31051ff6" size="18" />
+  <command crc32="0x31051ff6" size="18">
+    <name>EFFECT_arg17</name>
+  </command>
   <command crc32="0x4a0a135e" size="00">
     <name>ELIF</name>
   </command>
@@ -633,6 +640,7 @@
   </command>
   <command crc32="0xc026eec4" size="02">
     <name>EXECUTE</name>
+    <arg id="0" type="float"/>
   </command>
   <command crc32="0x34bcd3f7" size="04">
     <name>Float_Compare</name>
@@ -1588,7 +1596,9 @@
   <command crc32="0x50b5dfbd" size="09">
     <name>START_CHARGE_arg8</name>
   </command>
-  <command crc32="0xee37008f" size="01" />
+  <command crc32="0xee37008f" size="01">
+    <name>START_INFO_FLASH_EYE</name>
+  </command>
   <command crc32="0xcea1588e" size="09">
     <name>START_TRACE</name>
   </command>
@@ -1610,7 +1620,9 @@
   <command crc32="0xafe548a4" size="01">
     <name>STOP_CHARGE</name>
   </command>
-  <command crc32="0x10c4d4c8" size="01" />
+  <command crc32="0x10c4d4c8" size="01">
+    <name>STOP_INFO_FLASH_EYE</name>
+  </command>
   <command crc32="0xf920748a" size="02">
     <name>STOP_SE</name>
   </command>
