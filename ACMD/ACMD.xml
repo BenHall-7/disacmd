@@ -136,6 +136,9 @@
   </command>
   <command crc32="0xa1b6e607" size="06">
     <name>ATK_RESERVE</name>
+    <arg id="2" type="float"/>
+    <arg id="3" type="float"/>
+    <arg id="4" type="float"/>
   </command>
   <command crc32="0x684264c9" size="03">
     <name>ATK_SIZE</name>
@@ -644,7 +647,7 @@
   </command>
   <command crc32="0x34bcd3f7" size="04">
     <name>Float_Compare</name>
-    <!--arg 0 needs an enum-->
+    <arg id="0" type="VAR_FLOAT"/>
     <arg id="1" type="COMPARE_FUNC"/>
     <arg id="2" type="float"/>
   </command>
@@ -659,7 +662,7 @@
   <command crc32="0x377d36cb" size="04" />
   <command crc32="0x5e6c3483" size="04">
     <name>Int_Compare</name>
-    <!--arg 0 needs an enum-->
+    <arg id="0" type="VAR_INT"/>
     <arg id="1" type="COMPARE_FUNC"/>
   </command>
   <command crc32="0x33b1d068" size="04" />
@@ -1811,5 +1814,21 @@
     <label id="1">FIGHTER_BAYONETTA_SHOOTING_SLOT_R_ARM</label>
     <label id="2">FIGHTER_BAYONETTA_SHOOTING_SLOT_L_LEG</label>
     <label id="3">FIGHTER_BAYONETTA_SHOOTING_SLOT_R_LEG</label>
+  </enum>
+  <enum name="VAR_FLOAT">
+    <label id="0">SO_VAR_FLOAT_LR</label>
+    <label id="1">SO_VAR_FLOAT_MOTION_RATE</label>
+    <label id="2">SO_VAR_FLOAT_MOTION_RATE_TOTAL</label>
+    <label id="3">FT_VAR_FLOAT_STICK_X</label>
+    <label id="4">FT_VAR_FLOAT_STICK_Y</label>
+    <label id="5">FT_VAR_FLOAT_STICK_X_FRONT</label>
+    <label id="6">FT_VAR_FLOAT_STICK_X_BACK</label>
+  </enum>
+  <enum name="VAR_INT">
+    <label id="0">SO_VAR_INT_PREV_STATUS</label>
+    <label id="1">SO_VAR_INT_CURRENT_STATUS</label>
+    <label id="2">SO_VAR_INT_HAVE_ITEM_KIND</label>
+    <label id="3">FT_VAR_INT_STICK_FLICK_X</label>
+    <label id="4">FT_VAR_INT_STICK_FLICK_Y</label>
   </enum>
 </data>
