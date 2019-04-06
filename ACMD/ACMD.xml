@@ -646,39 +646,86 @@
     <arg id="0" type="float"/>
   </command>
   <command crc32="0x34bcd3f7" size="04">
-    <name>Float_Compare</name>
+    <name>Float_Compare_Var_Value</name>
     <arg id="0" type="VAR_FLOAT"/>
     <arg id="1" type="COMPARE_FUNC"/>
     <arg id="2" type="float"/>
   </command>
-  <command crc32="0x5961371c" size="04" />
-  <command crc32="0x2e66078a" size="04" />
+  <command crc32="0x5961371c" size="04">
+    <name>Float_Compare_Var_Var</name>
+    <arg id="0" type="VAR_FLOAT"/>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="VAR_FLOAT"/>
+  </command>
+  <command crc32="0x2e66078a" size="04">
+    <name>Float_Compare_Var_Work</name>
+    <arg id="0" type="VAR_FLOAT"/>
+    <arg id="1" type="COMPARE_FUNC"/>
+  </command>
   <command crc32="0x2da7e2b6" size="04">
-    <name>Float_Var_Compare</name>
+    <name>Float_Compare_Work_Value</name>
     <arg id="1" type="COMPARE_FUNC"/>
     <arg id="2" type="float"/>
   </command>
-  <command crc32="0x407a065d" size="04" />
-  <command crc32="0x377d36cb" size="04" />
+  <command crc32="0x407a065d" size="04">
+    <name>Float_Compare_Work_Var</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="VAR_FLOAT"/>
+  </command>
+  <command crc32="0x377d36cb" size="04">
+    <name>Float_Compare_Work_Work</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+  </command>
   <command crc32="0x5e6c3483" size="04">
-    <name>Int_Compare</name>
+    <name>Int_Compare_Var_Value</name>
     <arg id="0" type="VAR_INT"/>
     <arg id="1" type="COMPARE_FUNC"/>
   </command>
-  <command crc32="0x33b1d068" size="04" />
-  <command crc32="0x44b6e0fe" size="04" />
-  <command crc32="0x477705c2" size="04">
-    <name>Int_Var_Compare</name>
+  <command crc32="0x33b1d068" size="04">
+    <name>Int_Compare_Var_Var</name>
+    <arg id="0" type="VAR_INT"/>
     <arg id="1" type="COMPARE_FUNC"/>
   </command>
-  <command crc32="0x2aaae129" size="04" />
-  <command crc32="0x5dadd1bf" size="04" />
-  <command crc32="0xd97d2806" size="04" />
-  <command crc32="0xa0fa2515" size="04" />
-  <command crc32="0x5121d3c3" size="04" />
-  <command crc32="0x7fce1bcf" size="04" />
-  <command crc32="0xed4b60e1" size="02" />
-  <command crc32="0xe3212177" size="01" />
+  <command crc32="0x44b6e0fe" size="04">
+    <name>Int_Compare_Var_Work</name>
+    <arg id="0" type="VAR_INT"/>
+    <arg id="1" type="COMPARE_FUNC"/>
+  </command>
+  <command crc32="0x477705c2" size="04">
+    <name>Int_Compare_Work_Value</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+  </command>
+  <command crc32="0x2aaae129" size="04">
+    <name>Int_Compare_Work_Var</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="VAR_INT"/>
+  </command>
+  <command crc32="0x5dadd1bf" size="04">
+    <name>Int_Compare_Work_Work</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+  </command>
+  <command crc32="0xd97d2806" size="04">
+    <name>Bool_Compare_Sound_Is_Playing</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="bool"/>
+  </command>
+  <command crc32="0xa0fa2515" size="04">
+    <name>Bool_Compare_Sound_Is_Playing_Status</name>
+    <arg id="1" type="COMPARE_FUNC"/>
+    <arg id="2" type="bool"/>
+  </command>
+  <command crc32="0x5121d3c3" size="04">
+    <!--SoundModule related, compares (func_23C == arg0) to arg2-->
+  </command>
+  <command crc32="0x7fce1bcf" size="04">
+    <!--SoundModule related, compares (func_244 == arg0) to arg2-->
+  </command>
+  <command crc32="0xed4b60e1" size="02">
+    <name>Bool_Compare_Work_Int_To_Zero</name>
+  </command>
+  <command crc32="0xe3212177" size="01">
+    <!--Module_1C, returns a value from several pointers (func_308fb14)-->
+  </command>
   <command crc32="0x895b9275" size="02">
     <name>Else</name>
   </command>
