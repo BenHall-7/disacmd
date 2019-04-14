@@ -122,7 +122,7 @@ namespace disacmd
                 var args = command.Args;
                 for (int i = 0; i < args.Length; i++)
                 {
-                    writer.Write(FormatObject(args[i]));
+                    writer.Write(args[i].ToString());
                     if (i < args.Length - 1)
                         writer.Write(", ");
                 }
@@ -131,30 +131,5 @@ namespace disacmd
         }
 
         //make a generic method to "encapsulate" data into brackets, easiest way to pretty-print things
-
-        static string FormatObject(object obj)
-        {
-            if (obj is uint ivalue)
-            {
-                if (ivalue > 0xffff)
-                    return $"0x{ivalue.ToString("x")}";
-                return ivalue.ToString();
-            }
-            if (obj is float fvalue)
-                return fvalue.ToString("0.0");
-            return obj.ToString();
-        }
-
-        static void SortScripts(ACMDFile file, MTable mTable)
-        {
-            if (mTable != null)
-            {
-
-            }
-            else
-            {
-
-            }
-        }
     }
 }
