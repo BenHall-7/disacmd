@@ -726,25 +726,25 @@
   <command crc32="0xe3212177" size="01">
     <!--Module_1C, returns a value from several pointers (func_308fb14)-->
   </command>
-  <command crc32="0x895b9275" size="02">
+  <command crc32="0x895b9275" size="02" flow="else">
     <name>Else</name>
   </command>
-  <command crc32="0xc31df569" size="03">
+  <command crc32="0xc31df569" size="03" flow="cnd">
     <name>Is_Not_Bool</name>
   </command>
-  <command crc32="0x47810508" size="03">
+  <command crc32="0x47810508" size="03" flow="cnd">
     <name>Is_Bool</name>
   </command>
-  <command crc32="0x870cf021" size="02">
+  <command crc32="0x870cf021" size="02" flow="cnd">
     <name>False</name>
   </command>
-  <command crc32="0xa5bd4f32" size="02">
+  <command crc32="0xa5bd4f32" size="02" flow="cnd">
     <name>True</name>
   </command>
-  <command crc32="0x38a3ec78" size="02">
+  <command crc32="0x38a3ec78" size="02" flow="end_loop">
     <name>End_Loop</name>
   </command>
-  <command crc32="0x0eb375e3" size="02">
+  <command crc32="0x0eb375e3" size="02" flow="loop">
     <name>Loop</name>
   </command>
   <command crc32="0x0f39ec70" size="02">
@@ -1430,7 +1430,7 @@
   <command crc32="0x3d155c42" size="02">
     <name>RESUME_ENERGY</name>
   </command>
-  <command crc32="0x5766f889" size="01">
+  <command crc32="0x5766f889" size="01" flow="return">
     <name>RETURN</name>
   </command>
   <command crc32="0x63623560" size="01">
