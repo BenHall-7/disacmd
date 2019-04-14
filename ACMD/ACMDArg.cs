@@ -9,7 +9,7 @@ namespace ACMD
         public string Type { get; set; }
         public object Value { get; set; }
 
-        public void Read(ACMDReader reader)
+        public void Read(BigEndianReader reader)
         {
             switch (Type)
             {

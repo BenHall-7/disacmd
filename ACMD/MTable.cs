@@ -16,7 +16,7 @@ namespace ACMD
         public MTable(string filename)
         {
             Hashes = new List<uint>();
-            using (ACMDReader reader = new ACMDReader(File.OpenRead(filename)))
+            using (BigEndianReader reader = new BigEndianReader(File.OpenRead(filename)))
             {
                 while (reader.BaseStream.Position < reader.BaseStream.Length)
                     Hashes.Add(reader.ReadUInt32());

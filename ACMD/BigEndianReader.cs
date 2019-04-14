@@ -3,9 +3,9 @@ using System.IO;
 
 namespace ACMD
 {
-    public class ACMDReader : BinaryReader
+    public class BigEndianReader : BinaryReader
     {
-        public ACMDReader(Stream input) : base(input) { }
+        public BigEndianReader(Stream input) : base(input) { }
 
         public override bool ReadBoolean()
         {

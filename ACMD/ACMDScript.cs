@@ -6,7 +6,7 @@ namespace ACMD
     {
         public List<ACMDCommand> Commands { get; set; }
 
-        public ACMDScript(ACMDReader reader)
+        public ACMDScript(BigEndianReader reader)
         {
             Commands = new List<ACMDCommand>();
 

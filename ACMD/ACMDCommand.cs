@@ -20,7 +20,7 @@
             }
         }
 
-        internal ACMDCommand(ACMDReader reader)
+        internal ACMDCommand(BigEndianReader reader)
         {
             CRC32 = reader.ReadUInt32();
 

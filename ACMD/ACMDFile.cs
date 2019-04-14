@@ -33,7 +33,7 @@ namespace ACMD
         {
             if (!IsStaticDataInit)
                 InitStatic();
-            using (ACMDReader reader = new ACMDReader(File.OpenRead(filename)))
+            using (BigEndianReader reader = new BigEndianReader(File.OpenRead(filename)))
             {
                 for (int i = 0; i < Magic.Length; i++)
                     if (reader.ReadByte() != Magic[i])
